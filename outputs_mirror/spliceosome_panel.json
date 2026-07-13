@@ -1,0 +1,73 @@
+{
+  "genes": {
+    "RNU4-2": {
+      "acc": "NR_003137.3",
+      "L": 145,
+      "n_path": 27,
+      "n_benign": 11,
+      "models": {
+        "rnafm": {
+          "auc_bg": 0.548,
+          "auc_triage": 0.623
+        },
+        "erniarna": {
+          "auc_bg": 0.673,
+          "auc_triage": 0.731
+        }
+      }
+    },
+    "RNU4ATAC": {
+      "acc": "NR_023343.3",
+      "L": 130,
+      "n_path": 27,
+      "n_benign": 13,
+      "models": {
+        "rnafm": {
+          "auc_bg": 0.595,
+          "auc_triage": 0.778
+        },
+        "erniarna": {
+          "auc_bg": 0.684,
+          "auc_triage": 0.647
+        }
+      }
+    },
+    "RNU12": {
+      "acc": "NR_029422.2",
+      "L": 150,
+      "n_path": 7,
+      "n_benign": 4,
+      "models": {
+        "rnafm": {
+          "auc_bg": 0.243,
+          "auc_triage": null
+        },
+        "erniarna": {
+          "auc_bg": 0.489,
+          "auc_triage": null
+        }
+      }
+    },
+    "RNU2-2": {
+      "acc": "NR_199791.1",
+      "L": 191,
+      "n_path": 23,
+      "n_benign": 57,
+      "models": {
+        "rnafm": {
+          "auc_bg": 0.632,
+          "auc_triage": 0.648
+        },
+        "erniarna": {
+          "auc_bg": 0.527,
+          "auc_triage": 0.515
+        }
+      }
+    }
+  },
+  "median_ernie_bg": 0.6000000000000001,
+  "median_rnafm_bg": 0.5715,
+  "median_ernie_triage": 0.647,
+  "ernie_wins": 3,
+  "n_pairs": 4
+}

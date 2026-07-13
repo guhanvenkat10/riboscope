@@ -1,0 +1,423 @@
+{
+  "model": "rnafm",
+  "n_families": 174,
+  "n_known": 27,
+  "top_novel": [
+    {
+      "family": "SNORD116",
+      "n_copies": 14,
+      "max_p": 0.9998,
+      "median_p": 0.6144,
+      "max_cons": 0.62,
+      "known": false,
+      "example_id": "snoDB0678"
+    },
+    {
+      "family": "snoDB0190",
+      "n_copies": 1,
+      "max_p": 0.995,
+      "median_p": 0.995,
+      "max_cons": 0.01,
+      "known": false,
+      "example_id": "snoDB0190"
+    },
+    {
+      "family": "snoDB0263",
+      "n_copies": 1,
+      "max_p": 0.9933,
+      "median_p": 0.9933,
+      "max_cons": 0.44,
+      "known": false,
+      "example_id": "snoDB0263"
+    },
+    {
+      "family": "SNORD97",
+      "n_copies": 1,
+      "max_p": 0.9819,
+      "median_p": 0.9819,
+      "max_cons": 0.85,
+      "known": false,
+      "example_id": "snoDB0492"
+    },
+    {
+      "family": "snoU13",
+      "n_copies": 393,
+      "max_p": 0.9818,
+      "median_p": 0.0109,
+      "max_cons": 0.79,
+      "known": false,
+      "example_id": "snoDB1900"
+    },
+    {
+      "family": "snoDB0909",
+      "n_copies": 1,
+      "max_p": 0.9721,
+      "median_p": 0.9721,
+      "max_cons": 0.18,
+      "known": false,
+      "example_id": "snoDB0909"
+    },
+    {
+      "family": "snoDB0161",
+      "n_copies": 1,
+      "max_p": 0.9676,
+      "median_p": 0.9676,
+      "max_cons": 0.04,
+      "known": false,
+      "example_id": "snoDB0161"
+    },
+    {
+      "family": "SNORD115",
+      "n_copies": 8,
+      "max_p": 0.9669,
+      "median_p": 0.083,
+      "max_cons": 0.59,
+      "known": false,
+      "example_id": "snoDB0758"
+    },
+    {
+      "family": "SNORD23",
+      "n_copies": 2,
+      "max_p": 0.9531,
+      "median_p": 0.4769,
+      "max_cons": 0.26,
+      "known": false,
+      "example_id": "snoDB0911"
+    },
+    {
+      "family": "snoDB0129",
+      "n_copies": 1,
+      "max_p": 0.9425,
+      "median_p": 0.9425,
+      "max_cons": 0.01,
+      "known": false,
+      "example_id": "snoDB0129"
+    },
+    {
+      "family": "snoDB0413",
+      "n_copies": 1,
+      "max_p": 0.9226,
+      "median_p": 0.9226,
+      "max_cons": 0.01,
+      "known": false,
+      "example_id": "snoDB0413"
+    },
+    {
+      "family": "snoDB0105",
+      "n_copies": 1,
+      "max_p": 0.8989,
+      "median_p": 0.8989,
+      "max_cons": 0.19,
+      "known": false,
+      "example_id": "snoDB0105"
+    },
+    {
+      "family": "snoDB0482",
+      "n_copies": 1,
+      "max_p": 0.8851,
+      "median_p": 0.8851,
+      "max_cons": 0.19,
+      "known": false,
+      "example_id": "snoDB0482"
+    },
+    {
+      "family": "snoDB0411",
+      "n_copies": 1,
+      "max_p": 0.8602,
+      "median_p": 0.8602,
+      "max_cons": 0.01,
+      "known": false,
+      "example_id": "snoDB0411"
+    },
+    {
+      "family": "snoDB0472",
+      "n_copies": 1,
+      "max_p": 0.852,
+      "median_p": 0.852,
+      "max_cons": 0.03,
+      "known": false,
+      "example_id": "snoDB0472"
+    },
+    {
+      "family": "snoDB0457",
+      "n_copies": 1,
+      "max_p": 0.792,
+      "median_p": 0.792,
+      "max_cons": 0.17,
+      "known": false,
+      "example_id": "snoDB0457"
+    },
+    {
+      "family": "snoDB0375",
+      "n_copies": 1,
+      "max_p": 0.76,
+      "median_p": 0.76,
+      "max_cons": 0.01,
+      "known": false,
+      "example_id": "snoDB0375"
+    },
+    {
+      "family": "snoDB0376",
+      "n_copies": 1,
+      "max_p": 0.7216,
+      "median_p": 0.7216,
+      "max_cons": 0.14,
+      "known": false,
+      "example_id": "snoDB0376"
+    },
+    {
+      "family": "snoDB0816",
+      "n_copies": 1,
+      "max_p": 0.6102,
+      "median_p": 0.6102,
+      "max_cons": 0.09,
+      "known": false,
+      "example_id": "snoDB0816"
+    },
+    {
+      "family": "snoDB0199",
+      "n_copies": 1,
+      "max_p": 0.457,
+      "median_p": 0.457,
+      "max_cons": 0.0,
+      "known": false,
+      "example_id": "snoDB0199"
+    },
+    {
+      "family": "snoDB0340",
+      "n_copies": 1,
+      "max_p": 0.4431,
+      "median_p": 0.4431,
+      "max_cons": 0.41,
+      "known": false,
+      "example_id": "snoDB0340"
+    },
+    {
+      "family": "SNORD101",
+      "n_copies": 1,
+      "max_p": 0.4371,
+      "median_p": 0.4371,
+      "max_cons": 0.74,
+      "known": false,
+      "example_id": "snoDB0278"
+    },
+    {
+      "family": "snoDB0079",
+      "n_copies": 1,
+      "max_p": 0.3669,
+      "median_p": 0.3669,
+      "max_cons": 0.14,
+      "known": false,
+      "example_id": "snoDB0079"
+    },
+    {
+      "family": "snoDB0565",
+      "n_copies": 1,
+      "max_p": 0.2408,
+      "median_p": 0.2408,
+      "max_cons": 0.3,
+      "known": false,
+      "example_id": "snoDB0565"
+    },
+    {
+      "family": "SNORD64L1",
+      "n_copies": 1,
+      "max_p": 0.2117,
+      "median_p": 0.2117,
+      "max_cons": 0.04,
+      "known": false,
+      "example_id": "snoDB0043"
+    }
+  ],
+  "conserved_novel": [
+    {
+      "family": "SNORD116",
+      "n_copies": 14,
+      "max_p": 0.9998,
+      "median_p": 0.6144,
+      "max_cons": 0.62,
+      "known": false,
+      "example_id": "snoDB0678"
+    },
+    {
+      "family": "SNORD97",
+      "n_copies": 1,
+      "max_p": 0.9819,
+      "median_p": 0.9819,
+      "max_cons": 0.85,
+      "known": false,
+      "example_id": "snoDB0492"
+    },
+    {
+      "family": "snoU13",
+      "n_copies": 393,
+      "max_p": 0.9818,
+      "median_p": 0.0109,
+      "max_cons": 0.79,
+      "known": false,
+      "example_id": "snoDB1900"
+    },
+    {
+      "family": "SNORD115",
+      "n_copies": 8,
+      "max_p": 0.9669,
+      "median_p": 0.083,
+      "max_cons": 0.59,
+      "known": false,
+      "example_id": "snoDB0758"
+    },
+    {
+      "family": "SNORD101",
+      "n_copies": 1,
+      "max_p": 0.4371,
+      "median_p": 0.4371,
+      "max_cons": 0.74,
+      "known": false,
+      "example_id": "snoDB0278"
+    },
+    {
+      "family": "snoDB2120",
+      "n_copies": 1,
+      "max_p": 0.1682,
+      "median_p": 0.1682,
+      "max_cons": 0.79,
+      "known": false,
+      "example_id": "snoDB2120"
+    },
+    {
+      "family": "SNORD59BL1",
+      "n_copies": 1,
+      "max_p": 0.0829,
+      "median_p": 0.0829,
+      "max_cons": 0.97,
+      "known": false,
+      "example_id": "snoDB0023"
+    },
+    {
+      "family": "snoDB0007",
+      "n_copies": 1,
+      "max_p": 0.0704,
+      "median_p": 0.0704,
+      "max_cons": 0.6,
+      "known": false,
+      "example_id": "snoDB0007"
+    },
+    {
+      "family": "SNORD107",
+      "n_copies": 1,
+      "max_p": 0.0124,
+      "median_p": 0.0124,
+      "max_cons": 0.66,
+      "known": false,
+      "example_id": "snoDB0668"
+    },
+    {
+      "family": "SNORD90",
+      "n_copies": 1,
+      "max_p": 0.006,
+      "median_p": 0.006,
+      "max_cons": 0.75,
+      "known": false,
+      "example_id": "snoDB0437"
+    },
+    {
+      "family": "snoDB0222",
+      "n_copies": 1,
+      "max_p": 0.0014,
+      "median_p": 0.0014,
+      "max_cons": 0.7,
+      "known": false,
+      "example_id": "snoDB0222"
+    },
+    {
+      "family": "SNORD113",
+      "n_copies": 6,
+      "max_p": 0.0014,
+      "median_p": 0.0001,
+      "max_cons": 0.66,
+      "known": false,
+      "example_id": "snoDB0614"
+    },
+    {
+      "family": "snoDB0952",
+      "n_copies": 1,
+      "max_p": 0.0008,
+      "median_p": 0.0008,
+      "max_cons": 0.53,
+      "known": false,
+      "example_id": "snoDB0952"
+    },
+    {
+      "family": "SNORD141B",
+      "n_copies": 1,
+      "max_p": 0.0006,
+      "median_p": 0.0006,
+      "max_cons": 0.98,
+      "known": false,
+      "example_id": "snoDB1015"
+    },
+    {
+      "family": "SNORD45BL2",
+      "n_copies": 1,
+      "max_p": 0.0004,
+      "median_p": 0.0004,
+      "max_cons": 0.54,
+      "known": false,
+      "example_id": "snoDB0359"
+    },
+    {
+      "family": "AC006023.2",
+      "n_copies": 1,
+      "max_p": 0.0004,
+      "median_p": 0.0004,
+      "max_cons": 1.0,
+      "known": false,
+      "example_id": "snoDB2005"
+    },
+    {
+      "family": "SNORD172",
+      "n_copies": 1,
+      "max_p": 0.0003,
+      "median_p": 0.0003,
+      "max_cons": 0.93,
+      "known": false,
+      "example_id": "snoDB1042"
+    },
+    {
+      "family": "snoDB1094",
+      "n_copies": 1,
+      "max_p": 0.0003,
+      "median_p": 0.0003,
+      "max_cons": 0.95,
+      "known": false,
+      "example_id": "snoDB1094"
+    },
+    {
+      "family": "snoDB0773",
+      "n_copies": 1,
+      "max_p": 0.0001,
+      "median_p": 0.0001,
+      "max_cons": 0.93,
+      "known": false,
+      "example_id": "snoDB0773"
+    },
+    {
+      "family": "snoDB0553",
+      "n_copies": 1,
+      "max_p": 0.0,
+      "median_p": 0.0,
+      "max_cons": 0.58,
+      "known": false,
+      "example_id": "snoDB0553"
+    },
+    {
+      "family": "snoDB1231",
+      "n_copies": 1,
+      "max_p": 0.0,
+      "median_p": 0.0,
+      "max_cons": 0.81,
+      "known": false,
+      "example_id": "snoDB1231"
+    }
+  ]
+}

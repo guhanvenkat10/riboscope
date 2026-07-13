@@ -1,0 +1,43 @@
+{
+  "layer": 6,
+  "metric": "SS_between(position) / SS_total, pooled over hidden dims",
+  "note": "All three multimolecule models add a position term to the residual stream (RNA-FM/RNA-MSM: learned absolute; ErnieRNA: sinusoidal) \u2014 verified from config.json + modeling source. The earlier RoPE-vs-absolute framing is retired; this metric quantifies position DOMINANCE instead. Fraction is invariant to a global affine, so RNA-MSM's normalized input is comparable.",
+  "models": {
+    "rnafm": {
+      "n_sequences": 30000,
+      "n_tokens": 3554828,
+      "hidden_dim": 640,
+      "max_token_len": 512,
+      "ss_total": 25654445633.322533,
+      "ss_between_position": 3033210675.908104,
+      "variance_explained_by_position": 0.11823333543283703,
+      "pos_emb": "learned absolute (added to residual)",
+      "normalized_input": false,
+      "label": "RNA-FM"
+    },
+    "erniarna": {
+      "n_sequences": 30000,
+      "n_tokens": 3554828,
+      "hidden_dim": 768,
+      "max_token_len": 512,
+      "ss_total": 276684191.9256776,
+      "ss_between_position": 15826579.481267024,
+      "variance_explained_by_position": 0.05720088079885074,
+      "pos_emb": "sinusoidal (added to residual)",
+      "normalized_input": false,
+      "label": "ErnieRNA"
+    },
+    "rnamsm": {
+      "n_sequences": 30000,
+      "n_tokens": 3554828,
+      "hidden_dim": 768,
+      "max_token_len": 512,
+      "ss_total": 154004975.56066322,
+      "ss_between_position": 44233525.92786598,
+      "variance_explained_by_position": 0.28722140805406776,
+      "pos_emb": "learned absolute + MSA-row (added to residual)",
+      "normalized_input": true,
+      "label": "RNA-MSM"
+    }
+  }
+}

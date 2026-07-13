@@ -1,0 +1,235 @@
+{
+  "mito": [
+    {
+      "gene": "MT-TF",
+      "disease": "MELAS/epilepsy (tRNA-Phe)",
+      "L": 71,
+      "n_path": 11,
+      "ref_match": 1.0,
+      "models": {
+        "rnafm": {
+          "auc": 0.644,
+          "p_value": 0.131,
+          "n_path": 11,
+          "L": 71
+        },
+        "erniarna": {
+          "auc": 0.605,
+          "p_value": 0.273,
+          "n_path": 11,
+          "L": 71
+        }
+      }
+    },
+    {
+      "gene": "MT-TV",
+      "disease": "MELAS/leigh (tRNA-Val)",
+      "L": 69,
+      "n_path": 8,
+      "ref_match": 1.0,
+      "models": {
+        "rnafm": {
+          "auc": 0.445,
+          "p_value": 0.613,
+          "n_path": 8,
+          "L": 69
+        },
+        "erniarna": {
+          "auc": 0.645,
+          "p_value": 0.183,
+          "n_path": 8,
+          "L": 69
+        }
+      }
+    },
+    {
+      "gene": "MT-TL1",
+      "disease": "MELAS (tRNA-Leu UUR)",
+      "L": 75,
+      "n_path": 19,
+      "ref_match": 1.0,
+      "models": {
+        "rnafm": {
+          "auc": 0.468,
+          "p_value": 0.679,
+          "n_path": 19,
+          "L": 75
+        },
+        "erniarna": {
+          "auc": 0.501,
+          "p_value": 0.99,
+          "n_path": 19,
+          "L": 75
+        }
+      }
+    },
+    {
+      "gene": "MT-TI",
+      "disease": "cardiomyopathy (tRNA-Ile)",
+      "L": 69,
+      "n_path": 12,
+      "ref_match": 1.0,
+      "models": {
+        "rnafm": {
+          "auc": 0.62,
+          "p_value": 0.194,
+          "n_path": 12,
+          "L": 69
+        },
+        "erniarna": {
+          "auc": 0.659,
+          "p_value": 0.0844,
+          "n_path": 12,
+          "L": 69
+        }
+      }
+    },
+    {
+      "gene": "MT-TW",
+      "disease": "Leigh/encephalopathy (tRNA-Trp)",
+      "L": 68,
+      "n_path": 16,
+      "ref_match": 1.0,
+      "models": {
+        "rnafm": {
+          "auc": 0.709,
+          "p_value": 0.0119,
+          "n_path": 16,
+          "L": 68
+        },
+        "erniarna": {
+          "auc": 0.584,
+          "p_value": 0.312,
+          "n_path": 16,
+          "L": 68
+        }
+      }
+    },
+    {
+      "gene": "MT-TK",
+      "disease": "MERRF (tRNA-Lys)",
+      "L": 70,
+      "n_path": 13,
+      "ref_match": 1.0,
+      "models": {
+        "rnafm": {
+          "auc": 0.514,
+          "p_value": 0.874,
+          "n_path": 13,
+          "L": 70
+        },
+        "erniarna": {
+          "auc": 0.556,
+          "p_value": 0.531,
+          "n_path": 13,
+          "L": 70
+        }
+      }
+    },
+    {
+      "gene": "MT-TG",
+      "disease": "(tRNA-Gly)",
+      "L": 68,
+      "n_path": 4,
+      "ref_match": 1.0,
+      "models": {
+        "rnafm": {
+          "auc": 0.504,
+          "p_value": 0.979,
+          "n_path": 4,
+          "L": 68
+        },
+        "erniarna": {
+          "auc": 0.523,
+          "p_value": 0.876,
+          "n_path": 4,
+          "L": 68
+        }
+      }
+    },
+    {
+      "gene": "MT-TR",
+      "disease": "(tRNA-Arg)",
+      "L": 65,
+      "n_path": 6,
+      "ref_match": 1.0,
+      "models": {
+        "rnafm": {
+          "auc": 0.644,
+          "p_value": 0.248,
+          "n_path": 6,
+          "L": 65
+        },
+        "erniarna": {
+          "auc": 0.585,
+          "p_value": 0.497,
+          "n_path": 6,
+          "L": 65
+        }
+      }
+    },
+    {
+      "gene": "MT-TH",
+      "disease": "MERRF-like (tRNA-His)",
+      "L": 69,
+      "n_path": 7,
+      "ref_match": 1.0,
+      "models": {
+        "rnafm": {
+          "auc": 0.65,
+          "p_value": 0.196,
+          "n_path": 7,
+          "L": 69
+        },
+        "erniarna": {
+          "auc": 0.551,
+          "p_value": 0.662,
+          "n_path": 7,
+          "L": 69
+        }
+      }
+    },
+    {
+      "gene": "MT-TL2",
+      "disease": "CPEO/cardiomyopathy (tRNA-Leu CUN)",
+      "L": 71,
+      "n_path": 10,
+      "ref_match": 1.0,
+      "models": {
+        "rnafm": {
+          "auc": 0.557,
+          "p_value": 0.563,
+          "n_path": 10,
+          "L": 71
+        },
+        "erniarna": {
+          "auc": 0.674,
+          "p_value": 0.0798,
+          "n_path": 10,
+          "L": 71
+        }
+      }
+    },
+    {
+      "gene": "MT-TT",
+      "disease": "(tRNA-Thr)",
+      "L": 66,
+      "n_path": 7,
+      "ref_match": 1.0,
+      "models": {
+        "rnafm": {
+          "auc": 0.617,
+          "p_value": 0.312,
+          "n_path": 7,
+          "L": 66
+        },
+        "erniarna": {
+          "auc": 0.513,
+          "p_value": 0.909,
+          "n_path": 7,
+          "L": 66
+        }
+      }
+    }
+  ]
+}

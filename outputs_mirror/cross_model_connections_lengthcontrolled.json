@@ -1,0 +1,218 @@
+{
+  "n_total": 167,
+  "n_leads": 8,
+  "leads": [
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 1.0,
+      "families": [
+        "RF00209",
+        "RF02956"
+      ],
+      "classes": [
+        "ires",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00209": "ires",
+        "RF02956": "srna"
+      },
+      "n_model_pairs": 2,
+      "lens": {
+        "RF00209": 379.0,
+        "RF02956": 170.0
+      },
+      "len_ratio": 2.23,
+      "all_long": false,
+      "len_diverse": true,
+      "gc_spread": 0.002
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 1.0,
+      "families": [
+        "RF00029",
+        "RF01831"
+      ],
+      "classes": [
+        "intron",
+        "riboswitch"
+      ],
+      "fam_classes": {
+        "RF00029": "intron",
+        "RF01831": "riboswitch"
+      },
+      "n_model_pairs": 2,
+      "lens": {
+        "RF00029": 91.0,
+        "RF01831": 97.0
+      },
+      "len_ratio": 1.07,
+      "all_long": false,
+      "len_diverse": false,
+      "gc_spread": 0.007
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.75,
+      "families": [
+        "RF00071",
+        "RF04344",
+        "RF04352"
+      ],
+      "classes": [
+        "cis-reg",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF00071": "snorna",
+        "RF04344": "cis-reg",
+        "RF04352": "cis-reg"
+      },
+      "n_model_pairs": 2,
+      "lens": {
+        "RF00071": 71.0,
+        "RF04344": 57.0,
+        "RF04352": 59.0
+      },
+      "len_ratio": 1.24,
+      "all_long": false,
+      "len_diverse": false,
+      "gc_spread": 0.038
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00071",
+        "RF02952"
+      ],
+      "classes": [
+        "snorna",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00071": "snorna",
+        "RF02952": "srna"
+      },
+      "n_model_pairs": 2,
+      "lens": {
+        "RF00071": 71.0,
+        "RF02952": 76.0
+      },
+      "len_ratio": 1.07,
+      "all_long": false,
+      "len_diverse": false,
+      "gc_spread": 0.119
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00004",
+        "RF00013"
+      ],
+      "classes": [
+        "gene-other",
+        "snrna"
+      ],
+      "fam_classes": {
+        "RF00004": "snrna",
+        "RF00013": "gene-other"
+      },
+      "n_model_pairs": 2,
+      "lens": {
+        "RF00004": 190.0,
+        "RF00013": 181.0
+      },
+      "len_ratio": 1.05,
+      "all_long": false,
+      "len_diverse": false,
+      "gc_spread": 0.111
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00029",
+        "RF00754"
+      ],
+      "classes": [
+        "intron",
+        "mirna"
+      ],
+      "fam_classes": {
+        "RF00029": "intron",
+        "RF00754": "mirna"
+      },
+      "n_model_pairs": 2,
+      "lens": {
+        "RF00029": 91.0,
+        "RF00754": 85.0
+      },
+      "len_ratio": 1.08,
+      "all_long": false,
+      "len_diverse": false,
+      "gc_spread": 0.102
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00190",
+        "RF01794"
+      ],
+      "classes": [
+        "gene-other",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF00190": "snorna",
+        "RF01794": "gene-other"
+      },
+      "n_model_pairs": 2,
+      "lens": {
+        "RF00190": 135.0,
+        "RF01794": 164.0
+      },
+      "len_ratio": 1.21,
+      "all_long": false,
+      "len_diverse": false,
+      "gc_spread": 0.014
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.556,
+      "families": [
+        "RF00071",
+        "RF00151",
+        "RF00476",
+        "RF00494",
+        "RF03075"
+      ],
+      "classes": [
+        "snorna",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00071": "snorna",
+        "RF00151": "snorna",
+        "RF00476": "snorna",
+        "RF00494": "snorna",
+        "RF03075": "srna"
+      },
+      "n_model_pairs": 2,
+      "lens": {
+        "RF00071": 71.0,
+        "RF00151": 66.0,
+        "RF00476": 83.0,
+        "RF00494": 80.0,
+        "RF03075": 67.0
+      },
+      "len_ratio": 1.27,
+      "all_long": false,
+      "len_diverse": false,
+      "gc_spread": 0.212
+    }
+  ]
+}

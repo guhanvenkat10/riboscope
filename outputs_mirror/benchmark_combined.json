@@ -1,0 +1,353 @@
+{
+  "n": 17,
+  "median_auc": {
+    "rnafm": 0.553,
+    "erniarna": 0.585
+  },
+  "ernie_significant": 2,
+  "ernie_wins": 11,
+  "n_pairs": 17,
+  "sign_test_p_one_sided": 0.1661529541015625,
+  "panel": [
+    {
+      "gene": "RNU4-2",
+      "class": "nuclear",
+      "disease": "ReNU neurodevelopmental syndrome",
+      "models": {
+        "rnafm": {
+          "auc": 0.53,
+          "p_value": 0.639,
+          "n_path": 25,
+          "L": 141
+        },
+        "erniarna": {
+          "auc": 0.685,
+          "p_value": 0.00375,
+          "n_path": 25,
+          "L": 141
+        }
+      },
+      "n_path": 25
+    },
+    {
+      "gene": "RMRP",
+      "class": "nuclear",
+      "disease": "Cartilage-hair hypoplasia",
+      "models": {
+        "rnafm": {
+          "auc": 0.44,
+          "p_value": 0.222,
+          "n_path": 41,
+          "L": 270
+        },
+        "erniarna": {
+          "auc": 0.532,
+          "p_value": 0.515,
+          "n_path": 41,
+          "L": 270
+        }
+      },
+      "n_path": 41
+    },
+    {
+      "gene": "RNU4ATAC",
+      "class": "nuclear",
+      "disease": "MOPD1 / Roifman (minor spliceosome)",
+      "models": {
+        "rnafm": {
+          "auc": 0.553,
+          "p_value": 0.45,
+          "n_path": 20,
+          "L": 130
+        },
+        "erniarna": {
+          "auc": 0.646,
+          "p_value": 0.0377,
+          "n_path": 20,
+          "L": 130
+        }
+      },
+      "n_path": 20
+    },
+    {
+      "gene": "RNU12",
+      "class": "nuclear",
+      "disease": "Early-onset cerebellar ataxia (minor spliceosome)",
+      "models": {
+        "rnafm": {
+          "auc": 0.459,
+          "p_value": 0.735,
+          "n_path": 6,
+          "L": 149
+        },
+        "erniarna": {
+          "auc": 0.601,
+          "p_value": 0.401,
+          "n_path": 6,
+          "L": 149
+        }
+      },
+      "n_path": 6
+    },
+    {
+      "gene": "SNORD118",
+      "class": "nuclear",
+      "disease": "Leukoencephalopathy w/ calcifications & cysts (Labrune)",
+      "models": {
+        "rnafm": {
+          "auc": 0.512,
+          "p_value": 0.864,
+          "n_path": 21,
+          "L": 136
+        },
+        "erniarna": {
+          "auc": 0.622,
+          "p_value": 0.0771,
+          "n_path": 21,
+          "L": 136
+        }
+      },
+      "n_path": 21
+    },
+    {
+      "gene": "TERC",
+      "class": "nuclear",
+      "disease": "Dyskeratosis congenita",
+      "models": {
+        "rnafm": {
+          "auc": 0.586,
+          "p_value": 0.078,
+          "n_path": 38,
+          "L": 451
+        },
+        "erniarna": {
+          "auc": 0.529,
+          "p_value": 0.557,
+          "n_path": 38,
+          "L": 451
+        }
+      },
+      "n_path": 38
+    },
+    {
+      "gene": "MT-TF",
+      "class": "mito",
+      "disease": "MELAS/epilepsy (tRNA-Phe)",
+      "models": {
+        "rnafm": {
+          "auc": 0.644,
+          "p_value": 0.131,
+          "n_path": 11,
+          "L": 71
+        },
+        "erniarna": {
+          "auc": 0.605,
+          "p_value": 0.273,
+          "n_path": 11,
+          "L": 71
+        }
+      },
+      "n_path": 11
+    },
+    {
+      "gene": "MT-TV",
+      "class": "mito",
+      "disease": "MELAS/leigh (tRNA-Val)",
+      "models": {
+        "rnafm": {
+          "auc": 0.445,
+          "p_value": 0.613,
+          "n_path": 8,
+          "L": 69
+        },
+        "erniarna": {
+          "auc": 0.645,
+          "p_value": 0.183,
+          "n_path": 8,
+          "L": 69
+        }
+      },
+      "n_path": 8
+    },
+    {
+      "gene": "MT-TL1",
+      "class": "mito",
+      "disease": "MELAS (tRNA-Leu UUR)",
+      "models": {
+        "rnafm": {
+          "auc": 0.468,
+          "p_value": 0.679,
+          "n_path": 19,
+          "L": 75
+        },
+        "erniarna": {
+          "auc": 0.501,
+          "p_value": 0.99,
+          "n_path": 19,
+          "L": 75
+        }
+      },
+      "n_path": 19
+    },
+    {
+      "gene": "MT-TI",
+      "class": "mito",
+      "disease": "cardiomyopathy (tRNA-Ile)",
+      "models": {
+        "rnafm": {
+          "auc": 0.62,
+          "p_value": 0.194,
+          "n_path": 12,
+          "L": 69
+        },
+        "erniarna": {
+          "auc": 0.659,
+          "p_value": 0.0844,
+          "n_path": 12,
+          "L": 69
+        }
+      },
+      "n_path": 12
+    },
+    {
+      "gene": "MT-TW",
+      "class": "mito",
+      "disease": "Leigh/encephalopathy (tRNA-Trp)",
+      "models": {
+        "rnafm": {
+          "auc": 0.709,
+          "p_value": 0.0119,
+          "n_path": 16,
+          "L": 68
+        },
+        "erniarna": {
+          "auc": 0.584,
+          "p_value": 0.312,
+          "n_path": 16,
+          "L": 68
+        }
+      },
+      "n_path": 16
+    },
+    {
+      "gene": "MT-TK",
+      "class": "mito",
+      "disease": "MERRF (tRNA-Lys)",
+      "models": {
+        "rnafm": {
+          "auc": 0.514,
+          "p_value": 0.874,
+          "n_path": 13,
+          "L": 70
+        },
+        "erniarna": {
+          "auc": 0.556,
+          "p_value": 0.531,
+          "n_path": 13,
+          "L": 70
+        }
+      },
+      "n_path": 13
+    },
+    {
+      "gene": "MT-TG",
+      "class": "mito",
+      "disease": "(tRNA-Gly)",
+      "models": {
+        "rnafm": {
+          "auc": 0.504,
+          "p_value": 0.979,
+          "n_path": 4,
+          "L": 68
+        },
+        "erniarna": {
+          "auc": 0.523,
+          "p_value": 0.876,
+          "n_path": 4,
+          "L": 68
+        }
+      },
+      "n_path": 4
+    },
+    {
+      "gene": "MT-TR",
+      "class": "mito",
+      "disease": "(tRNA-Arg)",
+      "models": {
+        "rnafm": {
+          "auc": 0.644,
+          "p_value": 0.248,
+          "n_path": 6,
+          "L": 65
+        },
+        "erniarna": {
+          "auc": 0.585,
+          "p_value": 0.497,
+          "n_path": 6,
+          "L": 65
+        }
+      },
+      "n_path": 6
+    },
+    {
+      "gene": "MT-TH",
+      "class": "mito",
+      "disease": "MERRF-like (tRNA-His)",
+      "models": {
+        "rnafm": {
+          "auc": 0.65,
+          "p_value": 0.196,
+          "n_path": 7,
+          "L": 69
+        },
+        "erniarna": {
+          "auc": 0.551,
+          "p_value": 0.662,
+          "n_path": 7,
+          "L": 69
+        }
+      },
+      "n_path": 7
+    },
+    {
+      "gene": "MT-TL2",
+      "class": "mito",
+      "disease": "CPEO/cardiomyopathy (tRNA-Leu CUN)",
+      "models": {
+        "rnafm": {
+          "auc": 0.557,
+          "p_value": 0.563,
+          "n_path": 10,
+          "L": 71
+        },
+        "erniarna": {
+          "auc": 0.674,
+          "p_value": 0.0798,
+          "n_path": 10,
+          "L": 71
+        }
+      },
+      "n_path": 10
+    },
+    {
+      "gene": "MT-TT",
+      "class": "mito",
+      "disease": "(tRNA-Thr)",
+      "models": {
+        "rnafm": {
+          "auc": 0.617,
+          "p_value": 0.312,
+          "n_path": 7,
+          "L": 66
+        },
+        "erniarna": {
+          "auc": 0.513,
+          "p_value": 0.909,
+          "n_path": 7,
+          "L": 66
+        }
+      },
+      "n_path": 7
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "model": "erniarna",
+  "layer": 6,
+  "firing_frac": 0.25,
+  "sae_file": "outputs/sae_erniarna_layer6_v3.safetensors",
+  "inspection_file": "outputs/inspection_erniarna_layer6_v3.json",
+  "n_features": 60,
+  "n_specialists": 30,
+  "n_moderate": 30,
+  "rnas": {
+    "RNU4-2": {
+      "accession": "NR_003137.2",
+      "length": 141,
+      "n_residues_scored": 141,
+      "verdict": "NOT recognized",
+      "n_specialist_hits": 0,
+      "n_moderate_hits": 0,
+      "specialist_families_ranked": {},
+      "hits": []
+    },
+    "RMRP": {
+      "accession": "NR_003051.4",
+      "length": 270,
+      "n_residues_scored": 270,
+      "verdict": "NOT recognized",
+      "n_specialist_hits": 0,
+      "n_moderate_hits": 0,
+      "specialist_families_ranked": {},
+      "hits": []
+    },
+    "TERC": {
+      "accession": "NR_001566.1",
+      "length": 451,
+      "n_residues_scored": 451,
+      "verdict": "NOT recognized",
+      "n_specialist_hits": 0,
+      "n_moderate_hits": 0,
+      "specialist_families_ranked": {},
+      "hits": []
+    },
+    "RPPH1": {
+      "accession": "NR_002312.1",
+      "length": 341,
+      "n_residues_scored": 341,
+      "verdict": "weak (moderate-only)",
+      "n_specialist_hits": 0,
+      "n_moderate_hits": 1,
+      "specialist_families_ranked": {},
+      "hits": [
+        {
+          "feat_idx": 1143,
+          "breadth": 8,
+          "families": [
+            "RF00009",
+            "RF00030",
+            "RF00231",
+            "RF01256",
+            "RF01262",
+            "RF01263",
+            "RF01512",
+            "RF01857"
+          ],
+          "peak_activation": 1.8618,
+          "feat_max": 6.2332,
+          "peak_frac_of_max": 0.2987,
+          "nt_pos1": 185,
+          "context": "CAGGAGA[U]GCCGUGG"
+        }
+      ]
+    },
+    "RN7SL1": {
+      "accession": "NR_002715.1",
+      "length": 299,
+      "n_residues_scored": 299,
+      "verdict": "RECOGNIZED (specialist fires)",
+      "n_specialist_hits": 1,
+      "n_moderate_hits": 1,
+      "specialist_families_ranked": {
+        "RF00017": 0.5729,
+        "RF01855": 0.5729
+      },
+      "hits": [
+        {
+          "feat_idx": 1113,
+          "breadth": 7,
+          "families": [
+            "RF00017",
+            "RF00100",
+            "RF01052",
+            "RF01502",
+            "RF01855",
+            "RF01856",
+            "RF01857"
+          ],
+          "peak_activation": 5.2383,
+          "feat_max": 6.4615,
+          "peak_frac_of_max": 0.8107,
+          "nt_pos1": 148,
+          "context": "CUCCCGG[G]AGCGGGG"
+        },
+        {
+          "feat_idx": 2454,
+          "breadth": 2,
+          "families": [
+            "RF00017",
+            "RF01855"
+          ],
+          "peak_activation": 3.2188,
+          "feat_max": 5.6185,
+          "peak_frac_of_max": 0.5729,
+          "nt_pos1": 74,
+          "context": "AGUCCAG[G]AGUUCUG"
+        }
+      ]
+    },
+    "RNU6-1": {
+      "accession": "NR_004394.1",
+      "length": 106,
+      "n_residues_scored": 106,
+      "verdict": "weak (moderate-only)",
+      "n_specialist_hits": 0,
+      "n_moderate_hits": 1,
+      "specialist_families_ranked": {},
+      "hits": [
+        {
+          "feat_idx": 1758,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00026",
+            "RF00619",
+            "RF01213",
+            "RF03161"
+          ],
+          "peak_activation": 6.2495,
+          "feat_max": 6.3301,
+          "peak_frac_of_max": 0.9873,
+          "nt_pos1": 58,
+          "context": "UUAGCAU[G]GCCCCUG"
+        }
+      ]
+    }
+  }
+}

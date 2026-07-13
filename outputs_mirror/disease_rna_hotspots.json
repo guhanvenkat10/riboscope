@@ -1,0 +1,48 @@
+{
+  "genes": {
+    "RNU4-2": {
+      "disease": "ReNU syndrome (neurodevelopmental disorder)",
+      "recurrent_variant": "n.64_65insT",
+      "recurrent_pos1": [
+        64,
+        65
+      ],
+      "critical_region_desc": "18-bp T-loop + Stem III of the U4/U6 duplex",
+      "critical_region_pos1_approx": [
+        53,
+        76
+      ],
+      "ground_truth_ref": "Greene/Chen 2024 (Nat Med s41591-024-03085-5); 2025 RNU4-2 saturation genome editing (PMC12036422)",
+      "note": "Refine critical-region bounds from the saturation-editing map at step 47."
+    },
+    "RMRP": {
+      "disease": "Cartilage-hair hypoplasia",
+      "recurrent_variant": "multiple (133+); conserved P3-domain cluster",
+      "recurrent_pos1": null,
+      "critical_region_desc": "conserved P3 domain (Watson-Crick core)",
+      "critical_region_pos1_approx": null,
+      "ground_truth_ref": "Structural variant analyses (PMC4521058)",
+      "note": "Map exact pathogenic-variant positions from ClinVar/literature at step 47."
+    },
+    "TERC": {
+      "disease": "Dyskeratosis congenita / telomere biology disorders",
+      "recurrent_variant": "multiple; CR4/CR5, pseudoknot/P6.1, template region",
+      "recurrent_pos1": null,
+      "critical_region_desc": "pseudoknot (P2b/P3) + CR4/CR5 protein-binding domain",
+      "critical_region_pos1_approx": null,
+      "ground_truth_ref": "Telomerase RNA disease-variant literature",
+      "note": "Map exact pathogenic-variant positions from ClinVar/literature at step 47."
+    },
+    "RPPH1": {
+      "disease": "(control \u2014 structured ribozyme, no single hotspot)"
+    },
+    "RN7SL1": {
+      "disease": "(control \u2014 deeply conserved structured RNA)"
+    },
+    "RNU6-1": {
+      "disease": "(partner of U4; spliceosome core)"
+    }
+  },
+  "coord_system": "1-based on the fetched RefSeq",
+  "note": "Hotspots are the step-47 validation ground truth."
+}

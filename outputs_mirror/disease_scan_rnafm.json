@@ -1,0 +1,1701 @@
+{
+  "model": "rnafm",
+  "layer": 6,
+  "window_size": 200,
+  "stride": 100,
+  "min_window": 50,
+  "firing_frac": 0.25,
+  "sae_file": "outputs/sae_big_layer6_v3.safetensors",
+  "inspection_file": "outputs/inspection_big_layer6_v3.json",
+  "n_features_scanned": 60,
+  "n_specialists": 30,
+  "n_moderate": 30,
+  "rnas": {
+    "MALAT1": {
+      "accession": "NR_002819.5",
+      "length": 7472,
+      "n_windows": 75,
+      "n_hits": 0,
+      "n_specialist_hits": 0,
+      "family_summary_specialist": {},
+      "terminal_zoom": {
+        "region_start": 7272,
+        "hits": []
+      },
+      "positive_control": {
+        "expected_families": [
+          "RF00005"
+        ],
+        "where": "3' mascRNA (tRNA-like), terminal ~60 nt",
+        "any_hit": false,
+        "hit_in_terminal_zoom": false,
+        "n_hits": 0,
+        "best_terminal": null
+      },
+      "hits": []
+    },
+    "NEAT1_2": {
+      "accession": "NR_131012.1",
+      "length": 22743,
+      "n_windows": 227,
+      "n_hits": 92,
+      "n_specialist_hits": 5,
+      "family_summary_specialist": {
+        "RF00100": {
+          "peak_frac": 0.4313,
+          "n_positions": 2,
+          "positions": [
+            18623,
+            13468
+          ]
+        },
+        "RF00487": {
+          "peak_frac": 0.4313,
+          "n_positions": 2,
+          "positions": [
+            18623,
+            13468
+          ]
+        },
+        "RF00026": {
+          "peak_frac": 0.2602,
+          "n_positions": 3,
+          "positions": [
+            20068,
+            17279,
+            18031
+          ]
+        }
+      },
+      "terminal_zoom": {
+        "region_start": 22543,
+        "hits": []
+      },
+      "positive_control": null,
+      "hits": [
+        {
+          "feat_idx": 1039,
+          "nt_pos0": 18623,
+          "nt_pos1": 18624,
+          "breadth": 2,
+          "families": [
+            "RF00100",
+            "RF00487"
+          ],
+          "activation": 30.8194,
+          "frac_of_max": 0.4313,
+          "window_start": 18500,
+          "context": "CUCAACC[U]CCCAAAG"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11063,
+          "nt_pos1": 11064,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 22.7898,
+          "frac_of_max": 0.3931,
+          "window_start": 10900,
+          "context": "ACCACCC[G]CCUCCCC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11058,
+          "nt_pos1": 11059,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 22.6785,
+          "frac_of_max": 0.3911,
+          "window_start": 10900,
+          "context": "CCCACAC[C]ACCCGCC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11054,
+          "nt_pos1": 11055,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 21.8088,
+          "frac_of_max": 0.3761,
+          "window_start": 10900,
+          "context": "UGGUCCC[A]CACCACC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11059,
+          "nt_pos1": 11060,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 21.1601,
+          "frac_of_max": 0.365,
+          "window_start": 10900,
+          "context": "CCACACC[A]CCCGCCU"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11046,
+          "nt_pos1": 11047,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 21.026,
+          "frac_of_max": 0.3626,
+          "window_start": 10900,
+          "context": "CACUUAU[G]UGGUCCC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11055,
+          "nt_pos1": 11056,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 21.0229,
+          "frac_of_max": 0.3626,
+          "window_start": 10900,
+          "context": "GGUCCCA[C]ACCACCC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11053,
+          "nt_pos1": 11054,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 20.7177,
+          "frac_of_max": 0.3573,
+          "window_start": 10900,
+          "context": "GUGGUCC[C]ACACCAC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11082,
+          "nt_pos1": 11083,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 20.6203,
+          "frac_of_max": 0.3556,
+          "window_start": 10900,
+          "context": "GCCUCCU[G]CCACCCC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11047,
+          "nt_pos1": 11048,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 20.54,
+          "frac_of_max": 0.3543,
+          "window_start": 10900,
+          "context": "ACUUAUG[U]GGUCCCA"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11080,
+          "nt_pos1": 11081,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 20.2829,
+          "frac_of_max": 0.3498,
+          "window_start": 10900,
+          "context": "CCGCCUC[C]UGCCACC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11042,
+          "nt_pos1": 11043,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 20.0948,
+          "frac_of_max": 0.3466,
+          "window_start": 10900,
+          "context": "CUUCCAC[U]UAUGUGG"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11070,
+          "nt_pos1": 11071,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 20.0982,
+          "frac_of_max": 0.3466,
+          "window_start": 10900,
+          "context": "GCCUCCC[C]UGCCGCC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11061,
+          "nt_pos1": 11062,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 20.0628,
+          "frac_of_max": 0.346,
+          "window_start": 10900,
+          "context": "ACACCAC[C]CGCCUCC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11050,
+          "nt_pos1": 11051,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 19.9735,
+          "frac_of_max": 0.3445,
+          "window_start": 10900,
+          "context": "UAUGUGG[U]CCCACAC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11048,
+          "nt_pos1": 11049,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 19.8534,
+          "frac_of_max": 0.3424,
+          "window_start": 10900,
+          "context": "CUUAUGU[G]GUCCCAC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11097,
+          "nt_pos1": 11098,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 19.8508,
+          "frac_of_max": 0.3424,
+          "window_start": 10900,
+          "context": "CUAGGCC[A]AGGUAAU"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11067,
+          "nt_pos1": 11068,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 19.6482,
+          "frac_of_max": 0.3389,
+          "window_start": 10900,
+          "context": "CCCGCCU[C]CCCUGCC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11052,
+          "nt_pos1": 11053,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 19.6106,
+          "frac_of_max": 0.3382,
+          "window_start": 10900,
+          "context": "UGUGGUC[C]CACACCA"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11079,
+          "nt_pos1": 11080,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 19.4992,
+          "frac_of_max": 0.3363,
+          "window_start": 10900,
+          "context": "GCCGCCU[C]CUGCCAC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11056,
+          "nt_pos1": 11057,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 19.4553,
+          "frac_of_max": 0.3356,
+          "window_start": 10900,
+          "context": "GUCCCAC[A]CCACCCG"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11049,
+          "nt_pos1": 11050,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 19.3838,
+          "frac_of_max": 0.3343,
+          "window_start": 10900,
+          "context": "UUAUGUG[G]UCCCACA"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11057,
+          "nt_pos1": 11058,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 19.212,
+          "frac_of_max": 0.3314,
+          "window_start": 10900,
+          "context": "UCCCACA[C]CACCCGC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11040,
+          "nt_pos1": 11041,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 19.1823,
+          "frac_of_max": 0.3308,
+          "window_start": 10900,
+          "context": "ACCUUCC[A]CUUAUGU"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11076,
+          "nt_pos1": 11077,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 19.1282,
+          "frac_of_max": 0.3299,
+          "window_start": 10900,
+          "context": "CCUGCCG[C]CUCCUGC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11041,
+          "nt_pos1": 11042,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 18.9183,
+          "frac_of_max": 0.3263,
+          "window_start": 10900,
+          "context": "CCUUCCA[C]UUAUGUG"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11073,
+          "nt_pos1": 11074,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 18.9217,
+          "frac_of_max": 0.3263,
+          "window_start": 10900,
+          "context": "UCCCCUG[C]CGCCUCC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11064,
+          "nt_pos1": 11065,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 18.854,
+          "frac_of_max": 0.3252,
+          "window_start": 10900,
+          "context": "CCACCCG[C]CUCCCCU"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11035,
+          "nt_pos1": 11036,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 18.783,
+          "frac_of_max": 0.324,
+          "window_start": 10900,
+          "context": "ACUACAC[C]UUCCACU"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11045,
+          "nt_pos1": 11046,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 18.723,
+          "frac_of_max": 0.3229,
+          "window_start": 10900,
+          "context": "CCACUUA[U]GUGGUCC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11060,
+          "nt_pos1": 11061,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 18.7166,
+          "frac_of_max": 0.3228,
+          "window_start": 10900,
+          "context": "CACACCA[C]CCGCCUC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11069,
+          "nt_pos1": 11070,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 18.6117,
+          "frac_of_max": 0.321,
+          "window_start": 10900,
+          "context": "CGCCUCC[C]CUGCCGC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11065,
+          "nt_pos1": 11066,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 18.5457,
+          "frac_of_max": 0.3199,
+          "window_start": 10900,
+          "context": "CACCCGC[C]UCCCCUG"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11051,
+          "nt_pos1": 11052,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 18.432,
+          "frac_of_max": 0.3179,
+          "window_start": 10900,
+          "context": "AUGUGGU[C]CCACACC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11068,
+          "nt_pos1": 11069,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 18.3274,
+          "frac_of_max": 0.3161,
+          "window_start": 10900,
+          "context": "CCGCCUC[C]CCUGCCG"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11086,
+          "nt_pos1": 11087,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 18.2318,
+          "frac_of_max": 0.3145,
+          "window_start": 10900,
+          "context": "CCUGCCA[C]CCCCUAG"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11025,
+          "nt_pos1": 11026,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 18.1859,
+          "frac_of_max": 0.3137,
+          "window_start": 10900,
+          "context": "CUGAGAU[U]UUACUAC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11098,
+          "nt_pos1": 11099,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 17.9678,
+          "frac_of_max": 0.3099,
+          "window_start": 10900,
+          "context": "UAGGCCA[A]GGUAAUA"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11078,
+          "nt_pos1": 11079,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 17.9506,
+          "frac_of_max": 0.3096,
+          "window_start": 10900,
+          "context": "UGCCGCC[U]CCUGCCA"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11085,
+          "nt_pos1": 11086,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 17.905,
+          "frac_of_max": 0.3088,
+          "window_start": 10900,
+          "context": "UCCUGCC[A]CCCCCUA"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11043,
+          "nt_pos1": 11044,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 17.8936,
+          "frac_of_max": 0.3086,
+          "window_start": 10900,
+          "context": "UUCCACU[U]AUGUGGU"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11071,
+          "nt_pos1": 11072,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 17.7821,
+          "frac_of_max": 0.3067,
+          "window_start": 10900,
+          "context": "CCUCCCC[U]GCCGCCU"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11077,
+          "nt_pos1": 11078,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 17.7418,
+          "frac_of_max": 0.306,
+          "window_start": 10900,
+          "context": "CUGCCGC[C]UCCUGCC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11021,
+          "nt_pos1": 11022,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 17.6037,
+          "frac_of_max": 0.3036,
+          "window_start": 10900,
+          "context": "AAGUCUG[A]GAUUUUA"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11033,
+          "nt_pos1": 11034,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 17.6018,
+          "frac_of_max": 0.3036,
+          "window_start": 10900,
+          "context": "UUACUAC[A]CCUUCCA"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11066,
+          "nt_pos1": 11067,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 17.6003,
+          "frac_of_max": 0.3036,
+          "window_start": 10900,
+          "context": "ACCCGCC[U]CCCCUGC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11044,
+          "nt_pos1": 11045,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 17.4398,
+          "frac_of_max": 0.3008,
+          "window_start": 10900,
+          "context": "UCCACUU[A]UGUGGUC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11062,
+          "nt_pos1": 11063,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 17.4189,
+          "frac_of_max": 0.3004,
+          "window_start": 10900,
+          "context": "CACCACC[C]GCCUCCC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11072,
+          "nt_pos1": 11073,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 17.3078,
+          "frac_of_max": 0.2985,
+          "window_start": 10900,
+          "context": "CUCCCCU[G]CCGCCUC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11036,
+          "nt_pos1": 11037,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 17.2896,
+          "frac_of_max": 0.2982,
+          "window_start": 10900,
+          "context": "CUACACC[U]UCCACUU"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11093,
+          "nt_pos1": 11094,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 17.2115,
+          "frac_of_max": 0.2969,
+          "window_start": 10900,
+          "context": "CCCCCUA[G]GCCAAGG"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11096,
+          "nt_pos1": 11097,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 17.1755,
+          "frac_of_max": 0.2962,
+          "window_start": 10900,
+          "context": "CCUAGGC[C]AAGGUAA"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11014,
+          "nt_pos1": 11015,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 17.0608,
+          "frac_of_max": 0.2943,
+          "window_start": 10900,
+          "context": "AGUAGUG[A]AGUCUGA"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11020,
+          "nt_pos1": 11021,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 16.9592,
+          "frac_of_max": 0.2925,
+          "window_start": 10900,
+          "context": "GAAGUCU[G]AGAUUUU"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11099,
+          "nt_pos1": 11100,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 16.9126,
+          "frac_of_max": 0.2917,
+          "window_start": 10900,
+          "context": "AGGCCAA[G]GUAAUAA"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11092,
+          "nt_pos1": 11093,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 16.8901,
+          "frac_of_max": 0.2913,
+          "window_start": 10900,
+          "context": "ACCCCCU[A]GGCCAAG"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11037,
+          "nt_pos1": 11038,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 16.8566,
+          "frac_of_max": 0.2907,
+          "window_start": 10900,
+          "context": "UACACCU[U]CCACUUA"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11090,
+          "nt_pos1": 11091,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 16.8348,
+          "frac_of_max": 0.2904,
+          "window_start": 10900,
+          "context": "CCACCCC[C]UAGGCCA"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11075,
+          "nt_pos1": 11076,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 16.8144,
+          "frac_of_max": 0.29,
+          "window_start": 10900,
+          "context": "CCCUGCC[G]CCUCCUG"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11081,
+          "nt_pos1": 11082,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 16.7261,
+          "frac_of_max": 0.2885,
+          "window_start": 10900,
+          "context": "CGCCUCC[U]GCCACCC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11083,
+          "nt_pos1": 11084,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 16.5603,
+          "frac_of_max": 0.2856,
+          "window_start": 10900,
+          "context": "CCUCCUG[C]CACCCCC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11029,
+          "nt_pos1": 11030,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 16.543,
+          "frac_of_max": 0.2853,
+          "window_start": 10900,
+          "context": "GAUUUUA[C]UACACCU"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11095,
+          "nt_pos1": 11096,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 16.4565,
+          "frac_of_max": 0.2838,
+          "window_start": 10900,
+          "context": "CCCUAGG[C]CAAGGUA"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11015,
+          "nt_pos1": 11016,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 16.4128,
+          "frac_of_max": 0.2831,
+          "window_start": 10900,
+          "context": "GUAGUGA[A]GUCUGAG"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11084,
+          "nt_pos1": 11085,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 16.3569,
+          "frac_of_max": 0.2821,
+          "window_start": 10900,
+          "context": "CUCCUGC[C]ACCCCCU"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11024,
+          "nt_pos1": 11025,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 16.2864,
+          "frac_of_max": 0.2809,
+          "window_start": 10900,
+          "context": "UCUGAGA[U]UUUACUA"
+        },
+        {
+          "feat_idx": 1039,
+          "nt_pos0": 13468,
+          "nt_pos1": 13469,
+          "breadth": 2,
+          "families": [
+            "RF00100",
+            "RF00487"
+          ],
+          "activation": 20.0733,
+          "frac_of_max": 0.2809,
+          "window_start": 13400,
+          "context": "CUCAGCU[C]CUAGAGU"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11087,
+          "nt_pos1": 11088,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 16.2236,
+          "frac_of_max": 0.2798,
+          "window_start": 10900,
+          "context": "CUGCCAC[C]CCCUAGG"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11089,
+          "nt_pos1": 11090,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 16.1624,
+          "frac_of_max": 0.2788,
+          "window_start": 10900,
+          "context": "GCCACCC[C]CUAGGCC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11026,
+          "nt_pos1": 11027,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 16.0984,
+          "frac_of_max": 0.2777,
+          "window_start": 10900,
+          "context": "UGAGAUU[U]UACUACA"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11091,
+          "nt_pos1": 11092,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 15.9965,
+          "frac_of_max": 0.2759,
+          "window_start": 10900,
+          "context": "CACCCCC[U]AGGCCAA"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11074,
+          "nt_pos1": 11075,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 15.9827,
+          "frac_of_max": 0.2757,
+          "window_start": 10900,
+          "context": "CCCCUGC[C]GCCUCCU"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11034,
+          "nt_pos1": 11035,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 15.9695,
+          "frac_of_max": 0.2754,
+          "window_start": 10900,
+          "context": "UACUACA[C]CUUCCAC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11022,
+          "nt_pos1": 11023,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 15.9544,
+          "frac_of_max": 0.2752,
+          "window_start": 10900,
+          "context": "AGUCUGA[G]AUUUUAC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11027,
+          "nt_pos1": 11028,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 15.9517,
+          "frac_of_max": 0.2751,
+          "window_start": 10900,
+          "context": "GAGAUUU[U]ACUACAC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11019,
+          "nt_pos1": 11020,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 15.9095,
+          "frac_of_max": 0.2744,
+          "window_start": 10900,
+          "context": "UGAAGUC[U]GAGAUUU"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11094,
+          "nt_pos1": 11095,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 15.8833,
+          "frac_of_max": 0.2739,
+          "window_start": 10900,
+          "context": "CCCCUAG[G]CCAAGGU"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11028,
+          "nt_pos1": 11029,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 15.828,
+          "frac_of_max": 0.273,
+          "window_start": 10900,
+          "context": "AGAUUUU[A]CUACACC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 10084,
+          "nt_pos1": 10085,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 15.6627,
+          "frac_of_max": 0.2701,
+          "window_start": 9900,
+          "context": "UUAUGUC[A]CUCUGUA"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11016,
+          "nt_pos1": 11017,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 15.6404,
+          "frac_of_max": 0.2698,
+          "window_start": 10900,
+          "context": "UAGUGAA[G]UCUGAGA"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11032,
+          "nt_pos1": 11033,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 15.439,
+          "frac_of_max": 0.2663,
+          "window_start": 10900,
+          "context": "UUUACUA[C]ACCUUCC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11023,
+          "nt_pos1": 11024,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 15.3597,
+          "frac_of_max": 0.2649,
+          "window_start": 10900,
+          "context": "GUCUGAG[A]UUUUACU"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11010,
+          "nt_pos1": 11011,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 15.3114,
+          "frac_of_max": 0.2641,
+          "window_start": 10900,
+          "context": "CUACAGU[A]GUGAAGU"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 10974,
+          "nt_pos1": 10975,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 15.26,
+          "frac_of_max": 0.2632,
+          "window_start": 10900,
+          "context": "UGGGGUA[C]AAAUGGC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11031,
+          "nt_pos1": 11032,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 15.1451,
+          "frac_of_max": 0.2612,
+          "window_start": 10900,
+          "context": "UUUUACU[A]CACCUUC"
+        },
+        {
+          "feat_idx": 2062,
+          "nt_pos0": 20068,
+          "nt_pos1": 20069,
+          "breadth": 1,
+          "families": [
+            "RF00026"
+          ],
+          "activation": 17.7625,
+          "frac_of_max": 0.2602,
+          "window_start": 19900,
+          "context": "GACAGAG[U]GAGACUC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 10982,
+          "nt_pos1": 10983,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 14.9881,
+          "frac_of_max": 0.2585,
+          "window_start": 10900,
+          "context": "AAAUGGC[U]UUUGGUC"
+        },
+        {
+          "feat_idx": 2062,
+          "nt_pos0": 17279,
+          "nt_pos1": 17280,
+          "breadth": 1,
+          "families": [
+            "RF00026"
+          ],
+          "activation": 17.5754,
+          "frac_of_max": 0.2575,
+          "window_start": 17200,
+          "context": "AACAUAG[U]GAUACCC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11030,
+          "nt_pos1": 11031,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 14.8651,
+          "frac_of_max": 0.2564,
+          "window_start": 10900,
+          "context": "AUUUUAC[U]ACACCUU"
+        },
+        {
+          "feat_idx": 2062,
+          "nt_pos0": 18031,
+          "nt_pos1": 18032,
+          "breadth": 1,
+          "families": [
+            "RF00026"
+          ],
+          "activation": 17.3696,
+          "frac_of_max": 0.2545,
+          "window_start": 17900,
+          "context": "GACAGAG[C]AAGAUUC"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11013,
+          "nt_pos1": 11014,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 14.6297,
+          "frac_of_max": 0.2523,
+          "window_start": 10900,
+          "context": "CAGUAGU[G]AAGUCUG"
+        },
+        {
+          "feat_idx": 1765,
+          "nt_pos0": 11088,
+          "nt_pos1": 11089,
+          "breadth": 5,
+          "families": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF01266",
+            "RF02410"
+          ],
+          "activation": 14.6007,
+          "frac_of_max": 0.2518,
+          "window_start": 10900,
+          "context": "UGCCACC[C]CCUAGGC"
+        }
+      ]
+    },
+    "BACE1-AS": {
+      "accession": "NR_037803.2",
+      "length": 840,
+      "n_windows": 8,
+      "n_hits": 3,
+      "n_specialist_hits": 3,
+      "family_summary_specialist": {
+        "RF00100": {
+          "peak_frac": 0.4181,
+          "n_positions": 3,
+          "positions": [
+            53,
+            186,
+            626
+          ]
+        },
+        "RF00487": {
+          "peak_frac": 0.4181,
+          "n_positions": 3,
+          "positions": [
+            53,
+            186,
+            626
+          ]
+        }
+      },
+      "terminal_zoom": {
+        "region_start": 640,
+        "hits": []
+      },
+      "positive_control": null,
+      "hits": [
+        {
+          "feat_idx": 1039,
+          "nt_pos0": 53,
+          "nt_pos1": 54,
+          "breadth": 2,
+          "families": [
+            "RF00100",
+            "RF00487"
+          ],
+          "activation": 29.8761,
+          "frac_of_max": 0.4181,
+          "window_start": 0,
+          "context": "CUCAGCC[C]CCUGAGU"
+        },
+        {
+          "feat_idx": 1039,
+          "nt_pos0": 186,
+          "nt_pos1": 187,
+          "breadth": 2,
+          "families": [
+            "RF00100",
+            "RF00487"
+          ],
+          "activation": 26.7817,
+          "frac_of_max": 0.3748,
+          "window_start": 100,
+          "context": "CUUGGCC[U]CCCAAAG"
+        },
+        {
+          "feat_idx": 1039,
+          "nt_pos0": 626,
+          "nt_pos1": 627,
+          "breadth": 2,
+          "families": [
+            "RF00100",
+            "RF00487"
+          ],
+          "activation": 21.9985,
+          "frac_of_max": 0.3078,
+          "window_start": 600,
+          "context": "CUCAGUU[C]CUUCAUC"
+        }
+      ]
+    }
+  }
+}

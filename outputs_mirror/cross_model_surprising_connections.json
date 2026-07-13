@@ -1,0 +1,3092 @@
+{
+  "n_surprising": 167,
+  "connections": [
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 1.0,
+      "families": [
+        "RF01846",
+        "RF04321"
+      ],
+      "classes": [
+        "gene-other",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF01846": "snorna",
+        "RF04321": "gene-other"
+      },
+      "n_model_pairs": 2
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 1.0,
+      "families": [
+        "RF00209",
+        "RF02956"
+      ],
+      "classes": [
+        "ires",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00209": "ires",
+        "RF02956": "srna"
+      },
+      "n_model_pairs": 2
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 1.0,
+      "families": [
+        "RF00029",
+        "RF01831"
+      ],
+      "classes": [
+        "intron",
+        "riboswitch"
+      ],
+      "fam_classes": {
+        "RF00029": "intron",
+        "RF01831": "riboswitch"
+      },
+      "n_model_pairs": 2
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.75,
+      "families": [
+        "RF00024",
+        "RF00036",
+        "RF00209",
+        "RF03028",
+        "RF03077",
+        "RF04321"
+      ],
+      "classes": [
+        "cis-reg",
+        "gene-other",
+        "ires",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00024": "gene-other",
+        "RF00036": "cis-reg",
+        "RF00209": "ires",
+        "RF03028": "srna",
+        "RF03077": "srna",
+        "RF04321": "gene-other"
+      },
+      "n_model_pairs": 2
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.75,
+      "families": [
+        "RF00071",
+        "RF04344",
+        "RF04352"
+      ],
+      "classes": [
+        "cis-reg",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF00071": "snorna",
+        "RF04344": "cis-reg",
+        "RF04352": "cis-reg"
+      },
+      "n_model_pairs": 2
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00209",
+        "RF03159"
+      ],
+      "classes": [
+        "ires",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00209": "ires",
+        "RF03159": "srna"
+      },
+      "n_model_pairs": 2
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00071",
+        "RF02952"
+      ],
+      "classes": [
+        "snorna",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00071": "snorna",
+        "RF02952": "srna"
+      },
+      "n_model_pairs": 2
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00004",
+        "RF00013"
+      ],
+      "classes": [
+        "gene-other",
+        "snrna"
+      ],
+      "fam_classes": {
+        "RF00004": "snrna",
+        "RF00013": "gene-other"
+      },
+      "n_model_pairs": 2
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00029",
+        "RF00754"
+      ],
+      "classes": [
+        "intron",
+        "mirna"
+      ],
+      "fam_classes": {
+        "RF00029": "intron",
+        "RF00754": "mirna"
+      },
+      "n_model_pairs": 2
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00190",
+        "RF01794"
+      ],
+      "classes": [
+        "gene-other",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF00190": "snorna",
+        "RF01794": "gene-other"
+      },
+      "n_model_pairs": 2
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00209",
+        "RF02141"
+      ],
+      "classes": [
+        "ires",
+        "lncrna"
+      ],
+      "fam_classes": {
+        "RF00209": "ires",
+        "RF02141": "lncrna"
+      },
+      "n_model_pairs": 2
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.556,
+      "families": [
+        "RF00071",
+        "RF00151",
+        "RF00476",
+        "RF00494",
+        "RF03075"
+      ],
+      "classes": [
+        "snorna",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00071": "snorna",
+        "RF00151": "snorna",
+        "RF00476": "snorna",
+        "RF00494": "snorna",
+        "RF03075": "srna"
+      },
+      "n_model_pairs": 2
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 1.0,
+      "families": [
+        "RF00013",
+        "RF00634"
+      ],
+      "classes": [
+        "gene-other",
+        "riboswitch"
+      ],
+      "fam_classes": {
+        "RF00013": "gene-other",
+        "RF00634": "riboswitch"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 1.0,
+      "families": [
+        "RF00036",
+        "RF00209",
+        "RF02035"
+      ],
+      "classes": [
+        "cis-reg",
+        "gene-other",
+        "ires"
+      ],
+      "fam_classes": {
+        "RF00036": "cis-reg",
+        "RF00209": "ires",
+        "RF02035": "gene-other"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 1.0,
+      "families": [
+        "RF02035",
+        "RF03146"
+      ],
+      "classes": [
+        "gene-other",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF02035": "gene-other",
+        "RF03146": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 1.0,
+      "families": [
+        "RF00233",
+        "RF03071"
+      ],
+      "classes": [
+        "cis-reg",
+        "riboswitch"
+      ],
+      "fam_classes": {
+        "RF00233": "cis-reg",
+        "RF03071": "riboswitch"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 1.0,
+      "families": [
+        "RF01884",
+        "RF03015"
+      ],
+      "classes": [
+        "lncrna",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF01884": "lncrna",
+        "RF03015": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 1.0,
+      "families": [
+        "RF01699",
+        "RF01731"
+      ],
+      "classes": [
+        "cis-reg",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF01699": "srna",
+        "RF01731": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~erniarna",
+      "jaccard": 0.778,
+      "families": [
+        "RF00010",
+        "RF00011",
+        "RF00023",
+        "RF01849",
+        "RF01850",
+        "RF01851",
+        "RF04321"
+      ],
+      "classes": [
+        "gene-other",
+        "ribozyme"
+      ],
+      "fam_classes": {
+        "RF00010": "ribozyme",
+        "RF00011": "ribozyme",
+        "RF00023": "gene-other",
+        "RF01849": "gene-other",
+        "RF01850": "gene-other",
+        "RF01851": "gene-other",
+        "RF04321": "gene-other"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.75,
+      "families": [
+        "RF00194",
+        "RF01699",
+        "RF01731",
+        "RF01853",
+        "RF02965",
+        "RF02976"
+      ],
+      "classes": [
+        "antisense",
+        "cis-reg",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00194": "cis-reg",
+        "RF01699": "srna",
+        "RF01731": "cis-reg",
+        "RF01853": "antisense",
+        "RF02965": "srna",
+        "RF02976": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.75,
+      "families": [
+        "RF03019",
+        "RF03077",
+        "RF04321"
+      ],
+      "classes": [
+        "gene-other",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF03019": "srna",
+        "RF03077": "srna",
+        "RF04321": "gene-other"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~erniarna",
+      "jaccard": 0.714,
+      "families": [
+        "RF00017",
+        "RF01854",
+        "RF01855",
+        "RF01857",
+        "RF02514"
+      ],
+      "classes": [
+        "gene-other",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00017": "gene-other",
+        "RF01854": "gene-other",
+        "RF01855": "gene-other",
+        "RF01857": "gene-other",
+        "RF02514": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF03151",
+        "RF03544"
+      ],
+      "classes": [
+        "cis-reg",
+        "leader"
+      ],
+      "fam_classes": {
+        "RF03151": "leader",
+        "RF03544": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00024",
+        "RF00209"
+      ],
+      "classes": [
+        "gene-other",
+        "ires"
+      ],
+      "fam_classes": {
+        "RF00024": "gene-other",
+        "RF00209": "ires"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00029",
+        "RF00059"
+      ],
+      "classes": [
+        "intron",
+        "riboswitch"
+      ],
+      "fam_classes": {
+        "RF00029": "intron",
+        "RF00059": "riboswitch"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF03065",
+        "RF04321"
+      ],
+      "classes": [
+        "gene-other",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF03065": "srna",
+        "RF04321": "gene-other"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00209",
+        "RF03028"
+      ],
+      "classes": [
+        "ires",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00209": "ires",
+        "RF03028": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF02682",
+        "RF03149"
+      ],
+      "classes": [
+        "ribozyme",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF02682": "ribozyme",
+        "RF03149": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00561",
+        "RF03151"
+      ],
+      "classes": [
+        "leader",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF00561": "snorna",
+        "RF03151": "leader"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF01699",
+        "RF01999"
+      ],
+      "classes": [
+        "intron",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF01699": "srna",
+        "RF01999": "intron"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00013",
+        "RF00209"
+      ],
+      "classes": [
+        "gene-other",
+        "ires"
+      ],
+      "fam_classes": {
+        "RF00013": "gene-other",
+        "RF00209": "ires"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF02035",
+        "RF02965"
+      ],
+      "classes": [
+        "gene-other",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF02035": "gene-other",
+        "RF02965": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00494",
+        "RF02682"
+      ],
+      "classes": [
+        "ribozyme",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF00494": "snorna",
+        "RF02682": "ribozyme"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF02685",
+        "RF03032"
+      ],
+      "classes": [
+        "cis-reg",
+        "ribozyme"
+      ],
+      "fam_classes": {
+        "RF02685": "ribozyme",
+        "RF03032": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00194",
+        "RF01999"
+      ],
+      "classes": [
+        "cis-reg",
+        "intron"
+      ],
+      "fam_classes": {
+        "RF00194": "cis-reg",
+        "RF01999": "intron"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00024",
+        "RF00209",
+        "RF03077",
+        "RF04321"
+      ],
+      "classes": [
+        "gene-other",
+        "ires",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00024": "gene-other",
+        "RF00209": "ires",
+        "RF03077": "srna",
+        "RF04321": "gene-other"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00233",
+        "RF03127"
+      ],
+      "classes": [
+        "cis-reg",
+        "leader"
+      ],
+      "fam_classes": {
+        "RF00233": "cis-reg",
+        "RF03127": "leader"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00233",
+        "RF04321"
+      ],
+      "classes": [
+        "cis-reg",
+        "gene-other"
+      ],
+      "fam_classes": {
+        "RF00233": "cis-reg",
+        "RF04321": "gene-other"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00409",
+        "RF02682"
+      ],
+      "classes": [
+        "ribozyme",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF00409": "snorna",
+        "RF02682": "ribozyme"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00209",
+        "RF02188"
+      ],
+      "classes": [
+        "ires",
+        "lncrna"
+      ],
+      "fam_classes": {
+        "RF00209": "ires",
+        "RF02188": "lncrna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00233",
+        "RF02348"
+      ],
+      "classes": [
+        "cis-reg",
+        "crispr"
+      ],
+      "fam_classes": {
+        "RF00233": "cis-reg",
+        "RF02348": "crispr"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00442",
+        "RF01695"
+      ],
+      "classes": [
+        "antisense",
+        "riboswitch"
+      ],
+      "fam_classes": {
+        "RF00442": "riboswitch",
+        "RF01695": "antisense"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00233",
+        "RF01999"
+      ],
+      "classes": [
+        "cis-reg",
+        "intron"
+      ],
+      "fam_classes": {
+        "RF00233": "cis-reg",
+        "RF01999": "intron"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00545",
+        "RF02976"
+      ],
+      "classes": [
+        "snorna",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00545": "snorna",
+        "RF02976": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF01853",
+        "RF03159"
+      ],
+      "classes": [
+        "antisense",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF01853": "antisense",
+        "RF03159": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF01844",
+        "RF02937"
+      ],
+      "classes": [
+        "snrna",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF01844": "snrna",
+        "RF02937": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00036",
+        "RF00155"
+      ],
+      "classes": [
+        "cis-reg",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF00036": "cis-reg",
+        "RF00155": "snorna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00209",
+        "RF03019"
+      ],
+      "classes": [
+        "ires",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00209": "ires",
+        "RF03019": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF03015",
+        "RF03127"
+      ],
+      "classes": [
+        "leader",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF03015": "srna",
+        "RF03127": "leader"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00628",
+        "RF01846"
+      ],
+      "classes": [
+        "snorna",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00628": "srna",
+        "RF01846": "snorna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF03077",
+        "RF04339"
+      ],
+      "classes": [
+        "cis-reg",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF03077": "srna",
+        "RF04339": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00442",
+        "RF01731"
+      ],
+      "classes": [
+        "cis-reg",
+        "riboswitch"
+      ],
+      "fam_classes": {
+        "RF00442": "riboswitch",
+        "RF01731": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00545",
+        "RF02179"
+      ],
+      "classes": [
+        "lncrna",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF00545": "snorna",
+        "RF02179": "lncrna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00004",
+        "RF00096"
+      ],
+      "classes": [
+        "snorna",
+        "snrna"
+      ],
+      "fam_classes": {
+        "RF00004": "snrna",
+        "RF00096": "snorna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00600",
+        "RF00782"
+      ],
+      "classes": [
+        "mirna",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF00600": "snorna",
+        "RF00782": "mirna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00006",
+        "RF00554"
+      ],
+      "classes": [
+        "gene-other",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF00006": "gene-other",
+        "RF00554": "snorna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.667,
+      "families": [
+        "RF00059",
+        "RF02452"
+      ],
+      "classes": [
+        "riboswitch",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00059": "riboswitch",
+        "RF02452": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.625,
+      "families": [
+        "RF01116",
+        "RF02685",
+        "RF03012",
+        "RF03075",
+        "RF03544"
+      ],
+      "classes": [
+        "cis-reg",
+        "ribozyme",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF01116": "srna",
+        "RF02685": "ribozyme",
+        "RF03012": "srna",
+        "RF03075": "srna",
+        "RF03544": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.6,
+      "families": [
+        "RF00024",
+        "RF00209",
+        "RF04321"
+      ],
+      "classes": [
+        "gene-other",
+        "ires"
+      ],
+      "fam_classes": {
+        "RF00024": "gene-other",
+        "RF00209": "ires",
+        "RF04321": "gene-other"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.6,
+      "families": [
+        "RF00024",
+        "RF03077",
+        "RF04321"
+      ],
+      "classes": [
+        "gene-other",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00024": "gene-other",
+        "RF03077": "srna",
+        "RF04321": "gene-other"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.6,
+      "families": [
+        "RF00013",
+        "RF00029",
+        "RF00059",
+        "RF00634",
+        "RF01695",
+        "RF03012"
+      ],
+      "classes": [
+        "antisense",
+        "gene-other",
+        "intron",
+        "riboswitch",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00013": "gene-other",
+        "RF00029": "intron",
+        "RF00059": "riboswitch",
+        "RF00634": "riboswitch",
+        "RF01695": "antisense",
+        "RF03012": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.6,
+      "families": [
+        "RF00006",
+        "RF02502",
+        "RF02976"
+      ],
+      "classes": [
+        "gene-other",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00006": "gene-other",
+        "RF02502": "srna",
+        "RF02976": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.6,
+      "families": [
+        "RF00425",
+        "RF00443",
+        "RF00545",
+        "RF00561",
+        "RF01233",
+        "RF01770"
+      ],
+      "classes": [
+        "leader",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF00425": "snorna",
+        "RF00443": "snorna",
+        "RF00545": "snorna",
+        "RF00561": "snorna",
+        "RF01233": "snorna",
+        "RF01770": "leader"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.6,
+      "families": [
+        "RF01770",
+        "RF03146",
+        "RF03159"
+      ],
+      "classes": [
+        "leader",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF01770": "leader",
+        "RF03146": "srna",
+        "RF03159": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.6,
+      "families": [
+        "RF02928",
+        "RF02937",
+        "RF02953"
+      ],
+      "classes": [
+        "cis-reg",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF02928": "srna",
+        "RF02937": "srna",
+        "RF02953": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.6,
+      "families": [
+        "RF00013",
+        "RF00096",
+        "RF02954"
+      ],
+      "classes": [
+        "cis-reg",
+        "gene-other",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF00013": "gene-other",
+        "RF00096": "snorna",
+        "RF02954": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.6,
+      "families": [
+        "RF00425",
+        "RF00554",
+        "RF01781"
+      ],
+      "classes": [
+        "snorna",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00425": "snorna",
+        "RF00554": "snorna",
+        "RF01781": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.6,
+      "families": [
+        "RF01770",
+        "RF02502",
+        "RF02969"
+      ],
+      "classes": [
+        "leader",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF01770": "leader",
+        "RF02502": "srna",
+        "RF02969": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.6,
+      "families": [
+        "RF00431",
+        "RF01229",
+        "RF01884"
+      ],
+      "classes": [
+        "lncrna",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF00431": "snorna",
+        "RF01229": "snorna",
+        "RF01884": "lncrna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.571,
+      "families": [
+        "RF00013",
+        "RF00059",
+        "RF00553",
+        "RF00634"
+      ],
+      "classes": [
+        "gene-other",
+        "riboswitch",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF00013": "gene-other",
+        "RF00059": "riboswitch",
+        "RF00553": "snorna",
+        "RF00634": "riboswitch"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.571,
+      "families": [
+        "RF00013",
+        "RF00024",
+        "RF00209",
+        "RF04321"
+      ],
+      "classes": [
+        "gene-other",
+        "ires"
+      ],
+      "fam_classes": {
+        "RF00013": "gene-other",
+        "RF00024": "gene-other",
+        "RF00209": "ires",
+        "RF04321": "gene-other"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.571,
+      "families": [
+        "RF00029",
+        "RF01699",
+        "RF01831",
+        "RF01999"
+      ],
+      "classes": [
+        "intron",
+        "riboswitch",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00029": "intron",
+        "RF01699": "srna",
+        "RF01831": "riboswitch",
+        "RF01999": "intron"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.571,
+      "families": [
+        "RF01229",
+        "RF01695",
+        "RF01884",
+        "RF02141"
+      ],
+      "classes": [
+        "antisense",
+        "lncrna",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF01229": "snorna",
+        "RF01695": "antisense",
+        "RF01884": "lncrna",
+        "RF02141": "lncrna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.571,
+      "families": [
+        "RF00029",
+        "RF00059",
+        "RF00442",
+        "RF00634"
+      ],
+      "classes": [
+        "intron",
+        "riboswitch"
+      ],
+      "fam_classes": {
+        "RF00029": "intron",
+        "RF00059": "riboswitch",
+        "RF00442": "riboswitch",
+        "RF00634": "riboswitch"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.571,
+      "families": [
+        "RF00071",
+        "RF00476",
+        "RF00609",
+        "RF03012"
+      ],
+      "classes": [
+        "snorna",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00071": "snorna",
+        "RF00476": "snorna",
+        "RF00609": "snorna",
+        "RF03012": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.556,
+      "families": [
+        "RF00257",
+        "RF00754",
+        "RF01844",
+        "RF02965",
+        "RF02976"
+      ],
+      "classes": [
+        "mirna",
+        "snrna",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00257": "mirna",
+        "RF00754": "mirna",
+        "RF01844": "snrna",
+        "RF02965": "srna",
+        "RF02976": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.556,
+      "families": [
+        "RF00013",
+        "RF00029",
+        "RF00634",
+        "RF01695",
+        "RF04352"
+      ],
+      "classes": [
+        "antisense",
+        "cis-reg",
+        "gene-other",
+        "intron",
+        "riboswitch"
+      ],
+      "fam_classes": {
+        "RF00013": "gene-other",
+        "RF00029": "intron",
+        "RF00634": "riboswitch",
+        "RF01695": "antisense",
+        "RF04352": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~erniarna",
+      "jaccard": 0.5,
+      "families": [
+        "RF01794",
+        "RF04097"
+      ],
+      "classes": [
+        "gene-other",
+        "mirna"
+      ],
+      "fam_classes": {
+        "RF01794": "gene-other",
+        "RF04097": "mirna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00013",
+        "RF00096"
+      ],
+      "classes": [
+        "gene-other",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF00013": "gene-other",
+        "RF00096": "snorna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00071",
+        "RF00476",
+        "RF00609",
+        "RF02952",
+        "RF04344"
+      ],
+      "classes": [
+        "cis-reg",
+        "snorna",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00071": "snorna",
+        "RF00476": "snorna",
+        "RF00609": "snorna",
+        "RF02952": "srna",
+        "RF04344": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF01699",
+        "RF01794"
+      ],
+      "classes": [
+        "gene-other",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF01699": "srna",
+        "RF01794": "gene-other"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00754",
+        "RF04352"
+      ],
+      "classes": [
+        "cis-reg",
+        "mirna"
+      ],
+      "fam_classes": {
+        "RF00754": "mirna",
+        "RF04352": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00013",
+        "RF03077"
+      ],
+      "classes": [
+        "gene-other",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00013": "gene-other",
+        "RF03077": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00004",
+        "RF00754"
+      ],
+      "classes": [
+        "mirna",
+        "snrna"
+      ],
+      "fam_classes": {
+        "RF00004": "snrna",
+        "RF00754": "mirna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF01844",
+        "RF02179",
+        "RF02976"
+      ],
+      "classes": [
+        "lncrna",
+        "snrna",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF01844": "snrna",
+        "RF02179": "lncrna",
+        "RF02976": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF01853",
+        "RF03032"
+      ],
+      "classes": [
+        "antisense",
+        "cis-reg"
+      ],
+      "fam_classes": {
+        "RF01853": "antisense",
+        "RF03032": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00754",
+        "RF02965"
+      ],
+      "classes": [
+        "mirna",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00754": "mirna",
+        "RF02965": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00013",
+        "RF00442",
+        "RF02954"
+      ],
+      "classes": [
+        "cis-reg",
+        "gene-other",
+        "riboswitch"
+      ],
+      "fam_classes": {
+        "RF00013": "gene-other",
+        "RF00442": "riboswitch",
+        "RF02954": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF02141",
+        "RF04321"
+      ],
+      "classes": [
+        "gene-other",
+        "lncrna"
+      ],
+      "fam_classes": {
+        "RF02141": "lncrna",
+        "RF04321": "gene-other"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00609",
+        "RF02937",
+        "RF02954"
+      ],
+      "classes": [
+        "cis-reg",
+        "snorna",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00609": "snorna",
+        "RF02937": "srna",
+        "RF02954": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00004",
+        "RF03127"
+      ],
+      "classes": [
+        "leader",
+        "snrna"
+      ],
+      "fam_classes": {
+        "RF00004": "snrna",
+        "RF03127": "leader"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF01745",
+        "RF03019",
+        "RF03028",
+        "RF03077",
+        "RF03159",
+        "RF04321"
+      ],
+      "classes": [
+        "cis-reg",
+        "gene-other",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF01745": "cis-reg",
+        "RF03019": "srna",
+        "RF03028": "srna",
+        "RF03077": "srna",
+        "RF03159": "srna",
+        "RF04321": "gene-other"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00257",
+        "RF03013"
+      ],
+      "classes": [
+        "mirna",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00257": "mirna",
+        "RF03013": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00024",
+        "RF00059",
+        "RF00209",
+        "RF03065",
+        "RF03159",
+        "RF04321"
+      ],
+      "classes": [
+        "gene-other",
+        "ires",
+        "riboswitch",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00024": "gene-other",
+        "RF00059": "riboswitch",
+        "RF00209": "ires",
+        "RF03065": "srna",
+        "RF03159": "srna",
+        "RF04321": "gene-other"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00013",
+        "RF00059",
+        "RF01699"
+      ],
+      "classes": [
+        "gene-other",
+        "riboswitch",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00013": "gene-other",
+        "RF00059": "riboswitch",
+        "RF01699": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00013",
+        "RF00490"
+      ],
+      "classes": [
+        "cis-reg",
+        "gene-other"
+      ],
+      "fam_classes": {
+        "RF00013": "gene-other",
+        "RF00490": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF01999",
+        "RF02188"
+      ],
+      "classes": [
+        "intron",
+        "lncrna"
+      ],
+      "fam_classes": {
+        "RF01999": "intron",
+        "RF02188": "lncrna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00036",
+        "RF03028"
+      ],
+      "classes": [
+        "cis-reg",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00036": "cis-reg",
+        "RF03028": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00233",
+        "RF02976"
+      ],
+      "classes": [
+        "cis-reg",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00233": "cis-reg",
+        "RF02976": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00442",
+        "RF03127"
+      ],
+      "classes": [
+        "leader",
+        "riboswitch"
+      ],
+      "fam_classes": {
+        "RF00442": "riboswitch",
+        "RF03127": "leader"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00013",
+        "RF03019"
+      ],
+      "classes": [
+        "gene-other",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00013": "gene-other",
+        "RF03019": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00443",
+        "RF00782"
+      ],
+      "classes": [
+        "mirna",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF00443": "snorna",
+        "RF00782": "mirna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF01116",
+        "RF01781",
+        "RF04351"
+      ],
+      "classes": [
+        "cis-reg",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF01116": "srna",
+        "RF01781": "srna",
+        "RF04351": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00024",
+        "RF01745",
+        "RF01846",
+        "RF02141"
+      ],
+      "classes": [
+        "cis-reg",
+        "gene-other",
+        "lncrna",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF00024": "gene-other",
+        "RF01745": "cis-reg",
+        "RF01846": "snorna",
+        "RF02141": "lncrna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00013",
+        "RF04352"
+      ],
+      "classes": [
+        "cis-reg",
+        "gene-other"
+      ],
+      "fam_classes": {
+        "RF00013": "gene-other",
+        "RF04352": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF01794",
+        "RF03019",
+        "RF03159"
+      ],
+      "classes": [
+        "gene-other",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF01794": "gene-other",
+        "RF03019": "srna",
+        "RF03159": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00609",
+        "RF01844",
+        "RF02682",
+        "RF02965"
+      ],
+      "classes": [
+        "ribozyme",
+        "snorna",
+        "snrna",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00609": "snorna",
+        "RF01844": "snrna",
+        "RF02682": "ribozyme",
+        "RF02965": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00004",
+        "RF00096",
+        "RF02035"
+      ],
+      "classes": [
+        "gene-other",
+        "snorna",
+        "snrna"
+      ],
+      "fam_classes": {
+        "RF00004": "snrna",
+        "RF00096": "snorna",
+        "RF02035": "gene-other"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00167",
+        "RF01770"
+      ],
+      "classes": [
+        "leader",
+        "riboswitch"
+      ],
+      "fam_classes": {
+        "RF00167": "riboswitch",
+        "RF01770": "leader"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00059",
+        "RF01794"
+      ],
+      "classes": [
+        "gene-other",
+        "riboswitch"
+      ],
+      "fam_classes": {
+        "RF00059": "riboswitch",
+        "RF01794": "gene-other"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00013",
+        "RF00024",
+        "RF01699",
+        "RF02035",
+        "RF02141",
+        "RF02682"
+      ],
+      "classes": [
+        "gene-other",
+        "lncrna",
+        "ribozyme",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00013": "gene-other",
+        "RF00024": "gene-other",
+        "RF01699": "srna",
+        "RF02035": "gene-other",
+        "RF02141": "lncrna",
+        "RF02682": "ribozyme"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "rnafm~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00013",
+        "RF00059",
+        "RF00442",
+        "RF00634",
+        "RF01699"
+      ],
+      "classes": [
+        "gene-other",
+        "riboswitch",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00013": "gene-other",
+        "RF00059": "riboswitch",
+        "RF00442": "riboswitch",
+        "RF00634": "riboswitch",
+        "RF01699": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00013",
+        "RF00059",
+        "RF00442",
+        "RF00634"
+      ],
+      "classes": [
+        "gene-other",
+        "riboswitch"
+      ],
+      "fam_classes": {
+        "RF00013": "gene-other",
+        "RF00059": "riboswitch",
+        "RF00442": "riboswitch",
+        "RF00634": "riboswitch"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00013",
+        "RF00059"
+      ],
+      "classes": [
+        "gene-other",
+        "riboswitch"
+      ],
+      "fam_classes": {
+        "RF00013": "gene-other",
+        "RF00059": "riboswitch"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF01699",
+        "RF02188"
+      ],
+      "classes": [
+        "lncrna",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF01699": "srna",
+        "RF02188": "lncrna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF02179",
+        "RF02937",
+        "RF02954"
+      ],
+      "classes": [
+        "cis-reg",
+        "lncrna",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF02179": "lncrna",
+        "RF02937": "srna",
+        "RF02954": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF01731",
+        "RF04321"
+      ],
+      "classes": [
+        "cis-reg",
+        "gene-other"
+      ],
+      "fam_classes": {
+        "RF01731": "cis-reg",
+        "RF04321": "gene-other"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF01745",
+        "RF01794"
+      ],
+      "classes": [
+        "cis-reg",
+        "gene-other"
+      ],
+      "fam_classes": {
+        "RF01745": "cis-reg",
+        "RF01794": "gene-other"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00257",
+        "RF02348",
+        "RF04344"
+      ],
+      "classes": [
+        "cis-reg",
+        "crispr",
+        "mirna"
+      ],
+      "fam_classes": {
+        "RF00257": "mirna",
+        "RF02348": "crispr",
+        "RF04344": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00029",
+        "RF03012"
+      ],
+      "classes": [
+        "intron",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00029": "intron",
+        "RF03012": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00024",
+        "RF00059",
+        "RF00209",
+        "RF02141"
+      ],
+      "classes": [
+        "gene-other",
+        "ires",
+        "lncrna",
+        "riboswitch"
+      ],
+      "fam_classes": {
+        "RF00024": "gene-other",
+        "RF00059": "riboswitch",
+        "RF00209": "ires",
+        "RF02141": "lncrna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00754",
+        "RF02682"
+      ],
+      "classes": [
+        "mirna",
+        "ribozyme"
+      ],
+      "fam_classes": {
+        "RF00754": "mirna",
+        "RF02682": "ribozyme"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00006",
+        "RF00425"
+      ],
+      "classes": [
+        "gene-other",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF00006": "gene-other",
+        "RF00425": "snorna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00442",
+        "RF02035"
+      ],
+      "classes": [
+        "gene-other",
+        "riboswitch"
+      ],
+      "fam_classes": {
+        "RF00442": "riboswitch",
+        "RF02035": "gene-other"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00553",
+        "RF02188"
+      ],
+      "classes": [
+        "lncrna",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF00553": "snorna",
+        "RF02188": "lncrna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00634",
+        "RF01999"
+      ],
+      "classes": [
+        "intron",
+        "riboswitch"
+      ],
+      "fam_classes": {
+        "RF00634": "riboswitch",
+        "RF01999": "intron"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF01699",
+        "RF01745"
+      ],
+      "classes": [
+        "cis-reg",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF01699": "srna",
+        "RF01745": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF01695",
+        "RF03159"
+      ],
+      "classes": [
+        "antisense",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF01695": "antisense",
+        "RF03159": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00006",
+        "RF04345"
+      ],
+      "classes": [
+        "cis-reg",
+        "gene-other"
+      ],
+      "fam_classes": {
+        "RF00006": "gene-other",
+        "RF04345": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00442",
+        "RF03063"
+      ],
+      "classes": [
+        "riboswitch",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00442": "riboswitch",
+        "RF03063": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF01794",
+        "RF02956",
+        "RF03065",
+        "RF03146"
+      ],
+      "classes": [
+        "gene-other",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF01794": "gene-other",
+        "RF02956": "srna",
+        "RF03065": "srna",
+        "RF03146": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF01770",
+        "RF01853"
+      ],
+      "classes": [
+        "antisense",
+        "leader"
+      ],
+      "fam_classes": {
+        "RF01770": "leader",
+        "RF01853": "antisense"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00155",
+        "RF02035"
+      ],
+      "classes": [
+        "gene-other",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF00155": "snorna",
+        "RF02035": "gene-other"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00071",
+        "RF02976"
+      ],
+      "classes": [
+        "snorna",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00071": "snorna",
+        "RF02976": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF01781",
+        "RF04351"
+      ],
+      "classes": [
+        "cis-reg",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF01781": "srna",
+        "RF04351": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00609",
+        "RF01844"
+      ],
+      "classes": [
+        "snorna",
+        "snrna"
+      ],
+      "fam_classes": {
+        "RF00609": "snorna",
+        "RF01844": "snrna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF03012",
+        "RF03071"
+      ],
+      "classes": [
+        "riboswitch",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF03012": "srna",
+        "RF03071": "riboswitch"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF01116",
+        "RF03544"
+      ],
+      "classes": [
+        "cis-reg",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF01116": "srna",
+        "RF03544": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00096",
+        "RF00782"
+      ],
+      "classes": [
+        "mirna",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF00096": "snorna",
+        "RF00782": "mirna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF01884",
+        "RF03080",
+        "RF03146"
+      ],
+      "classes": [
+        "lncrna",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF01884": "lncrna",
+        "RF03080": "srna",
+        "RF03146": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF02035",
+        "RF03149"
+      ],
+      "classes": [
+        "gene-other",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF02035": "gene-other",
+        "RF03149": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF01853",
+        "RF03012"
+      ],
+      "classes": [
+        "antisense",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF01853": "antisense",
+        "RF03012": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00233",
+        "RF01831"
+      ],
+      "classes": [
+        "cis-reg",
+        "riboswitch"
+      ],
+      "fam_classes": {
+        "RF00233": "cis-reg",
+        "RF01831": "riboswitch"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00553",
+        "RF01999"
+      ],
+      "classes": [
+        "intron",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF00553": "snorna",
+        "RF01999": "intron"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF01116",
+        "RF02141"
+      ],
+      "classes": [
+        "lncrna",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF01116": "srna",
+        "RF02141": "lncrna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF01731",
+        "RF03019"
+      ],
+      "classes": [
+        "cis-reg",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF01731": "cis-reg",
+        "RF03019": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF02401",
+        "RF03127"
+      ],
+      "classes": [
+        "cis-reg",
+        "leader"
+      ],
+      "fam_classes": {
+        "RF02401": "cis-reg",
+        "RF03127": "leader"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00634",
+        "RF01695"
+      ],
+      "classes": [
+        "antisense",
+        "riboswitch"
+      ],
+      "fam_classes": {
+        "RF00634": "riboswitch",
+        "RF01695": "antisense"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00782",
+        "RF02952",
+        "RF03019",
+        "RF03077"
+      ],
+      "classes": [
+        "mirna",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00782": "mirna",
+        "RF02952": "srna",
+        "RF03019": "srna",
+        "RF03077": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00059",
+        "RF00096"
+      ],
+      "classes": [
+        "riboswitch",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF00059": "riboswitch",
+        "RF00096": "snorna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF01731",
+        "RF03146"
+      ],
+      "classes": [
+        "cis-reg",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF01731": "cis-reg",
+        "RF03146": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF02954",
+        "RF03028"
+      ],
+      "classes": [
+        "cis-reg",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF02954": "cis-reg",
+        "RF03028": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00006",
+        "RF03080"
+      ],
+      "classes": [
+        "gene-other",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00006": "gene-other",
+        "RF03080": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00059",
+        "RF00233"
+      ],
+      "classes": [
+        "cis-reg",
+        "riboswitch"
+      ],
+      "fam_classes": {
+        "RF00059": "riboswitch",
+        "RF00233": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF02035",
+        "RF03065"
+      ],
+      "classes": [
+        "gene-other",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF02035": "gene-other",
+        "RF03065": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00609",
+        "RF04345"
+      ],
+      "classes": [
+        "cis-reg",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF00609": "snorna",
+        "RF04345": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF01116",
+        "RF01794"
+      ],
+      "classes": [
+        "gene-other",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF01116": "srna",
+        "RF01794": "gene-other"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF01695",
+        "RF04341"
+      ],
+      "classes": [
+        "antisense",
+        "cis-reg"
+      ],
+      "fam_classes": {
+        "RF01695": "antisense",
+        "RF04341": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00405",
+        "RF01229",
+        "RF01781"
+      ],
+      "classes": [
+        "snorna",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00405": "snorna",
+        "RF01229": "snorna",
+        "RF01781": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00029",
+        "RF01699"
+      ],
+      "classes": [
+        "intron",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00029": "intron",
+        "RF01699": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00628",
+        "RF01731",
+        "RF02956"
+      ],
+      "classes": [
+        "cis-reg",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00628": "srna",
+        "RF01731": "cis-reg",
+        "RF02956": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF02348",
+        "RF04344"
+      ],
+      "classes": [
+        "cis-reg",
+        "crispr"
+      ],
+      "fam_classes": {
+        "RF02348": "crispr",
+        "RF04344": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00006",
+        "RF00628"
+      ],
+      "classes": [
+        "gene-other",
+        "srna"
+      ],
+      "fam_classes": {
+        "RF00006": "gene-other",
+        "RF00628": "srna"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00494",
+        "RF02348"
+      ],
+      "classes": [
+        "crispr",
+        "snorna"
+      ],
+      "fam_classes": {
+        "RF00494": "snorna",
+        "RF02348": "crispr"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF02348",
+        "RF03071"
+      ],
+      "classes": [
+        "crispr",
+        "riboswitch"
+      ],
+      "fam_classes": {
+        "RF02348": "crispr",
+        "RF03071": "riboswitch"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00013",
+        "RF02954"
+      ],
+      "classes": [
+        "cis-reg",
+        "gene-other"
+      ],
+      "fam_classes": {
+        "RF00013": "gene-other",
+        "RF02954": "cis-reg"
+      },
+      "n_model_pairs": 1
+    },
+    {
+      "pair": "erniarna~rnamsm_msa",
+      "jaccard": 0.5,
+      "families": [
+        "RF00004",
+        "RF00013",
+        "RF00442"
+      ],
+      "classes": [
+        "gene-other",
+        "riboswitch",
+        "snrna"
+      ],
+      "fam_classes": {
+        "RF00004": "snrna",
+        "RF00013": "gene-other",
+        "RF00442": "riboswitch"
+      },
+      "n_model_pairs": 1
+    }
+  ]
+}

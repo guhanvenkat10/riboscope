@@ -1,0 +1,135 @@
+{
+  "model": "rnafm",
+  "layer": 6,
+  "firing_frac": 0.25,
+  "sae_file": "outputs/sae_big_layer6_v3.safetensors",
+  "inspection_file": "outputs/inspection_big_layer6_v3.json",
+  "n_features": 60,
+  "n_specialists": 30,
+  "n_moderate": 30,
+  "rnas": {
+    "RNU4-2": {
+      "accession": "NR_003137.2",
+      "length": 141,
+      "n_residues_scored": 141,
+      "verdict": "RECOGNIZED (specialist fires)",
+      "n_specialist_hits": 1,
+      "n_moderate_hits": 1,
+      "specialist_families_ranked": {
+        "RF00015": 0.9695
+      },
+      "hits": [
+        {
+          "feat_idx": 1259,
+          "breadth": 4,
+          "families": [
+            "RF00015",
+            "RF00408",
+            "RF00554",
+            "RF02779"
+          ],
+          "peak_activation": 65.6853,
+          "feat_max": 66.0592,
+          "peak_frac_of_max": 0.9943,
+          "nt_pos1": 14,
+          "context": "GCGCAGU[G]GCAGUAU"
+        },
+        {
+          "feat_idx": 6221,
+          "breadth": 1,
+          "families": [
+            "RF00015"
+          ],
+          "peak_activation": 47.7816,
+          "feat_max": 49.2853,
+          "peak_frac_of_max": 0.9695,
+          "nt_pos1": 33,
+          "context": "GCCAAUG[A]GGUUUAU"
+        }
+      ]
+    },
+    "RMRP": {
+      "accession": "NR_003051.4",
+      "length": 270,
+      "n_residues_scored": 270,
+      "verdict": "NOT recognized",
+      "n_specialist_hits": 0,
+      "n_moderate_hits": 0,
+      "specialist_families_ranked": {},
+      "hits": []
+    },
+    "TERC": {
+      "accession": "NR_001566.1",
+      "length": 451,
+      "n_residues_scored": 451,
+      "verdict": "NOT recognized",
+      "n_specialist_hits": 0,
+      "n_moderate_hits": 0,
+      "specialist_families_ranked": {},
+      "hits": []
+    },
+    "RPPH1": {
+      "accession": "NR_002312.1",
+      "length": 341,
+      "n_residues_scored": 341,
+      "verdict": "NOT recognized",
+      "n_specialist_hits": 0,
+      "n_moderate_hits": 0,
+      "specialist_families_ranked": {},
+      "hits": []
+    },
+    "RN7SL1": {
+      "accession": "NR_002715.1",
+      "length": 299,
+      "n_residues_scored": 299,
+      "verdict": "weak (moderate-only)",
+      "n_specialist_hits": 0,
+      "n_moderate_hits": 1,
+      "specialist_families_ranked": {},
+      "hits": [
+        {
+          "feat_idx": 4819,
+          "breadth": 6,
+          "families": [
+            "RF00017",
+            "RF01699",
+            "RF01854",
+            "RF01855",
+            "RF01857",
+            "RF02001"
+          ],
+          "peak_activation": 37.6431,
+          "feat_max": 63.8705,
+          "peak_frac_of_max": 0.5894,
+          "nt_pos1": 24,
+          "context": "CGUGCCU[G]UAGUCCC"
+        }
+      ]
+    },
+    "RNU6-1": {
+      "accession": "NR_004394.1",
+      "length": 106,
+      "n_residues_scored": 106,
+      "verdict": "RECOGNIZED (specialist fires)",
+      "n_specialist_hits": 1,
+      "n_moderate_hits": 0,
+      "specialist_families_ranked": {
+        "RF00026": 0.9795
+      },
+      "hits": [
+        {
+          "feat_idx": 2062,
+          "breadth": 1,
+          "families": [
+            "RF00026"
+          ],
+          "peak_activation": 66.8626,
+          "feat_max": 68.26,
+          "peak_frac_of_max": 0.9795,
+          "nt_pos1": 74,
+          "context": "GCAAGGA[U]GACACGC"
+        }
+      ]
+    }
+  }
+}

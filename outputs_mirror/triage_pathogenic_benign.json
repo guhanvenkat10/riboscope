@@ -1,0 +1,31 @@
+{
+  "gene": "RNU4-2",
+  "n_path": 42,
+  "n_benign": 296,
+  "predictors": {
+    "SGE_ceiling": {
+      "auc": 0.914,
+      "p": 4.02e-18,
+      "n_path": 42,
+      "n_benign": 296
+    },
+    "erniarna": {
+      "auc": 0.721,
+      "p": 3.54e-06,
+      "n_path": 42,
+      "n_benign": 296
+    },
+    "CADD": {
+      "auc": 0.602,
+      "p": 0.0329,
+      "n_path": 42,
+      "n_benign": 296
+    },
+    "rnafm": {
+      "auc": 0.548,
+      "p": 0.317,
+      "n_path": 42,
+      "n_benign": 296
+    }
+  }
+}

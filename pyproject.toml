@@ -1,0 +1,86 @@
+[project]
+name = "riboscope"
+version = "0.1.0"
+description = "RIBOSCOPE — Mechanistic interpretability of RNA foundation models. ISEF 2027."
+authors = [
+    { name = "Guhan Venkatachalapathi", email = "guhan.venkatachalapathi@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+
+# Core dependencies. We install PyTorch separately (with the CUDA 12.8 index URL)
+# because it has special wheels per CUDA version that pip's default index doesn't carry.
+dependencies = [
+    # Bio model libraries
+    "transformers>=4.45.0",
+    "multimolecule>=0.0.6",
+    "huggingface-hub>=0.25.0",
+    "accelerate>=1.0.0",
+    "datasets>=3.0.0",
+    "tokenizers>=0.20.0",
+    "safetensors>=0.4.0",
+
+    # Scientific Python stack
+    "numpy>=2.0.0",
+    "pandas>=2.2.0",
+    "scipy>=1.14.0",
+    "scikit-learn>=1.5.0",
+
+    # Plotting
+    "matplotlib>=3.9.0",
+    "seaborn>=0.13.0",
+
+    # Project utilities
+    "tqdm>=4.66.0",
+    "pyyaml>=6.0.0",
+    "rich>=13.7.0",        # nicer terminal output
+    "einops>=0.8.0",       # tensor reshaping ergonomics
+]
+
+[project.optional-dependencies]
+# Mechanistic interpretability — installed in Phase 8 (future), not now.
+# Listed here so we have a reference when we get there.
+interp = [
+    "sae-lens>=4.0.0",
+    "transformer-lens>=2.0.0",
+]
+
+# Notebook + experiment tracking — install when needed.
+notebooks = [
+    "jupyter>=1.1.0",
+    "ipykernel>=6.29.0",
+    "wandb>=0.18.0",
+]
+
+# RNA structure tools — for validation phase. Install later.
+rna = [
+    "viennarna>=2.6.0",
+]
+
+# NOTE: We deliberately omit the `[build-system]` section here.
+#
+# Why: uv would otherwise try to build this project as an installable Python
+# package (using hatchling) every time you `uv run` something. That fails
+# unless we have a `riboscope/` package directory with a real Python module
+# layout, which we don't need yet — this project lives as flat scripts for
+# now. Telling uv `package = false` below makes it treat this as a "virtual
+# project" — purely for managing dependencies, with no build step.
+#
+# When (if) we eventually want to publish RIBOSCOPE as an importable library,
+# we'll add the build-system section and a src/riboscope/ folder back.
+
+# uv-specific config
+[tool.uv]
+# Treat this as a non-package project. uv will still manage the .venv and
+# dependencies — it just won't try to build/install our project itself.
+package = false
+
+# Reminder: We don't pin torch in dependencies above because uv would try to
+# install it from the default index. Install torch with:
+#   uv pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+# (see GETTING_STARTED.md Step 3.1).
+
+[tool.ruff]
+# Linting/formatting config — kept light for now.
+line-length = 100
+target-version = "py312"

@@ -1,0 +1,509 @@
+{
+  "models": [
+    "rnafm",
+    "erniarna",
+    "rnamsm"
+  ],
+  "top_frac": 0.15,
+  "hotspots": {
+    "RNU4-2": {
+      "disease": "ReNU syndrome (neurodevelopmental disorder)",
+      "region_pos1": [
+        62,
+        79
+      ],
+      "recurrent_pos1": [
+        64,
+        65,
+        77,
+        78
+      ],
+      "ref": "Chen/Greene 2024 Nature s41586-024-07773-7; saturation editing PMC12036422"
+    },
+    "RMRP": {
+      "disease": "Cartilage-hair hypoplasia",
+      "region_pos1": null,
+      "recurrent_pos1": [
+        72,
+        197
+      ],
+      "ref": "Ridanpaa 2001 (5200824); Brazilian founder PMC11166637"
+    },
+    "TERC": {
+      "disease": "Dyskeratosis congenita (approx regions \u2014 secondary)",
+      "region_pos1": null,
+      "recurrent_pos1": null,
+      "ref": "spread variant spectrum; not used as a primary gate"
+    }
+  },
+  "genes": {
+    "RMRP": {
+      "disease": "Cartilage-hair hypoplasia",
+      "ref": "Ridanpaa 2001 (5200824); Brazilian founder PMC11166637",
+      "per_model": {
+        "rnafm": {
+          "has_feature": false,
+          "embed_region": null,
+          "embed_variant_pct": {
+            "72": 0.526,
+            "197": 0.481
+          }
+        },
+        "erniarna": {
+          "has_feature": false,
+          "embed_region": null,
+          "embed_variant_pct": {
+            "72": 0.978,
+            "197": 0.733
+          }
+        }
+      },
+      "consensus": {
+        "region": null,
+        "variant_pct": {
+          "72": 0.974,
+          "197": 0.57
+        }
+      },
+      "novel_nominations": [
+        {
+          "pos1": 77,
+          "consensus_criticality": 0.84
+        },
+        {
+          "pos1": 78,
+          "consensus_criticality": 0.8026
+        },
+        {
+          "pos1": 268,
+          "consensus_criticality": 0.8009
+        },
+        {
+          "pos1": 13,
+          "consensus_criticality": 0.7775
+        },
+        {
+          "pos1": 270,
+          "consensus_criticality": 0.7732
+        },
+        {
+          "pos1": 269,
+          "consensus_criticality": 0.766
+        },
+        {
+          "pos1": 108,
+          "consensus_criticality": 0.7533
+        },
+        {
+          "pos1": 190,
+          "consensus_criticality": 0.7517
+        },
+        {
+          "pos1": 80,
+          "consensus_criticality": 0.7511
+        },
+        {
+          "pos1": 258,
+          "consensus_criticality": 0.7458
+        }
+      ]
+    },
+    "RN7SL1": {
+      "disease": null,
+      "ref": null,
+      "per_model": {
+        "rnafm": {
+          "has_feature": true,
+          "embed_region": null,
+          "embed_variant_pct": null,
+          "feature_region": null,
+          "feature_variant_pct": null
+        },
+        "erniarna": {
+          "has_feature": true,
+          "embed_region": null,
+          "embed_variant_pct": null,
+          "feature_region": null,
+          "feature_variant_pct": null
+        }
+      },
+      "consensus": {
+        "region": null,
+        "variant_pct": null
+      },
+      "novel_nominations": [
+        {
+          "pos1": 56,
+          "consensus_criticality": 0.8855
+        },
+        {
+          "pos1": 192,
+          "consensus_criticality": 0.8821
+        },
+        {
+          "pos1": 143,
+          "consensus_criticality": 0.8619
+        },
+        {
+          "pos1": 27,
+          "consensus_criticality": 0.8437
+        },
+        {
+          "pos1": 175,
+          "consensus_criticality": 0.8276
+        },
+        {
+          "pos1": 154,
+          "consensus_criticality": 0.8218
+        },
+        {
+          "pos1": 53,
+          "consensus_criticality": 0.8204
+        },
+        {
+          "pos1": 97,
+          "consensus_criticality": 0.8199
+        },
+        {
+          "pos1": 170,
+          "consensus_criticality": 0.8162
+        },
+        {
+          "pos1": 96,
+          "consensus_criticality": 0.8139
+        }
+      ]
+    },
+    "RNU4-2": {
+      "disease": "ReNU syndrome (neurodevelopmental disorder)",
+      "ref": "Chen/Greene 2024 Nature s41586-024-07773-7; saturation editing PMC12036422",
+      "per_model": {
+        "rnafm": {
+          "has_feature": true,
+          "embed_region": {
+            "region_pos1": [
+              62,
+              79
+            ],
+            "enrichment_ratio": 1.054,
+            "region_frac_of_len": 0.128,
+            "top_hit_rate_in_region": 0.19,
+            "fold_over_chance": 1.49
+          },
+          "embed_variant_pct": {
+            "64": 0.851,
+            "65": 0.234,
+            "77": 0.397,
+            "78": 0.723
+          },
+          "feature_region": {
+            "region_pos1": [
+              62,
+              79
+            ],
+            "enrichment_ratio": 0.713,
+            "region_frac_of_len": 0.128,
+            "top_hit_rate_in_region": 0.0,
+            "fold_over_chance": 0.0
+          },
+          "feature_variant_pct": {
+            "64": 0.61,
+            "65": 0.745,
+            "77": 0.596,
+            "78": 0.809
+          }
+        },
+        "erniarna": {
+          "has_feature": false,
+          "embed_region": {
+            "region_pos1": [
+              62,
+              79
+            ],
+            "enrichment_ratio": 1.037,
+            "region_frac_of_len": 0.128,
+            "top_hit_rate_in_region": 0.143,
+            "fold_over_chance": 1.12
+          },
+          "embed_variant_pct": {
+            "64": 0.454,
+            "65": 0.858,
+            "77": 0.518,
+            "78": 0.809
+          }
+        },
+        "rnamsm": {
+          "has_feature": false,
+          "embed_region": {
+            "region_pos1": [
+              62,
+              79
+            ],
+            "enrichment_ratio": 0.775,
+            "region_frac_of_len": 0.128,
+            "top_hit_rate_in_region": 0.0,
+            "fold_over_chance": 0.0
+          },
+          "embed_variant_pct": {
+            "64": 0.092,
+            "65": 0.199,
+            "77": 0.113,
+            "78": 0.248
+          }
+        }
+      },
+      "consensus": {
+        "region": {
+          "region_pos1": [
+            62,
+            79
+          ],
+          "enrichment_ratio": 0.974,
+          "region_frac_of_len": 0.128,
+          "top_hit_rate_in_region": 0.0,
+          "fold_over_chance": 0.0
+        },
+        "variant_pct": {
+          "64": 0.461,
+          "65": 0.142,
+          "77": 0.085,
+          "78": 0.518
+        }
+      },
+      "novel_nominations": [
+        {
+          "pos1": 40,
+          "consensus_criticality": 0.8253
+        },
+        {
+          "pos1": 15,
+          "consensus_criticality": 0.8068
+        },
+        {
+          "pos1": 2,
+          "consensus_criticality": 0.8064
+        },
+        {
+          "pos1": 104,
+          "consensus_criticality": 0.7998
+        },
+        {
+          "pos1": 18,
+          "consensus_criticality": 0.7812
+        },
+        {
+          "pos1": 3,
+          "consensus_criticality": 0.7725
+        },
+        {
+          "pos1": 5,
+          "consensus_criticality": 0.7717
+        },
+        {
+          "pos1": 7,
+          "consensus_criticality": 0.7677
+        },
+        {
+          "pos1": 4,
+          "consensus_criticality": 0.7616
+        },
+        {
+          "pos1": 44,
+          "consensus_criticality": 0.7574
+        }
+      ]
+    },
+    "RNU6-1": {
+      "disease": null,
+      "ref": null,
+      "per_model": {
+        "rnafm": {
+          "has_feature": true,
+          "embed_region": null,
+          "embed_variant_pct": null,
+          "feature_region": null,
+          "feature_variant_pct": null
+        },
+        "erniarna": {
+          "has_feature": true,
+          "embed_region": null,
+          "embed_variant_pct": null,
+          "feature_region": null,
+          "feature_variant_pct": null
+        }
+      },
+      "consensus": {
+        "region": null,
+        "variant_pct": null
+      },
+      "novel_nominations": [
+        {
+          "pos1": 15,
+          "consensus_criticality": 0.9204
+        },
+        {
+          "pos1": 6,
+          "consensus_criticality": 0.9102
+        },
+        {
+          "pos1": 68,
+          "consensus_criticality": 0.91
+        },
+        {
+          "pos1": 10,
+          "consensus_criticality": 0.8919
+        },
+        {
+          "pos1": 36,
+          "consensus_criticality": 0.8849
+        },
+        {
+          "pos1": 17,
+          "consensus_criticality": 0.8659
+        },
+        {
+          "pos1": 3,
+          "consensus_criticality": 0.861
+        },
+        {
+          "pos1": 14,
+          "consensus_criticality": 0.8545
+        },
+        {
+          "pos1": 8,
+          "consensus_criticality": 0.8353
+        },
+        {
+          "pos1": 89,
+          "consensus_criticality": 0.8251
+        }
+      ]
+    },
+    "RPPH1": {
+      "disease": null,
+      "ref": null,
+      "per_model": {
+        "rnafm": {
+          "has_feature": false,
+          "embed_region": null,
+          "embed_variant_pct": null
+        },
+        "erniarna": {
+          "has_feature": true,
+          "embed_region": null,
+          "embed_variant_pct": null,
+          "feature_region": null,
+          "feature_variant_pct": null
+        }
+      },
+      "consensus": {
+        "region": null,
+        "variant_pct": null
+      },
+      "novel_nominations": [
+        {
+          "pos1": 75,
+          "consensus_criticality": 0.8622
+        },
+        {
+          "pos1": 74,
+          "consensus_criticality": 0.8552
+        },
+        {
+          "pos1": 76,
+          "consensus_criticality": 0.7904
+        },
+        {
+          "pos1": 77,
+          "consensus_criticality": 0.7783
+        },
+        {
+          "pos1": 325,
+          "consensus_criticality": 0.7595
+        },
+        {
+          "pos1": 78,
+          "consensus_criticality": 0.7246
+        },
+        {
+          "pos1": 321,
+          "consensus_criticality": 0.6993
+        },
+        {
+          "pos1": 145,
+          "consensus_criticality": 0.6787
+        },
+        {
+          "pos1": 8,
+          "consensus_criticality": 0.6725
+        },
+        {
+          "pos1": 274,
+          "consensus_criticality": 0.6699
+        }
+      ]
+    },
+    "TERC": {
+      "disease": "Dyskeratosis congenita (approx regions \u2014 secondary)",
+      "ref": "spread variant spectrum; not used as a primary gate",
+      "per_model": {
+        "rnafm": {
+          "has_feature": false,
+          "embed_region": null,
+          "embed_variant_pct": null
+        },
+        "erniarna": {
+          "has_feature": false,
+          "embed_region": null,
+          "embed_variant_pct": null
+        }
+      },
+      "consensus": {
+        "region": null,
+        "variant_pct": null
+      },
+      "novel_nominations": [
+        {
+          "pos1": 369,
+          "consensus_criticality": 0.8188
+        },
+        {
+          "pos1": 164,
+          "consensus_criticality": 0.7929
+        },
+        {
+          "pos1": 451,
+          "consensus_criticality": 0.7927
+        },
+        {
+          "pos1": 436,
+          "consensus_criticality": 0.7907
+        },
+        {
+          "pos1": 443,
+          "consensus_criticality": 0.7886
+        },
+        {
+          "pos1": 173,
+          "consensus_criticality": 0.781
+        },
+        {
+          "pos1": 51,
+          "consensus_criticality": 0.7784
+        },
+        {
+          "pos1": 224,
+          "consensus_criticality": 0.7765
+        },
+        {
+          "pos1": 37,
+          "consensus_criticality": 0.7741
+        },
+        {
+          "pos1": 433,
+          "consensus_criticality": 0.7729
+        }
+      ]
+    }
+  }
+}

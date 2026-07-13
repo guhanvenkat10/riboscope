@@ -1,0 +1,264 @@
+{
+  "gene": "RNU4-2",
+  "n_vus": 37,
+  "n_vus_in_range": 37,
+  "n_vus_with_sge": 37,
+  "auc_crit_vs_sge_damaging": 0.755,
+  "sge_damaging_threshold": -0.5,
+  "nominated_pathogenic_sge_confirmed": [
+    {
+      "variant": "n.121T>A",
+      "pos": 121,
+      "criticality": 0.9263,
+      "sge_score": -0.6374
+    },
+    {
+      "variant": "n.7G>C",
+      "pos": 7,
+      "criticality": 0.8989,
+      "sge_score": -0.9734
+    },
+    {
+      "variant": "n.44A>T",
+      "pos": 44,
+      "criticality": 0.8708,
+      "sge_score": -1.3525
+    },
+    {
+      "variant": "n.78A>C",
+      "pos": 78,
+      "criticality": 0.8536,
+      "sge_score": -1.2191
+    },
+    {
+      "variant": "n.27C>G",
+      "pos": 27,
+      "criticality": 0.8165,
+      "sge_score": -0.9005
+    }
+  ],
+  "all_vus_ranked": [
+    {
+      "variant": "n.125G>A",
+      "pos": 125,
+      "criticality": 0.9471,
+      "sge_score": -0.279
+    },
+    {
+      "variant": "n.121T>A",
+      "pos": 121,
+      "criticality": 0.9263,
+      "sge_score": -0.6374
+    },
+    {
+      "variant": "n.61A>G",
+      "pos": 61,
+      "criticality": 0.9169,
+      "sge_score": 0.1148
+    },
+    {
+      "variant": "n.7G>C",
+      "pos": 7,
+      "criticality": 0.8989,
+      "sge_score": -0.9734
+    },
+    {
+      "variant": "n.140G>A",
+      "pos": 140,
+      "criticality": 0.8863,
+      "sge_score": -0.3946
+    },
+    {
+      "variant": "n.65A>G",
+      "pos": 65,
+      "criticality": 0.8721,
+      "sge_score": -0.4278
+    },
+    {
+      "variant": "n.44A>T",
+      "pos": 44,
+      "criticality": 0.8708,
+      "sge_score": -1.3525
+    },
+    {
+      "variant": "n.78A>C",
+      "pos": 78,
+      "criticality": 0.8536,
+      "sge_score": -1.2191
+    },
+    {
+      "variant": "n.76C>T",
+      "pos": 76,
+      "criticality": 0.85,
+      "sge_score": -0.4698
+    },
+    {
+      "variant": "n.111C>T",
+      "pos": 111,
+      "criticality": 0.8489,
+      "sge_score": 0.0929
+    },
+    {
+      "variant": "n.133C>T",
+      "pos": 133,
+      "criticality": 0.8414,
+      "sge_score": -0.0181
+    },
+    {
+      "variant": "n.33A>G",
+      "pos": 33,
+      "criticality": 0.8321,
+      "sge_score": -0.4014
+    },
+    {
+      "variant": "n.129G>A",
+      "pos": 129,
+      "criticality": 0.8238,
+      "sge_score": -0.4703
+    },
+    {
+      "variant": "n.129G>C",
+      "pos": 129,
+      "criticality": 0.8238,
+      "sge_score": -0.4879
+    },
+    {
+      "variant": "n.127C>T",
+      "pos": 127,
+      "criticality": 0.8236,
+      "sge_score": -0.2256
+    },
+    {
+      "variant": "n.105A>T",
+      "pos": 105,
+      "criticality": 0.8217,
+      "sge_score": 0.118
+    },
+    {
+      "variant": "n.27C>G",
+      "pos": 27,
+      "criticality": 0.8165,
+      "sge_score": -0.9005
+    },
+    {
+      "variant": "n.27C>T",
+      "pos": 27,
+      "criticality": 0.8165,
+      "sge_score": -0.1435
+    },
+    {
+      "variant": "n.42C>G",
+      "pos": 42,
+      "criticality": 0.8093,
+      "sge_score": -0.1269
+    },
+    {
+      "variant": "n.50G>A",
+      "pos": 50,
+      "criticality": 0.7978,
+      "sge_score": -0.3525
+    },
+    {
+      "variant": "n.50G>C",
+      "pos": 50,
+      "criticality": 0.7978,
+      "sge_score": -0.1674
+    },
+    {
+      "variant": "n.50G>T",
+      "pos": 50,
+      "criticality": 0.7978,
+      "sge_score": -0.0651
+    },
+    {
+      "variant": "n.41C>T",
+      "pos": 41,
+      "criticality": 0.7973,
+      "sge_score": 0.042
+    },
+    {
+      "variant": "n.41C>G",
+      "pos": 41,
+      "criticality": 0.7973,
+      "sge_score": -0.2784
+    },
+    {
+      "variant": "n.26G>A",
+      "pos": 26,
+      "criticality": 0.7903,
+      "sge_score": -0.3179
+    },
+    {
+      "variant": "n.92C>G",
+      "pos": 92,
+      "criticality": 0.7869,
+      "sge_score": -0.0808
+    },
+    {
+      "variant": "n.3C>T",
+      "pos": 3,
+      "criticality": 0.7834,
+      "sge_score": -0.1913
+    },
+    {
+      "variant": "n.28C>G",
+      "pos": 28,
+      "criticality": 0.7806,
+      "sge_score": -0.7395
+    },
+    {
+      "variant": "n.134T>C",
+      "pos": 134,
+      "criticality": 0.7802,
+      "sge_score": 0.0277
+    },
+    {
+      "variant": "n.107T>C",
+      "pos": 107,
+      "criticality": 0.7796,
+      "sge_score": -0.3069
+    },
+    {
+      "variant": "n.86C>T",
+      "pos": 86,
+      "criticality": 0.7764,
+      "sge_score": -0.1043
+    },
+    {
+      "variant": "n.49C>T",
+      "pos": 49,
+      "criticality": 0.7552,
+      "sge_score": 0.0771
+    },
+    {
+      "variant": "n.23G>A",
+      "pos": 23,
+      "criticality": 0.7251,
+      "sge_score": -0.1374
+    },
+    {
+      "variant": "n.30A>T",
+      "pos": 30,
+      "criticality": 0.7163,
+      "sge_score": -0.253
+    },
+    {
+      "variant": "n.22C>T",
+      "pos": 22,
+      "criticality": 0.715,
+      "sge_score": 0.0015
+    },
+    {
+      "variant": "n.8C>T",
+      "pos": 8,
+      "criticality": 0.7131,
+      "sge_score": -0.1759
+    },
+    {
+      "variant": "n.141A>G",
+      "pos": 141,
+      "criticality": 0.6796,
+      "sge_score": -0.0224
+    }
+  ]
+}

@@ -1,0 +1,6236 @@
+{
+  "models": {
+    "rnafm": {
+      "d_dict": 8192,
+      "label": "RNA-FM",
+      "layer": 6
+    },
+    "erniarna": {
+      "d_dict": 8192,
+      "label": "ErnieRNA",
+      "layer": 6
+    },
+    "rnamsm_msa": {
+      "d_dict": 4096,
+      "label": "RNA-MSM (MSA, in-dist)",
+      "layer": 8
+    },
+    "rnamsm_single": {
+      "d_dict": 4096,
+      "label": "RNA-MSM (single, OOD ctrl)",
+      "layer": 8
+    }
+  },
+  "settings": {
+    "magnitude_threshold_frac": 0.25,
+    "jaccard_threshold": 0.5,
+    "min_families_per_feature": 2,
+    "max_families_per_feature": 9,
+    "skip_special_tokens": true,
+    "shared_family_restriction": true,
+    "specific_features_only": true
+  },
+  "pairs": [
+    {
+      "model_a": "rnafm",
+      "model_b": "erniarna",
+      "n_shared_families": 3979,
+      "n_reciprocal_matches": 11,
+      "matches": [
+        {
+          "feat_a": 1497,
+          "feat_b": 73,
+          "jaccard": 1.0,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00010",
+            "RF00011",
+            "RF00373"
+          ]
+        },
+        {
+          "feat_a": 1809,
+          "feat_b": 1490,
+          "jaccard": 1.0,
+          "n_families_a": 4,
+          "n_families_b": 4,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00012",
+            "RF01846",
+            "RF01847",
+            "RF01848"
+          ]
+        },
+        {
+          "feat_a": 4022,
+          "feat_b": 3200,
+          "jaccard": 0.7777777910232544,
+          "n_families_a": 8,
+          "n_families_b": 8,
+          "n_shared_families": 7,
+          "shared_families_sample": [
+            "RF00010",
+            "RF00011",
+            "RF00023",
+            "RF01849",
+            "RF01850",
+            "RF01851",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 130,
+          "feat_b": 22,
+          "jaccard": 0.75,
+          "n_families_a": 3,
+          "n_families_b": 4,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00023",
+            "RF01854",
+            "RF01857"
+          ]
+        },
+        {
+          "feat_a": 902,
+          "feat_b": 3116,
+          "jaccard": 0.75,
+          "n_families_a": 4,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF01849",
+            "RF01850",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 3916,
+          "feat_b": 924,
+          "jaccard": 0.7142857313156128,
+          "n_families_a": 6,
+          "n_families_b": 6,
+          "n_shared_families": 5,
+          "shared_families_sample": [
+            "RF00017",
+            "RF01854",
+            "RF01855",
+            "RF01857",
+            "RF02514"
+          ]
+        },
+        {
+          "feat_a": 1215,
+          "feat_b": 2454,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00017",
+            "RF01855"
+          ]
+        },
+        {
+          "feat_a": 1348,
+          "feat_b": 2043,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00004",
+            "RF00020"
+          ]
+        },
+        {
+          "feat_a": 1466,
+          "feat_b": 3003,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00015",
+            "RF00618"
+          ]
+        },
+        {
+          "feat_a": 1010,
+          "feat_b": 2695,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF04097",
+            "RF04150"
+          ]
+        },
+        {
+          "feat_a": 1372,
+          "feat_b": 2237,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01794",
+            "RF04097"
+          ]
+        }
+      ]
+    },
+    {
+      "model_a": "rnafm",
+      "model_b": "rnamsm_msa",
+      "n_shared_families": 99,
+      "n_reciprocal_matches": 95,
+      "matches": [
+        {
+          "feat_a": 295,
+          "feat_b": 1824,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00554",
+            "RF00561"
+          ]
+        },
+        {
+          "feat_a": 329,
+          "feat_b": 1621,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00013",
+            "RF00634"
+          ]
+        },
+        {
+          "feat_a": 487,
+          "feat_b": 1647,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01846",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 1109,
+          "feat_b": 2273,
+          "jaccard": 1.0,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00071",
+            "RF00151",
+            "RF00476"
+          ]
+        },
+        {
+          "feat_a": 1182,
+          "feat_b": 4050,
+          "jaccard": 1.0,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00036",
+            "RF00209",
+            "RF02035"
+          ]
+        },
+        {
+          "feat_a": 1552,
+          "feat_b": 1544,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02452",
+            "RF03028"
+          ]
+        },
+        {
+          "feat_a": 1645,
+          "feat_b": 2398,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02035",
+            "RF03146"
+          ]
+        },
+        {
+          "feat_a": 1708,
+          "feat_b": 1654,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00233",
+            "RF03071"
+          ]
+        },
+        {
+          "feat_a": 2147,
+          "feat_b": 1584,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00059",
+            "RF00634"
+          ]
+        },
+        {
+          "feat_a": 5395,
+          "feat_b": 3439,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00409",
+            "RF00554"
+          ]
+        },
+        {
+          "feat_a": 515,
+          "feat_b": 1987,
+          "jaccard": 0.75,
+          "n_families_a": 6,
+          "n_families_b": 8,
+          "n_shared_families": 6,
+          "shared_families_sample": [
+            "RF00024",
+            "RF00036",
+            "RF00209",
+            "RF03028",
+            "RF03077",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 1388,
+          "feat_b": 1297,
+          "jaccard": 0.75,
+          "n_families_a": 3,
+          "n_families_b": 4,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00071",
+            "RF04344",
+            "RF04352"
+          ]
+        },
+        {
+          "feat_a": 670,
+          "feat_b": 1717,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF03151",
+            "RF03544"
+          ]
+        },
+        {
+          "feat_a": 773,
+          "feat_b": 1238,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF04344",
+            "RF04352"
+          ]
+        },
+        {
+          "feat_a": 876,
+          "feat_b": 856,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00209",
+            "RF02956"
+          ]
+        },
+        {
+          "feat_a": 890,
+          "feat_b": 1667,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00209",
+            "RF03159"
+          ]
+        },
+        {
+          "feat_a": 956,
+          "feat_b": 1201,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00024",
+            "RF00209"
+          ]
+        },
+        {
+          "feat_a": 1059,
+          "feat_b": 1615,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02956",
+            "RF03159"
+          ]
+        },
+        {
+          "feat_a": 1068,
+          "feat_b": 1788,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00029",
+            "RF00059"
+          ]
+        },
+        {
+          "feat_a": 1080,
+          "feat_b": 1899,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF03065",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 1192,
+          "feat_b": 1691,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00209",
+            "RF03028"
+          ]
+        },
+        {
+          "feat_a": 1257,
+          "feat_b": 1557,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF03019",
+            "RF03077"
+          ]
+        },
+        {
+          "feat_a": 1265,
+          "feat_b": 2263,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02682",
+            "RF03149"
+          ]
+        },
+        {
+          "feat_a": 1351,
+          "feat_b": 1705,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00071",
+            "RF02952"
+          ]
+        },
+        {
+          "feat_a": 1463,
+          "feat_b": 1979,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00561",
+            "RF03151"
+          ]
+        },
+        {
+          "feat_a": 1485,
+          "feat_b": 1657,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01699",
+            "RF01999"
+          ]
+        },
+        {
+          "feat_a": 1613,
+          "feat_b": 776,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00013",
+            "RF00209"
+          ]
+        },
+        {
+          "feat_a": 1648,
+          "feat_b": 1337,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02035",
+            "RF02965"
+          ]
+        },
+        {
+          "feat_a": 1654,
+          "feat_b": 326,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00029",
+            "RF01831"
+          ]
+        },
+        {
+          "feat_a": 1763,
+          "feat_b": 1906,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00600",
+            "RF01229"
+          ]
+        },
+        {
+          "feat_a": 4039,
+          "feat_b": 2198,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00494",
+            "RF02682"
+          ]
+        },
+        {
+          "feat_a": 5982,
+          "feat_b": 268,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01116",
+            "RF03013"
+          ]
+        },
+        {
+          "feat_a": 8159,
+          "feat_b": 1556,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00013",
+            "RF01794"
+          ]
+        },
+        {
+          "feat_a": 960,
+          "feat_b": 1569,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 3,
+          "n_families_b": 5,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00024",
+            "RF00209",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 1117,
+          "feat_b": 1089,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 4,
+          "n_families_b": 4,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00024",
+            "RF03077",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 1148,
+          "feat_b": 2144,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 3,
+          "n_families_b": 5,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00409",
+            "RF00443",
+            "RF00561"
+          ]
+        },
+        {
+          "feat_a": 3232,
+          "feat_b": 3684,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 4,
+          "n_families_b": 4,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF04344",
+            "RF04351",
+            "RF04352"
+          ]
+        },
+        {
+          "feat_a": 7249,
+          "feat_b": 90,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 8,
+          "n_families_b": 8,
+          "n_shared_families": 6,
+          "shared_families_sample": [
+            "RF00013",
+            "RF00029",
+            "RF00059",
+            "RF00634",
+            "RF01695",
+            "RF03012"
+          ]
+        },
+        {
+          "feat_a": 422,
+          "feat_b": 2318,
+          "jaccard": 0.5714285969734192,
+          "n_families_a": 5,
+          "n_families_b": 6,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00013",
+            "RF00059",
+            "RF00553",
+            "RF00634"
+          ]
+        },
+        {
+          "feat_a": 616,
+          "feat_b": 79,
+          "jaccard": 0.5714285969734192,
+          "n_families_a": 5,
+          "n_families_b": 6,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00013",
+            "RF00024",
+            "RF00209",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 1501,
+          "feat_b": 889,
+          "jaccard": 0.5714285969734192,
+          "n_families_a": 5,
+          "n_families_b": 6,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00029",
+            "RF01699",
+            "RF01831",
+            "RF01999"
+          ]
+        },
+        {
+          "feat_a": 5268,
+          "feat_b": 2138,
+          "jaccard": 0.5714285969734192,
+          "n_families_a": 6,
+          "n_families_b": 5,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF01229",
+            "RF01695",
+            "RF01884",
+            "RF02141"
+          ]
+        },
+        {
+          "feat_a": 816,
+          "feat_b": 2103,
+          "jaccard": 0.5555555820465088,
+          "n_families_a": 5,
+          "n_families_b": 9,
+          "n_shared_families": 5,
+          "shared_families_sample": [
+            "RF00257",
+            "RF00754",
+            "RF01844",
+            "RF02965",
+            "RF02976"
+          ]
+        },
+        {
+          "feat_a": 1647,
+          "feat_b": 819,
+          "jaccard": 0.5555555820465088,
+          "n_families_a": 8,
+          "n_families_b": 6,
+          "n_shared_families": 5,
+          "shared_families_sample": [
+            "RF00013",
+            "RF00029",
+            "RF00634",
+            "RF01695",
+            "RF04352"
+          ]
+        },
+        {
+          "feat_a": 29,
+          "feat_b": 1677,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00004",
+            "RF00013"
+          ]
+        },
+        {
+          "feat_a": 194,
+          "feat_b": 1028,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00476",
+            "RF00609"
+          ]
+        },
+        {
+          "feat_a": 285,
+          "feat_b": 1908,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00013",
+            "RF00096"
+          ]
+        },
+        {
+          "feat_a": 378,
+          "feat_b": 1082,
+          "jaccard": 0.5,
+          "n_families_a": 8,
+          "n_families_b": 7,
+          "n_shared_families": 5,
+          "shared_families_sample": [
+            "RF00071",
+            "RF00476",
+            "RF00609",
+            "RF02952",
+            "RF04344"
+          ]
+        },
+        {
+          "feat_a": 407,
+          "feat_b": 1852,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01699",
+            "RF01794"
+          ]
+        },
+        {
+          "feat_a": 505,
+          "feat_b": 1512,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00754",
+            "RF04352"
+          ]
+        },
+        {
+          "feat_a": 674,
+          "feat_b": 1741,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00013",
+            "RF03077"
+          ]
+        },
+        {
+          "feat_a": 688,
+          "feat_b": 1892,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00004",
+            "RF00754"
+          ]
+        },
+        {
+          "feat_a": 746,
+          "feat_b": 1109,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 5,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF01844",
+            "RF02179",
+            "RF02976"
+          ]
+        },
+        {
+          "feat_a": 747,
+          "feat_b": 1869,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01116",
+            "RF03015"
+          ]
+        },
+        {
+          "feat_a": 763,
+          "feat_b": 948,
+          "jaccard": 0.5,
+          "n_families_a": 6,
+          "n_families_b": 6,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00155",
+            "RF00409",
+            "RF00425",
+            "RF01233"
+          ]
+        },
+        {
+          "feat_a": 764,
+          "feat_b": 792,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01853",
+            "RF03032"
+          ]
+        },
+        {
+          "feat_a": 814,
+          "feat_b": 1867,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00754",
+            "RF02965"
+          ]
+        },
+        {
+          "feat_a": 856,
+          "feat_b": 1478,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 5,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00013",
+            "RF00442",
+            "RF02954"
+          ]
+        },
+        {
+          "feat_a": 858,
+          "feat_b": 188,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02141",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 874,
+          "feat_b": 1324,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 5,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00609",
+            "RF02937",
+            "RF02954"
+          ]
+        },
+        {
+          "feat_a": 877,
+          "feat_b": 1807,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 5,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00405",
+            "RF00443",
+            "RF00600"
+          ]
+        },
+        {
+          "feat_a": 884,
+          "feat_b": 2173,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02502",
+            "RF02976"
+          ]
+        },
+        {
+          "feat_a": 910,
+          "feat_b": 2260,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00004",
+            "RF03127"
+          ]
+        },
+        {
+          "feat_a": 924,
+          "feat_b": 1198,
+          "jaccard": 0.5,
+          "n_families_a": 9,
+          "n_families_b": 9,
+          "n_shared_families": 6,
+          "shared_families_sample": [
+            "RF01745",
+            "RF03019",
+            "RF03028",
+            "RF03077",
+            "RF03159",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 963,
+          "feat_b": 1287,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00257",
+            "RF03013"
+          ]
+        },
+        {
+          "feat_a": 971,
+          "feat_b": 1211,
+          "jaccard": 0.5,
+          "n_families_a": 9,
+          "n_families_b": 9,
+          "n_shared_families": 6,
+          "shared_families_sample": [
+            "RF00024",
+            "RF00059",
+            "RF00209",
+            "RF03065",
+            "RF03159",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 1003,
+          "feat_b": 2122,
+          "jaccard": 0.5,
+          "n_families_a": 5,
+          "n_families_b": 4,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00013",
+            "RF00059",
+            "RF01699"
+          ]
+        },
+        {
+          "feat_a": 1040,
+          "feat_b": 1421,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00013",
+            "RF00490"
+          ]
+        },
+        {
+          "feat_a": 1047,
+          "feat_b": 53,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01999",
+            "RF02188"
+          ]
+        },
+        {
+          "feat_a": 1060,
+          "feat_b": 1947,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00036",
+            "RF03028"
+          ]
+        },
+        {
+          "feat_a": 1063,
+          "feat_b": 1547,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00029",
+            "RF00754"
+          ]
+        },
+        {
+          "feat_a": 1067,
+          "feat_b": 2447,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00190",
+            "RF00425"
+          ]
+        },
+        {
+          "feat_a": 1145,
+          "feat_b": 2350,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00554",
+            "RF01229"
+          ]
+        },
+        {
+          "feat_a": 1160,
+          "feat_b": 878,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00233",
+            "RF02976"
+          ]
+        },
+        {
+          "feat_a": 1213,
+          "feat_b": 2005,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00190",
+            "RF01794"
+          ]
+        },
+        {
+          "feat_a": 1285,
+          "feat_b": 3170,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00442",
+            "RF03127"
+          ]
+        },
+        {
+          "feat_a": 1338,
+          "feat_b": 209,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00405",
+            "RF00431"
+          ]
+        },
+        {
+          "feat_a": 1452,
+          "feat_b": 1561,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00013",
+            "RF03019"
+          ]
+        },
+        {
+          "feat_a": 1477,
+          "feat_b": 1913,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00209",
+            "RF02141"
+          ]
+        },
+        {
+          "feat_a": 1507,
+          "feat_b": 1046,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00443",
+            "RF00782"
+          ]
+        },
+        {
+          "feat_a": 1522,
+          "feat_b": 538,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00431",
+            "RF01229"
+          ]
+        },
+        {
+          "feat_a": 1596,
+          "feat_b": 3177,
+          "jaccard": 0.5,
+          "n_families_a": 5,
+          "n_families_b": 4,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF01116",
+            "RF01781",
+            "RF04351"
+          ]
+        },
+        {
+          "feat_a": 1616,
+          "feat_b": 215,
+          "jaccard": 0.5,
+          "n_families_a": 7,
+          "n_families_b": 8,
+          "n_shared_families": 5,
+          "shared_families_sample": [
+            "RF00155",
+            "RF00409",
+            "RF00443",
+            "RF00554",
+            "RF01229"
+          ]
+        },
+        {
+          "feat_a": 1651,
+          "feat_b": 1192,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF03146",
+            "RF03159"
+          ]
+        },
+        {
+          "feat_a": 1726,
+          "feat_b": 2233,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00409",
+            "RF00425"
+          ]
+        },
+        {
+          "feat_a": 2347,
+          "feat_b": 897,
+          "jaccard": 0.5,
+          "n_families_a": 5,
+          "n_families_b": 7,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00024",
+            "RF01745",
+            "RF01846",
+            "RF02141"
+          ]
+        },
+        {
+          "feat_a": 2536,
+          "feat_b": 1315,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00013",
+            "RF04352"
+          ]
+        },
+        {
+          "feat_a": 2901,
+          "feat_b": 420,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 6,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF01794",
+            "RF03019",
+            "RF03159"
+          ]
+        },
+        {
+          "feat_a": 5710,
+          "feat_b": 734,
+          "jaccard": 0.5,
+          "n_families_a": 7,
+          "n_families_b": 5,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00609",
+            "RF01844",
+            "RF02682",
+            "RF02965"
+          ]
+        },
+        {
+          "feat_a": 6274,
+          "feat_b": 1895,
+          "jaccard": 0.5,
+          "n_families_a": 6,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00004",
+            "RF00096",
+            "RF02035"
+          ]
+        },
+        {
+          "feat_a": 6506,
+          "feat_b": 867,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00167",
+            "RF01770"
+          ]
+        },
+        {
+          "feat_a": 7251,
+          "feat_b": 850,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00059",
+            "RF01794"
+          ]
+        },
+        {
+          "feat_a": 7386,
+          "feat_b": 1391,
+          "jaccard": 0.5,
+          "n_families_a": 7,
+          "n_families_b": 8,
+          "n_shared_families": 5,
+          "shared_families_sample": [
+            "RF00071",
+            "RF00151",
+            "RF00476",
+            "RF00494",
+            "RF03075"
+          ]
+        },
+        {
+          "feat_a": 7451,
+          "feat_b": 2076,
+          "jaccard": 0.5,
+          "n_families_a": 9,
+          "n_families_b": 9,
+          "n_shared_families": 6,
+          "shared_families_sample": [
+            "RF00013",
+            "RF00024",
+            "RF01699",
+            "RF02035",
+            "RF02141",
+            "RF02682"
+          ]
+        },
+        {
+          "feat_a": 7587,
+          "feat_b": 885,
+          "jaccard": 0.5,
+          "n_families_a": 6,
+          "n_families_b": 9,
+          "n_shared_families": 5,
+          "shared_families_sample": [
+            "RF00013",
+            "RF00059",
+            "RF00442",
+            "RF00634",
+            "RF01699"
+          ]
+        }
+      ]
+    },
+    {
+      "model_a": "rnafm",
+      "model_b": "rnamsm_single",
+      "n_shared_families": 99,
+      "n_reciprocal_matches": 74,
+      "matches": [
+        {
+          "feat_a": 487,
+          "feat_b": 796,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01846",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 689,
+          "feat_b": 3559,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00024",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 752,
+          "feat_b": 608,
+          "jaccard": 1.0,
+          "n_families_a": 7,
+          "n_families_b": 7,
+          "n_shared_families": 7,
+          "shared_families_sample": [
+            "RF00024",
+            "RF00036",
+            "RF00209",
+            "RF01846",
+            "RF02141",
+            "RF03077",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 773,
+          "feat_b": 562,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF04344",
+            "RF04352"
+          ]
+        },
+        {
+          "feat_a": 910,
+          "feat_b": 2647,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00004",
+            "RF03127"
+          ]
+        },
+        {
+          "feat_a": 956,
+          "feat_b": 356,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00024",
+            "RF00209"
+          ]
+        },
+        {
+          "feat_a": 960,
+          "feat_b": 3404,
+          "jaccard": 1.0,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00024",
+            "RF00209",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 1054,
+          "feat_b": 229,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02452",
+            "RF03065"
+          ]
+        },
+        {
+          "feat_a": 1097,
+          "feat_b": 1666,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00036",
+            "RF00209"
+          ]
+        },
+        {
+          "feat_a": 1299,
+          "feat_b": 3970,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00004",
+            "RF02452"
+          ]
+        },
+        {
+          "feat_a": 1626,
+          "feat_b": 1898,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00006",
+            "RF01695"
+          ]
+        },
+        {
+          "feat_a": 2147,
+          "feat_b": 2528,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00059",
+            "RF00634"
+          ]
+        },
+        {
+          "feat_a": 515,
+          "feat_b": 675,
+          "jaccard": 0.8571428656578064,
+          "n_families_a": 6,
+          "n_families_b": 7,
+          "n_shared_families": 6,
+          "shared_families_sample": [
+            "RF00024",
+            "RF00036",
+            "RF00209",
+            "RF03028",
+            "RF03077",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 943,
+          "feat_b": 425,
+          "jaccard": 0.8571428656578064,
+          "n_families_a": 6,
+          "n_families_b": 7,
+          "n_shared_families": 6,
+          "shared_families_sample": [
+            "RF00024",
+            "RF00209",
+            "RF02141",
+            "RF03028",
+            "RF03077",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 1134,
+          "feat_b": 791,
+          "jaccard": 0.8333333134651184,
+          "n_families_a": 6,
+          "n_families_b": 5,
+          "n_shared_families": 5,
+          "shared_families_sample": [
+            "RF00024",
+            "RF00209",
+            "RF01731",
+            "RF01846",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 980,
+          "feat_b": 250,
+          "jaccard": 0.800000011920929,
+          "n_families_a": 9,
+          "n_families_b": 9,
+          "n_shared_families": 8,
+          "shared_families_sample": [
+            "RF00024",
+            "RF00209",
+            "RF01745",
+            "RF01846",
+            "RF02141",
+            "RF03028",
+            "RF03077",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 628,
+          "feat_b": 972,
+          "jaccard": 0.75,
+          "n_families_a": 3,
+          "n_families_b": 4,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF04337",
+            "RF04344",
+            "RF04352"
+          ]
+        },
+        {
+          "feat_a": 848,
+          "feat_b": 2913,
+          "jaccard": 0.75,
+          "n_families_a": 3,
+          "n_families_b": 4,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00024",
+            "RF00209",
+            "RF03077"
+          ]
+        },
+        {
+          "feat_a": 1117,
+          "feat_b": 3155,
+          "jaccard": 0.75,
+          "n_families_a": 4,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00024",
+            "RF03077",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 1206,
+          "feat_b": 576,
+          "jaccard": 0.75,
+          "n_families_a": 4,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF03075",
+            "RF04344",
+            "RF04352"
+          ]
+        },
+        {
+          "feat_a": 1534,
+          "feat_b": 2896,
+          "jaccard": 0.75,
+          "n_families_a": 3,
+          "n_families_b": 4,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00024",
+            "RF02141",
+            "RF03077"
+          ]
+        },
+        {
+          "feat_a": 791,
+          "feat_b": 52,
+          "jaccard": 0.7142857313156128,
+          "n_families_a": 7,
+          "n_families_b": 5,
+          "n_shared_families": 5,
+          "shared_families_sample": [
+            "RF02190",
+            "RF02452",
+            "RF03065",
+            "RF03077",
+            "RF03159"
+          ]
+        },
+        {
+          "feat_a": 108,
+          "feat_b": 2305,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00004",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 251,
+          "feat_b": 427,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01846",
+            "RF03028"
+          ]
+        },
+        {
+          "feat_a": 550,
+          "feat_b": 412,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00013",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 553,
+          "feat_b": 2652,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00431",
+            "RF00754"
+          ]
+        },
+        {
+          "feat_a": 811,
+          "feat_b": 3650,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00151",
+            "RF04351"
+          ]
+        },
+        {
+          "feat_a": 863,
+          "feat_b": 893,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 5,
+          "n_families_b": 5,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00209",
+            "RF01745",
+            "RF03077",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 985,
+          "feat_b": 3420,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 5,
+          "n_families_b": 5,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00634",
+            "RF02928",
+            "RF02953",
+            "RF03063"
+          ]
+        },
+        {
+          "feat_a": 1003,
+          "feat_b": 898,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 5,
+          "n_families_b": 5,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00013",
+            "RF00059",
+            "RF01699",
+            "RF01794"
+          ]
+        },
+        {
+          "feat_a": 1068,
+          "feat_b": 1443,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00029",
+            "RF00059"
+          ]
+        },
+        {
+          "feat_a": 1213,
+          "feat_b": 3070,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01731",
+            "RF01794"
+          ]
+        },
+        {
+          "feat_a": 1228,
+          "feat_b": 3019,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01999",
+            "RF03063"
+          ]
+        },
+        {
+          "feat_a": 1338,
+          "feat_b": 1809,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00431",
+            "RF01233"
+          ]
+        },
+        {
+          "feat_a": 1347,
+          "feat_b": 2074,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02348",
+            "RF03080"
+          ]
+        },
+        {
+          "feat_a": 1363,
+          "feat_b": 2058,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00013",
+            "RF02348"
+          ]
+        },
+        {
+          "feat_a": 1405,
+          "feat_b": 3043,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01846",
+            "RF02188"
+          ]
+        },
+        {
+          "feat_a": 1645,
+          "feat_b": 2211,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02035",
+            "RF03146"
+          ]
+        },
+        {
+          "feat_a": 3849,
+          "feat_b": 2261,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF04337",
+            "RF04341"
+          ]
+        },
+        {
+          "feat_a": 528,
+          "feat_b": 934,
+          "jaccard": 0.6363636255264282,
+          "n_families_a": 9,
+          "n_families_b": 9,
+          "n_shared_families": 7,
+          "shared_families_sample": [
+            "RF00024",
+            "RF01846",
+            "RF02190",
+            "RF02452",
+            "RF03065",
+            "RF03077",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 319,
+          "feat_b": 1645,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 4,
+          "n_families_b": 4,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00059",
+            "RF00167",
+            "RF00442"
+          ]
+        },
+        {
+          "feat_a": 678,
+          "feat_b": 1490,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 5,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00209",
+            "RF02956",
+            "RF03146"
+          ]
+        },
+        {
+          "feat_a": 768,
+          "feat_b": 1267,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 3,
+          "n_families_b": 5,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00071",
+            "RF00476",
+            "RF00609"
+          ]
+        },
+        {
+          "feat_a": 1699,
+          "feat_b": 1843,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 4,
+          "n_families_b": 4,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF01699",
+            "RF03019",
+            "RF03065"
+          ]
+        },
+        {
+          "feat_a": 725,
+          "feat_b": 2672,
+          "jaccard": 0.5714285969734192,
+          "n_families_a": 5,
+          "n_families_b": 6,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00561",
+            "RF01853",
+            "RF02179",
+            "RF03080"
+          ]
+        },
+        {
+          "feat_a": 1032,
+          "feat_b": 627,
+          "jaccard": 0.5555555820465088,
+          "n_families_a": 7,
+          "n_families_b": 7,
+          "n_shared_families": 5,
+          "shared_families_sample": [
+            "RF03075",
+            "RF04337",
+            "RF04344",
+            "RF04351",
+            "RF04352"
+          ]
+        },
+        {
+          "feat_a": 1561,
+          "feat_b": 2463,
+          "jaccard": 0.5555555820465088,
+          "n_families_a": 6,
+          "n_families_b": 8,
+          "n_shared_families": 5,
+          "shared_families_sample": [
+            "RF00782",
+            "RF01731",
+            "RF03077",
+            "RF03159",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 7122,
+          "feat_b": 50,
+          "jaccard": 0.5555555820465088,
+          "n_families_a": 8,
+          "n_families_b": 6,
+          "n_shared_families": 5,
+          "shared_families_sample": [
+            "RF00071",
+            "RF00494",
+            "RF01844",
+            "RF02682",
+            "RF04352"
+          ]
+        },
+        {
+          "feat_a": 505,
+          "feat_b": 1036,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00754",
+            "RF04351"
+          ]
+        },
+        {
+          "feat_a": 817,
+          "feat_b": 2544,
+          "jaccard": 0.5,
+          "n_families_a": 6,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00405",
+            "RF00431",
+            "RF00554"
+          ]
+        },
+        {
+          "feat_a": 890,
+          "feat_b": 1423,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00209",
+            "RF03159"
+          ]
+        },
+        {
+          "feat_a": 984,
+          "feat_b": 1276,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02682",
+            "RF02953"
+          ]
+        },
+        {
+          "feat_a": 999,
+          "feat_b": 1837,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02954",
+            "RF03032"
+          ]
+        },
+        {
+          "feat_a": 1002,
+          "feat_b": 1152,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00476",
+            "RF02952"
+          ]
+        },
+        {
+          "feat_a": 1067,
+          "feat_b": 944,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00190",
+            "RF00425"
+          ]
+        },
+        {
+          "feat_a": 1071,
+          "feat_b": 1745,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00754",
+            "RF01844"
+          ]
+        },
+        {
+          "feat_a": 1088,
+          "feat_b": 1566,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00257",
+            "RF01770"
+          ]
+        },
+        {
+          "feat_a": 1122,
+          "feat_b": 33,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 8,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00006",
+            "RF02179",
+            "RF02348",
+            "RF04339"
+          ]
+        },
+        {
+          "feat_a": 1153,
+          "feat_b": 2644,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02502",
+            "RF03077"
+          ]
+        },
+        {
+          "feat_a": 1167,
+          "feat_b": 409,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF04321",
+            "RF04337"
+          ]
+        },
+        {
+          "feat_a": 1197,
+          "feat_b": 3687,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02969",
+            "RF04339"
+          ]
+        },
+        {
+          "feat_a": 1335,
+          "feat_b": 3721,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01770",
+            "RF02348"
+          ]
+        },
+        {
+          "feat_a": 1351,
+          "feat_b": 1313,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00071",
+            "RF02952"
+          ]
+        },
+        {
+          "feat_a": 1397,
+          "feat_b": 2765,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00190",
+            "RF00600"
+          ]
+        },
+        {
+          "feat_a": 1474,
+          "feat_b": 3927,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02179",
+            "RF02937"
+          ]
+        },
+        {
+          "feat_a": 1496,
+          "feat_b": 1672,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01844",
+            "RF04337"
+          ]
+        },
+        {
+          "feat_a": 1517,
+          "feat_b": 1950,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 5,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00004",
+            "RF00600",
+            "RF02188"
+          ]
+        },
+        {
+          "feat_a": 1623,
+          "feat_b": 3256,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01695",
+            "RF03012"
+          ]
+        },
+        {
+          "feat_a": 1628,
+          "feat_b": 3783,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01781",
+            "RF03075"
+          ]
+        },
+        {
+          "feat_a": 1653,
+          "feat_b": 1042,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00006",
+            "RF01770"
+          ]
+        },
+        {
+          "feat_a": 1658,
+          "feat_b": 2897,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00431",
+            "RF04337"
+          ]
+        },
+        {
+          "feat_a": 1797,
+          "feat_b": 1139,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00059",
+            "RF02928"
+          ]
+        },
+        {
+          "feat_a": 2739,
+          "feat_b": 3587,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00029",
+            "RF00609"
+          ]
+        },
+        {
+          "feat_a": 3021,
+          "feat_b": 2361,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00476",
+            "RF02179"
+          ]
+        }
+      ]
+    },
+    {
+      "model_a": "erniarna",
+      "model_b": "rnamsm_msa",
+      "n_shared_families": 99,
+      "n_reciprocal_matches": 147,
+      "matches": [
+        {
+          "feat_a": 30,
+          "feat_b": 1556,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00013",
+            "RF01794"
+          ]
+        },
+        {
+          "feat_a": 1557,
+          "feat_b": 2184,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01884",
+            "RF03015"
+          ]
+        },
+        {
+          "feat_a": 1858,
+          "feat_b": 326,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00029",
+            "RF01831"
+          ]
+        },
+        {
+          "feat_a": 2384,
+          "feat_b": 856,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00209",
+            "RF02956"
+          ]
+        },
+        {
+          "feat_a": 2635,
+          "feat_b": 1773,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02965",
+            "RF03075"
+          ]
+        },
+        {
+          "feat_a": 3317,
+          "feat_b": 2273,
+          "jaccard": 1.0,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00071",
+            "RF00151",
+            "RF00476"
+          ]
+        },
+        {
+          "feat_a": 6118,
+          "feat_b": 1647,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01846",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 7166,
+          "feat_b": 765,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01699",
+            "RF01731"
+          ]
+        },
+        {
+          "feat_a": 1455,
+          "feat_b": 1906,
+          "jaccard": 0.75,
+          "n_families_a": 4,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00425",
+            "RF00600",
+            "RF01229"
+          ]
+        },
+        {
+          "feat_a": 1934,
+          "feat_b": 2238,
+          "jaccard": 0.75,
+          "n_families_a": 6,
+          "n_families_b": 8,
+          "n_shared_families": 6,
+          "shared_families_sample": [
+            "RF00194",
+            "RF01699",
+            "RF01731",
+            "RF01853",
+            "RF02965",
+            "RF02976"
+          ]
+        },
+        {
+          "feat_a": 2355,
+          "feat_b": 1557,
+          "jaccard": 0.75,
+          "n_families_a": 4,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF03019",
+            "RF03077",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 168,
+          "feat_b": 546,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02685",
+            "RF03032"
+          ]
+        },
+        {
+          "feat_a": 403,
+          "feat_b": 391,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00194",
+            "RF01999"
+          ]
+        },
+        {
+          "feat_a": 635,
+          "feat_b": 79,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 4,
+          "n_families_b": 6,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00024",
+            "RF00209",
+            "RF03077",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 714,
+          "feat_b": 2048,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02928",
+            "RF02937"
+          ]
+        },
+        {
+          "feat_a": 751,
+          "feat_b": 232,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00233",
+            "RF03127"
+          ]
+        },
+        {
+          "feat_a": 789,
+          "feat_b": 1987,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 7,
+          "n_families_b": 8,
+          "n_shared_families": 6,
+          "shared_families_sample": [
+            "RF00024",
+            "RF00036",
+            "RF00209",
+            "RF03028",
+            "RF03077",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 793,
+          "feat_b": 1899,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00233",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 1378,
+          "feat_b": 2965,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00409",
+            "RF02682"
+          ]
+        },
+        {
+          "feat_a": 1407,
+          "feat_b": 122,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00209",
+            "RF02188"
+          ]
+        },
+        {
+          "feat_a": 1442,
+          "feat_b": 1677,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00004",
+            "RF00013"
+          ]
+        },
+        {
+          "feat_a": 1528,
+          "feat_b": 3666,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00233",
+            "RF02348"
+          ]
+        },
+        {
+          "feat_a": 1562,
+          "feat_b": 1584,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00059",
+            "RF00634"
+          ]
+        },
+        {
+          "feat_a": 1657,
+          "feat_b": 1705,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00071",
+            "RF02952"
+          ]
+        },
+        {
+          "feat_a": 1689,
+          "feat_b": 2308,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF03013",
+            "RF03075"
+          ]
+        },
+        {
+          "feat_a": 1731,
+          "feat_b": 1812,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00442",
+            "RF01695"
+          ]
+        },
+        {
+          "feat_a": 1746,
+          "feat_b": 1355,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00233",
+            "RF01999"
+          ]
+        },
+        {
+          "feat_a": 1750,
+          "feat_b": 2148,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00545",
+            "RF02976"
+          ]
+        },
+        {
+          "feat_a": 1847,
+          "feat_b": 2313,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01853",
+            "RF03159"
+          ]
+        },
+        {
+          "feat_a": 1869,
+          "feat_b": 1361,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01844",
+            "RF02937"
+          ]
+        },
+        {
+          "feat_a": 1906,
+          "feat_b": 848,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00609",
+            "RF01229"
+          ]
+        },
+        {
+          "feat_a": 1938,
+          "feat_b": 4072,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00036",
+            "RF00155"
+          ]
+        },
+        {
+          "feat_a": 1981,
+          "feat_b": 1882,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01116",
+            "RF01699"
+          ]
+        },
+        {
+          "feat_a": 2046,
+          "feat_b": 2013,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00209",
+            "RF03019"
+          ]
+        },
+        {
+          "feat_a": 2100,
+          "feat_b": 1549,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02952",
+            "RF03075"
+          ]
+        },
+        {
+          "feat_a": 2261,
+          "feat_b": 784,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00425",
+            "RF00600"
+          ]
+        },
+        {
+          "feat_a": 2307,
+          "feat_b": 1242,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF03015",
+            "RF03127"
+          ]
+        },
+        {
+          "feat_a": 2385,
+          "feat_b": 1028,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00476",
+            "RF00609"
+          ]
+        },
+        {
+          "feat_a": 2447,
+          "feat_b": 1913,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00209",
+            "RF02141"
+          ]
+        },
+        {
+          "feat_a": 2486,
+          "feat_b": 1547,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00029",
+            "RF00754"
+          ]
+        },
+        {
+          "feat_a": 2489,
+          "feat_b": 2005,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00190",
+            "RF01794"
+          ]
+        },
+        {
+          "feat_a": 2757,
+          "feat_b": 1703,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00628",
+            "RF01846"
+          ]
+        },
+        {
+          "feat_a": 2774,
+          "feat_b": 1837,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF03077",
+            "RF04339"
+          ]
+        },
+        {
+          "feat_a": 2868,
+          "feat_b": 2167,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00442",
+            "RF01731"
+          ]
+        },
+        {
+          "feat_a": 2994,
+          "feat_b": 156,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00545",
+            "RF02179"
+          ]
+        },
+        {
+          "feat_a": 3948,
+          "feat_b": 1895,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00004",
+            "RF00096"
+          ]
+        },
+        {
+          "feat_a": 4464,
+          "feat_b": 1904,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00096",
+            "RF00545"
+          ]
+        },
+        {
+          "feat_a": 5178,
+          "feat_b": 1799,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00600",
+            "RF00782"
+          ]
+        },
+        {
+          "feat_a": 6697,
+          "feat_b": 2274,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00006",
+            "RF00554"
+          ]
+        },
+        {
+          "feat_a": 7193,
+          "feat_b": 1997,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00059",
+            "RF02452"
+          ]
+        },
+        {
+          "feat_a": 854,
+          "feat_b": 2624,
+          "jaccard": 0.625,
+          "n_families_a": 6,
+          "n_families_b": 7,
+          "n_shared_families": 5,
+          "shared_families_sample": [
+            "RF01116",
+            "RF02685",
+            "RF03012",
+            "RF03075",
+            "RF03544"
+          ]
+        },
+        {
+          "feat_a": 587,
+          "feat_b": 2173,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 5,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00006",
+            "RF02502",
+            "RF02976"
+          ]
+        },
+        {
+          "feat_a": 1022,
+          "feat_b": 2875,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 4,
+          "n_families_b": 4,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00405",
+            "RF00431",
+            "RF01229"
+          ]
+        },
+        {
+          "feat_a": 1073,
+          "feat_b": 2040,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 7,
+          "n_families_b": 9,
+          "n_shared_families": 6,
+          "shared_families_sample": [
+            "RF00425",
+            "RF00443",
+            "RF00545",
+            "RF00561",
+            "RF01233",
+            "RF01770"
+          ]
+        },
+        {
+          "feat_a": 1356,
+          "feat_b": 1192,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 5,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF01770",
+            "RF03146",
+            "RF03159"
+          ]
+        },
+        {
+          "feat_a": 1396,
+          "feat_b": 1672,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 5,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF02928",
+            "RF02937",
+            "RF02953"
+          ]
+        },
+        {
+          "feat_a": 1512,
+          "feat_b": 1297,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 4,
+          "n_families_b": 4,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00071",
+            "RF04344",
+            "RF04352"
+          ]
+        },
+        {
+          "feat_a": 2282,
+          "feat_b": 1908,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 5,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00013",
+            "RF00096",
+            "RF02954"
+          ]
+        },
+        {
+          "feat_a": 2413,
+          "feat_b": 2078,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 3,
+          "n_families_b": 5,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00425",
+            "RF00554",
+            "RF01781"
+          ]
+        },
+        {
+          "feat_a": 2571,
+          "feat_b": 2230,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 4,
+          "n_families_b": 4,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF01770",
+            "RF02502",
+            "RF02969"
+          ]
+        },
+        {
+          "feat_a": 2904,
+          "feat_b": 538,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 4,
+          "n_families_b": 4,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00431",
+            "RF01229",
+            "RF01884"
+          ]
+        },
+        {
+          "feat_a": 654,
+          "feat_b": 3217,
+          "jaccard": 0.5714285969734192,
+          "n_families_a": 6,
+          "n_families_b": 5,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00029",
+            "RF00059",
+            "RF00442",
+            "RF00634"
+          ]
+        },
+        {
+          "feat_a": 2176,
+          "feat_b": 1082,
+          "jaccard": 0.5714285969734192,
+          "n_families_a": 4,
+          "n_families_b": 7,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00071",
+            "RF00476",
+            "RF00609",
+            "RF03012"
+          ]
+        },
+        {
+          "feat_a": 5427,
+          "feat_b": 948,
+          "jaccard": 0.5714285969734192,
+          "n_families_a": 5,
+          "n_families_b": 6,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00155",
+            "RF00409",
+            "RF00425",
+            "RF00554"
+          ]
+        },
+        {
+          "feat_a": 2896,
+          "feat_b": 1391,
+          "jaccard": 0.5555555820465088,
+          "n_families_a": 6,
+          "n_families_b": 8,
+          "n_shared_families": 5,
+          "shared_families_sample": [
+            "RF00071",
+            "RF00151",
+            "RF00476",
+            "RF00494",
+            "RF03075"
+          ]
+        },
+        {
+          "feat_a": 5695,
+          "feat_b": 215,
+          "jaccard": 0.5454545617103577,
+          "n_families_a": 9,
+          "n_families_b": 8,
+          "n_shared_families": 6,
+          "shared_families_sample": [
+            "RF00155",
+            "RF00409",
+            "RF00443",
+            "RF00554",
+            "RF00600",
+            "RF01229"
+          ]
+        },
+        {
+          "feat_a": 7,
+          "feat_b": 2318,
+          "jaccard": 0.5,
+          "n_families_a": 6,
+          "n_families_b": 6,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00013",
+            "RF00059",
+            "RF00442",
+            "RF00634"
+          ]
+        },
+        {
+          "feat_a": 68,
+          "feat_b": 2438,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00013",
+            "RF00059"
+          ]
+        },
+        {
+          "feat_a": 409,
+          "feat_b": 1238,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF04344",
+            "RF04352"
+          ]
+        },
+        {
+          "feat_a": 494,
+          "feat_b": 209,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00405",
+            "RF00431"
+          ]
+        },
+        {
+          "feat_a": 505,
+          "feat_b": 2307,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01699",
+            "RF02188"
+          ]
+        },
+        {
+          "feat_a": 572,
+          "feat_b": 25,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00442",
+            "RF03071"
+          ]
+        },
+        {
+          "feat_a": 594,
+          "feat_b": 1324,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 5,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF02179",
+            "RF02937",
+            "RF02954"
+          ]
+        },
+        {
+          "feat_a": 632,
+          "feat_b": 1049,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01731",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 637,
+          "feat_b": 1813,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01745",
+            "RF01794"
+          ]
+        },
+        {
+          "feat_a": 674,
+          "feat_b": 2255,
+          "jaccard": 0.5,
+          "n_families_a": 5,
+          "n_families_b": 4,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00257",
+            "RF02348",
+            "RF04344"
+          ]
+        },
+        {
+          "feat_a": 687,
+          "feat_b": 2787,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00029",
+            "RF03012"
+          ]
+        },
+        {
+          "feat_a": 703,
+          "feat_b": 1659,
+          "jaccard": 0.5,
+          "n_families_a": 6,
+          "n_families_b": 6,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00024",
+            "RF00059",
+            "RF00209",
+            "RF02141"
+          ]
+        },
+        {
+          "feat_a": 737,
+          "feat_b": 1512,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00754",
+            "RF02682"
+          ]
+        },
+        {
+          "feat_a": 746,
+          "feat_b": 1772,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00006",
+            "RF00425"
+          ]
+        },
+        {
+          "feat_a": 752,
+          "feat_b": 1681,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00442",
+            "RF02035"
+          ]
+        },
+        {
+          "feat_a": 807,
+          "feat_b": 3070,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00553",
+            "RF02188"
+          ]
+        },
+        {
+          "feat_a": 837,
+          "feat_b": 2381,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00634",
+            "RF01999"
+          ]
+        },
+        {
+          "feat_a": 861,
+          "feat_b": 1760,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01699",
+            "RF01745"
+          ]
+        },
+        {
+          "feat_a": 912,
+          "feat_b": 1442,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01695",
+            "RF03159"
+          ]
+        },
+        {
+          "feat_a": 1010,
+          "feat_b": 1589,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00006",
+            "RF04345"
+          ]
+        },
+        {
+          "feat_a": 1015,
+          "feat_b": 1793,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00442",
+            "RF03063"
+          ]
+        },
+        {
+          "feat_a": 1040,
+          "feat_b": 2376,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01781",
+            "RF02928"
+          ]
+        },
+        {
+          "feat_a": 1105,
+          "feat_b": 1698,
+          "jaccard": 0.5,
+          "n_families_a": 6,
+          "n_families_b": 6,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF01794",
+            "RF02956",
+            "RF03065",
+            "RF03146"
+          ]
+        },
+        {
+          "feat_a": 1115,
+          "feat_b": 1841,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01770",
+            "RF01853"
+          ]
+        },
+        {
+          "feat_a": 1164,
+          "feat_b": 1025,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00190",
+            "RF00545"
+          ]
+        },
+        {
+          "feat_a": 1171,
+          "feat_b": 2666,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00006",
+            "RF00024"
+          ]
+        },
+        {
+          "feat_a": 1199,
+          "feat_b": 347,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00561",
+            "RF01233"
+          ]
+        },
+        {
+          "feat_a": 1203,
+          "feat_b": 2250,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00155",
+            "RF02035"
+          ]
+        },
+        {
+          "feat_a": 1260,
+          "feat_b": 86,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00071",
+            "RF02976"
+          ]
+        },
+        {
+          "feat_a": 1375,
+          "feat_b": 1667,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00209",
+            "RF03159"
+          ]
+        },
+        {
+          "feat_a": 1392,
+          "feat_b": 2349,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00425",
+            "RF01846"
+          ]
+        },
+        {
+          "feat_a": 1551,
+          "feat_b": 328,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00194",
+            "RF04351"
+          ]
+        },
+        {
+          "feat_a": 1554,
+          "feat_b": 1117,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01781",
+            "RF04351"
+          ]
+        },
+        {
+          "feat_a": 1559,
+          "feat_b": 1666,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 5,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF02452",
+            "RF02956",
+            "RF03159"
+          ]
+        },
+        {
+          "feat_a": 1597,
+          "feat_b": 2201,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00628",
+            "RF02928"
+          ]
+        },
+        {
+          "feat_a": 1599,
+          "feat_b": 190,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 5,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00155",
+            "RF00494",
+            "RF00609"
+          ]
+        },
+        {
+          "feat_a": 1605,
+          "feat_b": 2021,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00609",
+            "RF01844"
+          ]
+        },
+        {
+          "feat_a": 1660,
+          "feat_b": 1790,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02502",
+            "RF02928"
+          ]
+        },
+        {
+          "feat_a": 1666,
+          "feat_b": 510,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF03012",
+            "RF03071"
+          ]
+        },
+        {
+          "feat_a": 1776,
+          "feat_b": 3280,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01116",
+            "RF03544"
+          ]
+        },
+        {
+          "feat_a": 1779,
+          "feat_b": 699,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00096",
+            "RF00782"
+          ]
+        },
+        {
+          "feat_a": 1796,
+          "feat_b": 1619,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 5,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF01884",
+            "RF03080",
+            "RF03146"
+          ]
+        },
+        {
+          "feat_a": 1825,
+          "feat_b": 1521,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00059",
+            "RF00442"
+          ]
+        },
+        {
+          "feat_a": 1829,
+          "feat_b": 1888,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02035",
+            "RF03149"
+          ]
+        },
+        {
+          "feat_a": 1830,
+          "feat_b": 1337,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02965",
+            "RF03080"
+          ]
+        },
+        {
+          "feat_a": 1861,
+          "feat_b": 1263,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01853",
+            "RF03012"
+          ]
+        },
+        {
+          "feat_a": 1873,
+          "feat_b": 1264,
+          "jaccard": 0.5,
+          "n_families_a": 5,
+          "n_families_b": 7,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00405",
+            "RF00431",
+            "RF00553",
+            "RF01229"
+          ]
+        },
+        {
+          "feat_a": 1955,
+          "feat_b": 941,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00233",
+            "RF01831"
+          ]
+        },
+        {
+          "feat_a": 1986,
+          "feat_b": 2118,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00553",
+            "RF01999"
+          ]
+        },
+        {
+          "feat_a": 2042,
+          "feat_b": 1836,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02452",
+            "RF03077"
+          ]
+        },
+        {
+          "feat_a": 2073,
+          "feat_b": 1093,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01116",
+            "RF02141"
+          ]
+        },
+        {
+          "feat_a": 2082,
+          "feat_b": 3562,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02452",
+            "RF03159"
+          ]
+        },
+        {
+          "feat_a": 2214,
+          "feat_b": 195,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01731",
+            "RF03019"
+          ]
+        },
+        {
+          "feat_a": 2222,
+          "feat_b": 1421,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02401",
+            "RF03127"
+          ]
+        },
+        {
+          "feat_a": 2228,
+          "feat_b": 1379,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00634",
+            "RF01695"
+          ]
+        },
+        {
+          "feat_a": 2275,
+          "feat_b": 1500,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 8,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00782",
+            "RF02952",
+            "RF03019",
+            "RF03077"
+          ]
+        },
+        {
+          "feat_a": 2396,
+          "feat_b": 2391,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00059",
+            "RF00096"
+          ]
+        },
+        {
+          "feat_a": 2434,
+          "feat_b": 504,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01731",
+            "RF03146"
+          ]
+        },
+        {
+          "feat_a": 2465,
+          "feat_b": 1615,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02956",
+            "RF03159"
+          ]
+        },
+        {
+          "feat_a": 2475,
+          "feat_b": 2133,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02954",
+            "RF03028"
+          ]
+        },
+        {
+          "feat_a": 2608,
+          "feat_b": 2104,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00006",
+            "RF03080"
+          ]
+        },
+        {
+          "feat_a": 2742,
+          "feat_b": 1351,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00059",
+            "RF00233"
+          ]
+        },
+        {
+          "feat_a": 2788,
+          "feat_b": 2396,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02035",
+            "RF03065"
+          ]
+        },
+        {
+          "feat_a": 2791,
+          "feat_b": 1298,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00609",
+            "RF04345"
+          ]
+        },
+        {
+          "feat_a": 2823,
+          "feat_b": 1269,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF03013",
+            "RF03080"
+          ]
+        },
+        {
+          "feat_a": 2837,
+          "feat_b": 761,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00405",
+            "RF01233"
+          ]
+        },
+        {
+          "feat_a": 3047,
+          "feat_b": 779,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01116",
+            "RF01794"
+          ]
+        },
+        {
+          "feat_a": 3097,
+          "feat_b": 1542,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01695",
+            "RF04341"
+          ]
+        },
+        {
+          "feat_a": 3114,
+          "feat_b": 850,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00006",
+            "RF01794"
+          ]
+        },
+        {
+          "feat_a": 3293,
+          "feat_b": 1479,
+          "jaccard": 0.5,
+          "n_families_a": 5,
+          "n_families_b": 4,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00405",
+            "RF00409",
+            "RF00553"
+          ]
+        },
+        {
+          "feat_a": 3901,
+          "feat_b": 2145,
+          "jaccard": 0.5,
+          "n_families_a": 5,
+          "n_families_b": 4,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00405",
+            "RF01229",
+            "RF01781"
+          ]
+        },
+        {
+          "feat_a": 3908,
+          "feat_b": 1381,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00405",
+            "RF01229"
+          ]
+        },
+        {
+          "feat_a": 3913,
+          "feat_b": 1434,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00029",
+            "RF01699"
+          ]
+        },
+        {
+          "feat_a": 4009,
+          "feat_b": 2446,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 5,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00628",
+            "RF01731",
+            "RF02956"
+          ]
+        },
+        {
+          "feat_a": 4285,
+          "feat_b": 1624,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 5,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00059",
+            "RF00442",
+            "RF01831"
+          ]
+        },
+        {
+          "feat_a": 4376,
+          "feat_b": 36,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02348",
+            "RF04344"
+          ]
+        },
+        {
+          "feat_a": 6670,
+          "feat_b": 1943,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00006",
+            "RF00628"
+          ]
+        },
+        {
+          "feat_a": 7133,
+          "feat_b": 1132,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00494",
+            "RF02348"
+          ]
+        },
+        {
+          "feat_a": 7522,
+          "feat_b": 1403,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02348",
+            "RF03071"
+          ]
+        },
+        {
+          "feat_a": 7733,
+          "feat_b": 1561,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00013",
+            "RF02954"
+          ]
+        },
+        {
+          "feat_a": 8185,
+          "feat_b": 1478,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 5,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00004",
+            "RF00013",
+            "RF00442"
+          ]
+        }
+      ]
+    },
+    {
+      "model_a": "erniarna",
+      "model_b": "rnamsm_single",
+      "n_shared_families": 99,
+      "n_reciprocal_matches": 93,
+      "matches": [
+        {
+          "feat_a": 627,
+          "feat_b": 1042,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00006",
+            "RF01770"
+          ]
+        },
+        {
+          "feat_a": 635,
+          "feat_b": 3348,
+          "jaccard": 1.0,
+          "n_families_a": 4,
+          "n_families_b": 4,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00024",
+            "RF00209",
+            "RF03077",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 812,
+          "feat_b": 229,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02452",
+            "RF03065"
+          ]
+        },
+        {
+          "feat_a": 1171,
+          "feat_b": 2730,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00006",
+            "RF00024"
+          ]
+        },
+        {
+          "feat_a": 1373,
+          "feat_b": 3070,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01731",
+            "RF01794"
+          ]
+        },
+        {
+          "feat_a": 1755,
+          "feat_b": 4002,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01116",
+            "RF02682"
+          ]
+        },
+        {
+          "feat_a": 1934,
+          "feat_b": 62,
+          "jaccard": 1.0,
+          "n_families_a": 6,
+          "n_families_b": 6,
+          "n_shared_families": 6,
+          "shared_families_sample": [
+            "RF00194",
+            "RF01699",
+            "RF01731",
+            "RF01853",
+            "RF02965",
+            "RF02976"
+          ]
+        },
+        {
+          "feat_a": 2191,
+          "feat_b": 1157,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF03013",
+            "RF04341"
+          ]
+        },
+        {
+          "feat_a": 2326,
+          "feat_b": 2591,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF03077",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 2616,
+          "feat_b": 3970,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00004",
+            "RF02452"
+          ]
+        },
+        {
+          "feat_a": 3908,
+          "feat_b": 4033,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00405",
+            "RF01229"
+          ]
+        },
+        {
+          "feat_a": 6118,
+          "feat_b": 796,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01846",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 7133,
+          "feat_b": 1952,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00494",
+            "RF02348"
+          ]
+        },
+        {
+          "feat_a": 7166,
+          "feat_b": 143,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01699",
+            "RF01731"
+          ]
+        },
+        {
+          "feat_a": 789,
+          "feat_b": 250,
+          "jaccard": 0.7777777910232544,
+          "n_families_a": 7,
+          "n_families_b": 9,
+          "n_shared_families": 7,
+          "shared_families_sample": [
+            "RF00024",
+            "RF00036",
+            "RF00209",
+            "RF01745",
+            "RF03028",
+            "RF03077",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 1015,
+          "feat_b": 1645,
+          "jaccard": 0.75,
+          "n_families_a": 3,
+          "n_families_b": 4,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00059",
+            "RF00442",
+            "RF03063"
+          ]
+        },
+        {
+          "feat_a": 1217,
+          "feat_b": 2544,
+          "jaccard": 0.75,
+          "n_families_a": 4,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00405",
+            "RF00431",
+            "RF00554"
+          ]
+        },
+        {
+          "feat_a": 1219,
+          "feat_b": 425,
+          "jaccard": 0.75,
+          "n_families_a": 7,
+          "n_families_b": 7,
+          "n_shared_families": 6,
+          "shared_families_sample": [
+            "RF00024",
+            "RF00209",
+            "RF02141",
+            "RF03028",
+            "RF03077",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 1443,
+          "feat_b": 2896,
+          "jaccard": 0.75,
+          "n_families_a": 3,
+          "n_families_b": 4,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00024",
+            "RF02141",
+            "RF03077"
+          ]
+        },
+        {
+          "feat_a": 1680,
+          "feat_b": 972,
+          "jaccard": 0.75,
+          "n_families_a": 3,
+          "n_families_b": 4,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00071",
+            "RF04337",
+            "RF04352"
+          ]
+        },
+        {
+          "feat_a": 166,
+          "feat_b": 412,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00013",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 243,
+          "feat_b": 3198,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02682",
+            "RF03032"
+          ]
+        },
+        {
+          "feat_a": 270,
+          "feat_b": 2305,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00004",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 315,
+          "feat_b": 3336,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01999",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 409,
+          "feat_b": 562,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF04344",
+            "RF04352"
+          ]
+        },
+        {
+          "feat_a": 488,
+          "feat_b": 2058,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00013",
+            "RF02348"
+          ]
+        },
+        {
+          "feat_a": 494,
+          "feat_b": 1809,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00431",
+            "RF01233"
+          ]
+        },
+        {
+          "feat_a": 938,
+          "feat_b": 378,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 4,
+          "n_families_b": 6,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00024",
+            "RF00036",
+            "RF00209",
+            "RF02141"
+          ]
+        },
+        {
+          "feat_a": 944,
+          "feat_b": 1443,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00029",
+            "RF00059"
+          ]
+        },
+        {
+          "feat_a": 1017,
+          "feat_b": 1332,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01699",
+            "RF03019"
+          ]
+        },
+        {
+          "feat_a": 1181,
+          "feat_b": 2074,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02348",
+            "RF02969"
+          ]
+        },
+        {
+          "feat_a": 1355,
+          "feat_b": 3559,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00024",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 1407,
+          "feat_b": 356,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00024",
+            "RF00209"
+          ]
+        },
+        {
+          "feat_a": 1523,
+          "feat_b": 3039,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00476",
+            "RF01844"
+          ]
+        },
+        {
+          "feat_a": 1562,
+          "feat_b": 2528,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00059",
+            "RF00634"
+          ]
+        },
+        {
+          "feat_a": 1655,
+          "feat_b": 3144,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02682",
+            "RF03012"
+          ]
+        },
+        {
+          "feat_a": 1742,
+          "feat_b": 4062,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00194",
+            "RF03127"
+          ]
+        },
+        {
+          "feat_a": 1777,
+          "feat_b": 4088,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00490",
+            "RF02976"
+          ]
+        },
+        {
+          "feat_a": 1925,
+          "feat_b": 2765,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00190",
+            "RF00600"
+          ]
+        },
+        {
+          "feat_a": 2157,
+          "feat_b": 2261,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF04337",
+            "RF04341"
+          ]
+        },
+        {
+          "feat_a": 2218,
+          "feat_b": 1561,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00431",
+            "RF00443"
+          ]
+        },
+        {
+          "feat_a": 2384,
+          "feat_b": 1490,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00209",
+            "RF02956"
+          ]
+        },
+        {
+          "feat_a": 2548,
+          "feat_b": 3270,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00233",
+            "RF02954"
+          ]
+        },
+        {
+          "feat_a": 2887,
+          "feat_b": 1898,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00006",
+            "RF01695"
+          ]
+        },
+        {
+          "feat_a": 3036,
+          "feat_b": 1672,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01844",
+            "RF02954"
+          ]
+        },
+        {
+          "feat_a": 3848,
+          "feat_b": 3721,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01770",
+            "RF02348"
+          ]
+        },
+        {
+          "feat_a": 4844,
+          "feat_b": 1139,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00059",
+            "RF02928"
+          ]
+        },
+        {
+          "feat_a": 7622,
+          "feat_b": 3043,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01846",
+            "RF02188"
+          ]
+        },
+        {
+          "feat_a": 1220,
+          "feat_b": 3019,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 5,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00634",
+            "RF01999",
+            "RF03063"
+          ]
+        },
+        {
+          "feat_a": 1231,
+          "feat_b": 3783,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 4,
+          "n_families_b": 4,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF01781",
+            "RF03015",
+            "RF03075"
+          ]
+        },
+        {
+          "feat_a": 1390,
+          "feat_b": 1267,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 3,
+          "n_families_b": 5,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00071",
+            "RF00476",
+            "RF00609"
+          ]
+        },
+        {
+          "feat_a": 1533,
+          "feat_b": 774,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 8,
+          "n_families_b": 8,
+          "n_shared_families": 6,
+          "shared_families_sample": [
+            "RF02190",
+            "RF03019",
+            "RF03065",
+            "RF03077",
+            "RF03146",
+            "RF03159"
+          ]
+        },
+        {
+          "feat_a": 1569,
+          "feat_b": 52,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 3,
+          "n_families_b": 5,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF02190",
+            "RF03065",
+            "RF03077"
+          ]
+        },
+        {
+          "feat_a": 1951,
+          "feat_b": 2795,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 5,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00024",
+            "RF00209",
+            "RF01699"
+          ]
+        },
+        {
+          "feat_a": 2367,
+          "feat_b": 1745,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 5,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00754",
+            "RF01844",
+            "RF03127"
+          ]
+        },
+        {
+          "feat_a": 2387,
+          "feat_b": 3610,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 4,
+          "n_families_b": 4,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF02190",
+            "RF02452",
+            "RF03065"
+          ]
+        },
+        {
+          "feat_a": 3566,
+          "feat_b": 409,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 5,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF04321",
+            "RF04337",
+            "RF04351"
+          ]
+        },
+        {
+          "feat_a": 3799,
+          "feat_b": 898,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 3,
+          "n_families_b": 5,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00013",
+            "RF00059",
+            "RF00442"
+          ]
+        },
+        {
+          "feat_a": 6963,
+          "feat_b": 1048,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 9,
+          "n_families_b": 7,
+          "n_shared_families": 6,
+          "shared_families_sample": [
+            "RF00071",
+            "RF03071",
+            "RF03075",
+            "RF04337",
+            "RF04344",
+            "RF04352"
+          ]
+        },
+        {
+          "feat_a": 2403,
+          "feat_b": 1224,
+          "jaccard": 0.5714285969734192,
+          "n_families_a": 4,
+          "n_families_b": 7,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF02452",
+            "RF02956",
+            "RF03019",
+            "RF03159"
+          ]
+        },
+        {
+          "feat_a": 2661,
+          "feat_b": 2513,
+          "jaccard": 0.5714285969734192,
+          "n_families_a": 4,
+          "n_families_b": 7,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00209",
+            "RF03065",
+            "RF03159",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 791,
+          "feat_b": 455,
+          "jaccard": 0.5454545617103577,
+          "n_families_a": 8,
+          "n_families_b": 9,
+          "n_shared_families": 6,
+          "shared_families_sample": [
+            "RF01116",
+            "RF03013",
+            "RF03015",
+            "RF03032",
+            "RF03075",
+            "RF03544"
+          ]
+        },
+        {
+          "feat_a": 172,
+          "feat_b": 2716,
+          "jaccard": 0.5,
+          "n_families_a": 9,
+          "n_families_b": 6,
+          "n_shared_families": 5,
+          "shared_families_sample": [
+            "RF00209",
+            "RF01731",
+            "RF01794",
+            "RF02035",
+            "RF02956"
+          ]
+        },
+        {
+          "feat_a": 392,
+          "feat_b": 1246,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02682",
+            "RF04351"
+          ]
+        },
+        {
+          "feat_a": 406,
+          "feat_b": 1488,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02401",
+            "RF04341"
+          ]
+        },
+        {
+          "feat_a": 620,
+          "feat_b": 1215,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00155",
+            "RF00425"
+          ]
+        },
+        {
+          "feat_a": 622,
+          "feat_b": 21,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 5,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF01699",
+            "RF01846",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 701,
+          "feat_b": 3420,
+          "jaccard": 0.5,
+          "n_families_a": 7,
+          "n_families_b": 5,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00634",
+            "RF02928",
+            "RF02953",
+            "RF03063"
+          ]
+        },
+        {
+          "feat_a": 843,
+          "feat_b": 934,
+          "jaccard": 0.5,
+          "n_families_a": 9,
+          "n_families_b": 9,
+          "n_shared_families": 6,
+          "shared_families_sample": [
+            "RF00209",
+            "RF01846",
+            "RF02190",
+            "RF02452",
+            "RF03065",
+            "RF03077"
+          ]
+        },
+        {
+          "feat_a": 851,
+          "feat_b": 1079,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01731",
+            "RF03077"
+          ]
+        },
+        {
+          "feat_a": 869,
+          "feat_b": 3845,
+          "jaccard": 0.5,
+          "n_families_a": 6,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF03013",
+            "RF03015",
+            "RF03032"
+          ]
+        },
+        {
+          "feat_a": 1021,
+          "feat_b": 3450,
+          "jaccard": 0.5,
+          "n_families_a": 7,
+          "n_families_b": 5,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF01794",
+            "RF02035",
+            "RF03146",
+            "RF04339"
+          ]
+        },
+        {
+          "feat_a": 1180,
+          "feat_b": 627,
+          "jaccard": 0.5,
+          "n_families_a": 5,
+          "n_families_b": 7,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00490",
+            "RF03071",
+            "RF03075",
+            "RF04337"
+          ]
+        },
+        {
+          "feat_a": 1264,
+          "feat_b": 3720,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 5,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF02179",
+            "RF02348",
+            "RF04339"
+          ]
+        },
+        {
+          "feat_a": 1534,
+          "feat_b": 2194,
+          "jaccard": 0.5,
+          "n_families_a": 6,
+          "n_families_b": 6,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00004",
+            "RF01745",
+            "RF02954",
+            "RF03032"
+          ]
+        },
+        {
+          "feat_a": 1551,
+          "feat_b": 1284,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 5,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF02685",
+            "RF03544",
+            "RF04351"
+          ]
+        },
+        {
+          "feat_a": 1584,
+          "feat_b": 3386,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 8,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00442",
+            "RF02348",
+            "RF03080",
+            "RF04345"
+          ]
+        },
+        {
+          "feat_a": 1657,
+          "feat_b": 1313,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00071",
+            "RF02952"
+          ]
+        },
+        {
+          "feat_a": 1666,
+          "feat_b": 3833,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF03012",
+            "RF03071"
+          ]
+        },
+        {
+          "feat_a": 1670,
+          "feat_b": 2006,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01731",
+            "RF01853"
+          ]
+        },
+        {
+          "feat_a": 1792,
+          "feat_b": 1423,
+          "jaccard": 0.5,
+          "n_families_a": 5,
+          "n_families_b": 4,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00209",
+            "RF03077",
+            "RF03159"
+          ]
+        },
+        {
+          "feat_a": 1822,
+          "feat_b": 1276,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02682",
+            "RF02953"
+          ]
+        },
+        {
+          "feat_a": 1892,
+          "feat_b": 542,
+          "jaccard": 0.5,
+          "n_families_a": 5,
+          "n_families_b": 7,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF01116",
+            "RF03544",
+            "RF04344",
+            "RF04352"
+          ]
+        },
+        {
+          "feat_a": 2082,
+          "feat_b": 242,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02452",
+            "RF03159"
+          ]
+        },
+        {
+          "feat_a": 2149,
+          "feat_b": 1067,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 6,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF02954",
+            "RF03013",
+            "RF03127"
+          ]
+        },
+        {
+          "feat_a": 2275,
+          "feat_b": 3634,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00782",
+            "RF03077"
+          ]
+        },
+        {
+          "feat_a": 2449,
+          "feat_b": 3993,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00190",
+            "RF00405"
+          ]
+        },
+        {
+          "feat_a": 2486,
+          "feat_b": 3587,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00029",
+            "RF00754"
+          ]
+        },
+        {
+          "feat_a": 2673,
+          "feat_b": 3534,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01853",
+            "RF02952"
+          ]
+        },
+        {
+          "feat_a": 3509,
+          "feat_b": 2247,
+          "jaccard": 0.5,
+          "n_families_a": 5,
+          "n_families_b": 7,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00476",
+            "RF00609",
+            "RF00754",
+            "RF03151"
+          ]
+        },
+        {
+          "feat_a": 5330,
+          "feat_b": 3900,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00554",
+            "RF02969"
+          ]
+        },
+        {
+          "feat_a": 6037,
+          "feat_b": 3815,
+          "jaccard": 0.5,
+          "n_families_a": 5,
+          "n_families_b": 7,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00013",
+            "RF00628",
+            "RF01794",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 8124,
+          "feat_b": 556,
+          "jaccard": 0.5,
+          "n_families_a": 8,
+          "n_families_b": 7,
+          "n_shared_families": 5,
+          "shared_families_sample": [
+            "RF00490",
+            "RF02685",
+            "RF03071",
+            "RF04337",
+            "RF04352"
+          ]
+        }
+      ]
+    },
+    {
+      "model_a": "rnamsm_msa",
+      "model_b": "rnamsm_single",
+      "n_shared_families": 99,
+      "n_reciprocal_matches": 66,
+      "matches": [
+        {
+          "feat_a": 765,
+          "feat_b": 143,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01699",
+            "RF01731"
+          ]
+        },
+        {
+          "feat_a": 1584,
+          "feat_b": 2528,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00059",
+            "RF00634"
+          ]
+        },
+        {
+          "feat_a": 1647,
+          "feat_b": 796,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01846",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 1788,
+          "feat_b": 1443,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00029",
+            "RF00059"
+          ]
+        },
+        {
+          "feat_a": 1809,
+          "feat_b": 2759,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01853",
+            "RF02348"
+          ]
+        },
+        {
+          "feat_a": 1987,
+          "feat_b": 39,
+          "jaccard": 1.0,
+          "n_families_a": 8,
+          "n_families_b": 8,
+          "n_shared_families": 8,
+          "shared_families_sample": [
+            "RF00024",
+            "RF00036",
+            "RF00209",
+            "RF01846",
+            "RF03028",
+            "RF03077",
+            "RF03159",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 2293,
+          "feat_b": 2427,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02953",
+            "RF03075"
+          ]
+        },
+        {
+          "feat_a": 3971,
+          "feat_b": 165,
+          "jaccard": 1.0,
+          "n_families_a": 2,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00209",
+            "RF01846"
+          ]
+        },
+        {
+          "feat_a": 1569,
+          "feat_b": 94,
+          "jaccard": 0.800000011920929,
+          "n_families_a": 5,
+          "n_families_b": 4,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00024",
+            "RF00209",
+            "RF01846",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 2282,
+          "feat_b": 1834,
+          "jaccard": 0.800000011920929,
+          "n_families_a": 5,
+          "n_families_b": 4,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00194",
+            "RF01699",
+            "RF01731",
+            "RF01853"
+          ]
+        },
+        {
+          "feat_a": 1089,
+          "feat_b": 3155,
+          "jaccard": 0.75,
+          "n_families_a": 4,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00024",
+            "RF03077",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 2238,
+          "feat_b": 62,
+          "jaccard": 0.75,
+          "n_families_a": 8,
+          "n_families_b": 6,
+          "n_shared_families": 6,
+          "shared_families_sample": [
+            "RF00194",
+            "RF01699",
+            "RF01731",
+            "RF01853",
+            "RF02965",
+            "RF02976"
+          ]
+        },
+        {
+          "feat_a": 79,
+          "feat_b": 3348,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 6,
+          "n_families_b": 4,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00024",
+            "RF00209",
+            "RF03077",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 368,
+          "feat_b": 1472,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00634",
+            "RF04314"
+          ]
+        },
+        {
+          "feat_a": 377,
+          "feat_b": 2195,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00754",
+            "RF03080"
+          ]
+        },
+        {
+          "feat_a": 529,
+          "feat_b": 1837,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02954",
+            "RF03032"
+          ]
+        },
+        {
+          "feat_a": 856,
+          "feat_b": 1490,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00209",
+            "RF02956"
+          ]
+        },
+        {
+          "feat_a": 1180,
+          "feat_b": 1079,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00209",
+            "RF01731"
+          ]
+        },
+        {
+          "feat_a": 1201,
+          "feat_b": 356,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00024",
+            "RF00209"
+          ]
+        },
+        {
+          "feat_a": 1238,
+          "feat_b": 562,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF04344",
+            "RF04352"
+          ]
+        },
+        {
+          "feat_a": 1557,
+          "feat_b": 2591,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF03077",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 1622,
+          "feat_b": 3534,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00233",
+            "RF01853"
+          ]
+        },
+        {
+          "feat_a": 1705,
+          "feat_b": 1313,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00071",
+            "RF02952"
+          ]
+        },
+        {
+          "feat_a": 1793,
+          "feat_b": 2373,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00442",
+            "RF03063"
+          ]
+        },
+        {
+          "feat_a": 2046,
+          "feat_b": 3127,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02401",
+            "RF02953"
+          ]
+        },
+        {
+          "feat_a": 2124,
+          "feat_b": 2303,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF03012",
+            "RF03544"
+          ]
+        },
+        {
+          "feat_a": 2398,
+          "feat_b": 2211,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02035",
+            "RF03146"
+          ]
+        },
+        {
+          "feat_a": 4050,
+          "feat_b": 1666,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00036",
+            "RF00209"
+          ]
+        },
+        {
+          "feat_a": 177,
+          "feat_b": 1248,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 5,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF03015",
+            "RF04344",
+            "RF04352"
+          ]
+        },
+        {
+          "feat_a": 1285,
+          "feat_b": 2795,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 5,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00024",
+            "RF00209",
+            "RF01699"
+          ]
+        },
+        {
+          "feat_a": 1297,
+          "feat_b": 972,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 4,
+          "n_families_b": 4,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00071",
+            "RF04344",
+            "RF04352"
+          ]
+        },
+        {
+          "feat_a": 1672,
+          "feat_b": 3420,
+          "jaccard": 0.6000000238418579,
+          "n_families_a": 3,
+          "n_families_b": 5,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF02928",
+            "RF02937",
+            "RF02953"
+          ]
+        },
+        {
+          "feat_a": 3684,
+          "feat_b": 780,
+          "jaccard": 0.5714285969734192,
+          "n_families_a": 4,
+          "n_families_b": 7,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF02348",
+            "RF04344",
+            "RF04351",
+            "RF04352"
+          ]
+        },
+        {
+          "feat_a": 897,
+          "feat_b": 400,
+          "jaccard": 0.5555555820465088,
+          "n_families_a": 7,
+          "n_families_b": 7,
+          "n_shared_families": 5,
+          "shared_families_sample": [
+            "RF00024",
+            "RF00209",
+            "RF01745",
+            "RF01846",
+            "RF02141"
+          ]
+        },
+        {
+          "feat_a": 209,
+          "feat_b": 2544,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00405",
+            "RF00431"
+          ]
+        },
+        {
+          "feat_a": 268,
+          "feat_b": 3384,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01116",
+            "RF03013"
+          ]
+        },
+        {
+          "feat_a": 395,
+          "feat_b": 1521,
+          "jaccard": 0.5,
+          "n_families_a": 5,
+          "n_families_b": 4,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF03028",
+            "RF04314",
+            "RF04352"
+          ]
+        },
+        {
+          "feat_a": 579,
+          "feat_b": 2314,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 5,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00059",
+            "RF01999",
+            "RF02954"
+          ]
+        },
+        {
+          "feat_a": 1014,
+          "feat_b": 3043,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01846",
+            "RF02188"
+          ]
+        },
+        {
+          "feat_a": 1025,
+          "feat_b": 3266,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00190",
+            "RF02956"
+          ]
+        },
+        {
+          "feat_a": 1132,
+          "feat_b": 1952,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00494",
+            "RF02348"
+          ]
+        },
+        {
+          "feat_a": 1361,
+          "feat_b": 3228,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01844",
+            "RF02937"
+          ]
+        },
+        {
+          "feat_a": 1381,
+          "feat_b": 4033,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00405",
+            "RF01229"
+          ]
+        },
+        {
+          "feat_a": 1542,
+          "feat_b": 3123,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01695",
+            "RF02954"
+          ]
+        },
+        {
+          "feat_a": 1562,
+          "feat_b": 1276,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02682",
+            "RF02953"
+          ]
+        },
+        {
+          "feat_a": 1604,
+          "feat_b": 542,
+          "jaccard": 0.5,
+          "n_families_a": 5,
+          "n_families_b": 7,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF01116",
+            "RF03071",
+            "RF03544",
+            "RF04352"
+          ]
+        },
+        {
+          "feat_a": 1607,
+          "feat_b": 1152,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00476",
+            "RF00782"
+          ]
+        },
+        {
+          "feat_a": 1813,
+          "feat_b": 3864,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 5,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF01794",
+            "RF04339",
+            "RF04345"
+          ]
+        },
+        {
+          "feat_a": 1841,
+          "feat_b": 4088,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00490",
+            "RF02976"
+          ]
+        },
+        {
+          "feat_a": 1869,
+          "feat_b": 2719,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01116",
+            "RF03015"
+          ]
+        },
+        {
+          "feat_a": 1874,
+          "feat_b": 2471,
+          "jaccard": 0.5,
+          "n_families_a": 2,
+          "n_families_b": 4,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00431",
+            "RF01770"
+          ]
+        },
+        {
+          "feat_a": 1885,
+          "feat_b": 1902,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02188",
+            "RF03127"
+          ]
+        },
+        {
+          "feat_a": 1892,
+          "feat_b": 2305,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00004",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 1894,
+          "feat_b": 2481,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 8,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00609",
+            "RF01831",
+            "RF01999",
+            "RF04352"
+          ]
+        },
+        {
+          "feat_a": 2015,
+          "feat_b": 3995,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00167",
+            "RF04352"
+          ]
+        },
+        {
+          "feat_a": 2021,
+          "feat_b": 4056,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01844",
+            "RF03080"
+          ]
+        },
+        {
+          "feat_a": 2067,
+          "feat_b": 3687,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF02969",
+            "RF04339"
+          ]
+        },
+        {
+          "feat_a": 2119,
+          "feat_b": 1224,
+          "jaccard": 0.5,
+          "n_families_a": 8,
+          "n_families_b": 7,
+          "n_shared_families": 5,
+          "shared_families_sample": [
+            "RF02452",
+            "RF02956",
+            "RF03019",
+            "RF03065",
+            "RF03159"
+          ]
+        },
+        {
+          "feat_a": 2122,
+          "feat_b": 898,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 5,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00013",
+            "RF00059",
+            "RF01699"
+          ]
+        },
+        {
+          "feat_a": 2197,
+          "feat_b": 184,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00494",
+            "RF03032"
+          ]
+        },
+        {
+          "feat_a": 2203,
+          "feat_b": 2168,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00476",
+            "RF01770"
+          ]
+        },
+        {
+          "feat_a": 2204,
+          "feat_b": 3719,
+          "jaccard": 0.5,
+          "n_families_a": 7,
+          "n_families_b": 5,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00442",
+            "RF02502",
+            "RF02937",
+            "RF02953"
+          ]
+        },
+        {
+          "feat_a": 2260,
+          "feat_b": 2647,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00004",
+            "RF03127"
+          ]
+        },
+        {
+          "feat_a": 2313,
+          "feat_b": 380,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01853",
+            "RF02976"
+          ]
+        },
+        {
+          "feat_a": 2381,
+          "feat_b": 3019,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00634",
+            "RF01999"
+          ]
+        },
+        {
+          "feat_a": 2643,
+          "feat_b": 105,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 6,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00024",
+            "RF01846",
+            "RF04337"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "gene": "RNU4-2",
+  "n_positions": 141,
+  "n_clinvar": 27,
+  "models": {
+    "erniarna": {
+      "n": 141,
+      "spearman_crit_vs_score": -0.262,
+      "spearman_crit_vs_negmin": 0.22,
+      "auc_disruptive": 0.711
+    },
+    "rnafm": {
+      "n": 141,
+      "spearman_crit_vs_score": 0.113,
+      "spearman_crit_vs_negmin": -0.056,
+      "auc_disruptive": 0.43
+    }
+  },
+  "baseline_CADD_spearman_vs_sge": -0.105,
+  "baseline_CADD_n": 141,
+  "novel_predictions": [
+    {
+      "pos1": 14,
+      "criticality": 0.986,
+      "sge_mean": -0.315
+    },
+    {
+      "pos1": 125,
+      "criticality": 0.947,
+      "sge_mean": -0.301
+    },
+    {
+      "pos1": 123,
+      "criticality": 0.947,
+      "sge_mean": -0.491
+    },
+    {
+      "pos1": 124,
+      "criticality": 0.935,
+      "sge_mean": -1.044
+    },
+    {
+      "pos1": 6,
+      "criticality": 0.93,
+      "sge_mean": -0.254
+    },
+    {
+      "pos1": 121,
+      "criticality": 0.926,
+      "sge_mean": -0.77
+    },
+    {
+      "pos1": 115,
+      "criticality": 0.897,
+      "sge_mean": -0.278
+    },
+    {
+      "pos1": 131,
+      "criticality": 0.887,
+      "sge_mean": -0.39
+    },
+    {
+      "pos1": 140,
+      "criticality": 0.886,
+      "sge_mean": -0.51
+    }
+  ]
+}

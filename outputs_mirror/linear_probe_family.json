@@ -1,0 +1,126 @@
+{
+  "config": {
+    "top_k_families": 100,
+    "n_classes": 100,
+    "test_frac": 0.25,
+    "seed": 0,
+    "skip_special_tokens": true,
+    "skip_n_tokens": true,
+    "max_train_tokens": 1500000,
+    "probe_epochs": 60,
+    "probe_lr": 0.001,
+    "probe_weight_decay": 0.0001,
+    "n_train_sequences": 1751,
+    "n_test_sequences": 600
+  },
+  "results": {
+    "rnafm": {
+      "d_input": 640,
+      "n_seqs_used": 2351,
+      "n_train_tokens": 221294,
+      "n_test_tokens": 76112,
+      "chance": 0.01,
+      "token_level": {
+        "top1": 0.9519523859575363,
+        "top5": 0.9846673323523228,
+        "macro_f1": 0.9537238232017476,
+        "n_test": 76112
+      },
+      "sequence_level": {
+        "top1": 0.9583333333333334,
+        "top5": 0.9866666666666667,
+        "macro_f1": 0.9573769563769564,
+        "n_test": 600
+      },
+      "sequence_level_shuffled": {
+        "top1": 0.0033333333333333335,
+        "top5": 0.021666666666666667,
+        "macro_f1": 0.002605042016806723,
+        "n_test": 600
+      },
+      "token_signal_above_chance": 0.9419523859575363,
+      "sequence_signal_above_chance": 0.9483333333333334
+    },
+    "erniarna": {
+      "d_input": 768,
+      "n_seqs_used": 2351,
+      "n_train_tokens": 221294,
+      "n_test_tokens": 76112,
+      "chance": 0.01,
+      "token_level": {
+        "top1": 0.9603347698129073,
+        "top5": 0.9897782215682153,
+        "macro_f1": 0.9663143631400775,
+        "n_test": 76112
+      },
+      "sequence_level": {
+        "top1": 0.9833333333333333,
+        "top5": 0.9933333333333333,
+        "macro_f1": 0.9828231768231768,
+        "n_test": 600
+      },
+      "sequence_level_shuffled": {
+        "top1": 0.005,
+        "top5": 0.03166666666666667,
+        "macro_f1": 0.0043003663003663,
+        "n_test": 600
+      },
+      "token_signal_above_chance": 0.9503347698129073,
+      "sequence_signal_above_chance": 0.9733333333333333
+    },
+    "rnamsm_v3": {
+      "d_input": 768,
+      "n_seqs_used": 2351,
+      "n_train_tokens": 221294,
+      "n_test_tokens": 76112,
+      "chance": 0.01,
+      "token_level": {
+        "top1": 0.8520995375236493,
+        "top5": 0.9629887534160185,
+        "macro_f1": 0.8522046892892601,
+        "n_test": 76112
+      },
+      "sequence_level": {
+        "top1": 0.8333333333333334,
+        "top5": 0.9583333333333334,
+        "macro_f1": 0.8293645243645245,
+        "n_test": 600
+      },
+      "sequence_level_shuffled": {
+        "top1": 0.011666666666666667,
+        "top5": 0.04666666666666667,
+        "macro_f1": 0.01083271991166728,
+        "n_test": 600
+      },
+      "token_signal_above_chance": 0.8420995375236493,
+      "sequence_signal_above_chance": 0.8233333333333334
+    },
+    "rnamsm_pre": {
+      "d_input": 768,
+      "n_seqs_used": 2351,
+      "n_train_tokens": 221294,
+      "n_test_tokens": 76112,
+      "chance": 0.01,
+      "token_level": {
+        "top1": 0.842337607735968,
+        "top5": 0.9685200756779483,
+        "macro_f1": 0.8441817738232281,
+        "n_test": 76112
+      },
+      "sequence_level": {
+        "top1": 0.8133333333333334,
+        "top5": 0.9533333333333334,
+        "macro_f1": 0.8078699633699634,
+        "n_test": 600
+      },
+      "sequence_level_shuffled": {
+        "top1": 0.013333333333333334,
+        "top5": 0.04833333333333333,
+        "macro_f1": 0.010911217437533227,
+        "n_test": 600
+      },
+      "token_signal_above_chance": 0.832337607735968,
+      "sequence_signal_above_chance": 0.8033333333333333
+    }
+  }
+}

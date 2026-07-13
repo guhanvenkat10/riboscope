@@ -1,0 +1,131 @@
+{
+  "panel": [
+    {
+      "gene": "RNU4-2",
+      "disease": "ReNU neurodevelopmental syndrome",
+      "L": 141,
+      "n_path": 25,
+      "models": {
+        "rnafm": {
+          "auc": 0.53,
+          "p_value": 0.639,
+          "n_path": 25,
+          "L": 141
+        },
+        "erniarna": {
+          "auc": 0.685,
+          "p_value": 0.00375,
+          "n_path": 25,
+          "L": 141
+        }
+      }
+    },
+    {
+      "gene": "RMRP",
+      "disease": "Cartilage-hair hypoplasia",
+      "L": 270,
+      "n_path": 41,
+      "models": {
+        "rnafm": {
+          "auc": 0.44,
+          "p_value": 0.222,
+          "n_path": 41,
+          "L": 270
+        },
+        "erniarna": {
+          "auc": 0.532,
+          "p_value": 0.515,
+          "n_path": 41,
+          "L": 270
+        }
+      }
+    },
+    {
+      "gene": "RNU4ATAC",
+      "disease": "MOPD1 / Roifman (minor spliceosome)",
+      "L": 130,
+      "n_path": 20,
+      "models": {
+        "rnafm": {
+          "auc": 0.553,
+          "p_value": 0.45,
+          "n_path": 20,
+          "L": 130
+        },
+        "erniarna": {
+          "auc": 0.646,
+          "p_value": 0.0377,
+          "n_path": 20,
+          "L": 130
+        }
+      }
+    },
+    {
+      "gene": "RNU12",
+      "disease": "Early-onset cerebellar ataxia (minor spliceosome)",
+      "L": 149,
+      "n_path": 6,
+      "models": {
+        "rnafm": {
+          "auc": 0.459,
+          "p_value": 0.735,
+          "n_path": 6,
+          "L": 149
+        },
+        "erniarna": {
+          "auc": 0.601,
+          "p_value": 0.401,
+          "n_path": 6,
+          "L": 149
+        }
+      }
+    },
+    {
+      "gene": "SNORD118",
+      "disease": "Leukoencephalopathy w/ calcifications & cysts (Labrune)",
+      "L": 136,
+      "n_path": 21,
+      "models": {
+        "rnafm": {
+          "auc": 0.512,
+          "p_value": 0.864,
+          "n_path": 21,
+          "L": 136
+        },
+        "erniarna": {
+          "auc": 0.622,
+          "p_value": 0.0771,
+          "n_path": 21,
+          "L": 136
+        }
+      }
+    },
+    {
+      "gene": "TERC",
+      "disease": "Dyskeratosis congenita",
+      "L": 451,
+      "n_path": 38,
+      "models": {
+        "rnafm": {
+          "auc": 0.586,
+          "p_value": 0.078,
+          "n_path": 38,
+          "L": 451
+        },
+        "erniarna": {
+          "auc": 0.529,
+          "p_value": 0.557,
+          "n_path": 38,
+          "L": 451
+        }
+      }
+    }
+  ],
+  "median_auc": {
+    "rnafm": 0.521,
+    "erniarna": 0.6114999999999999
+  },
+  "ernie_significant": 2,
+  "ernie_wins": 5,
+  "n": 6
+}

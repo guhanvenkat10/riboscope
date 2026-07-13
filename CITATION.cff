@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite both the software (this file) and the accompanying manuscript."
+title: "RIBOSCOPE: mechanistic interpretability of RNA foundation models for disease-variant interpretation in spliceosomal snRNAs"
+abstract: >-
+  Research code that trains sparse autoencoders on the hidden states of three RNA
+  foundation models and reads out per-nucleotide functional criticality by in-silico
+  mutagenesis, showing that a secondary-structure-aware model localizes the
+  disease-causing nucleotides of U4-type spliceosomal snRNA disorders, validated
+  against a saturation-genome-editing functional map.
+type: software
+authors:
+  - given-names: Guhan
+    family-names: Venkat
+    affiliation: "Independent researcher"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # add once registered
+version: "1.0.0"
+date-released: "2026-07-13"
+license: MIT
+repository-code: "https://github.com/guhanvenkat10/riboscope"
+keywords:
+  - mechanistic interpretability
+  - RNA foundation models
+  - sparse autoencoders
+  - variant effect prediction
+  - spliceosomal snRNA
+  - RNU4-2
+# doi: "10.5281/zenodo.XXXXXXX"   # Zenodo concept DOI — add after first release is archived

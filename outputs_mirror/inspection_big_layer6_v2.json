@@ -1,0 +1,2949 @@
+{
+  "summary": {
+    "n_alive": 4093,
+    "n_dead": 3,
+    "n_specialists_le2_families": 33,
+    "n_moderate_3to9_families": 113,
+    "n_generalists_ge10_families": 3950,
+    "n_below_threshold_zero_families": 0,
+    "magnitude_threshold_frac": 0.25,
+    "n_features_total": 4096,
+    "n_tokens_inspected": 3554828,
+    "n_distinct_families_in_data": 3979
+  },
+  "top_features": [
+    {
+      "rank": 1,
+      "feature_idx": 1278,
+      "max_activation": 123.4085464477539,
+      "n_active_tokens": 226722,
+      "n_families": 278,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 123.4085464477539,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_16",
+          "tok_pos": 30,
+          "nt_pos": 29,
+          "is_special": false,
+          "context": "GACCCCA[C]GUUGUGG"
+        },
+        {
+          "rank": 2,
+          "activation": 107.94087219238281,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_03",
+          "tok_pos": 45,
+          "nt_pos": 44,
+          "is_special": false,
+          "context": "AACACUC[U]CAUGCUU"
+        },
+        {
+          "rank": 3,
+          "activation": 107.3125228881836,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_16",
+          "tok_pos": 39,
+          "nt_pos": 38,
+          "is_special": false,
+          "context": "UUGUGGC[C]GUGGUAA"
+        },
+        {
+          "rank": 4,
+          "activation": 106.24223327636719,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_12",
+          "tok_pos": 46,
+          "nt_pos": 45,
+          "is_special": false,
+          "context": "ACGCUCC[C]ACGCCUC"
+        },
+        {
+          "rank": 5,
+          "activation": 105.42942810058594,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_13",
+          "tok_pos": 23,
+          "nt_pos": 22,
+          "is_special": false,
+          "context": "UGGUAGA[C]ACGCGAG"
+        },
+        {
+          "rank": 6,
+          "activation": 103.45928955078125,
+          "rfam_id": "RF00015",
+          "seq_name": "RF00015_00",
+          "tok_pos": 10,
+          "nt_pos": 9,
+          "is_special": false,
+          "context": "CUUUGCG[C]AGUGGCA"
+        },
+        {
+          "rank": 7,
+          "activation": 103.18709564208984,
+          "rfam_id": "RF00015",
+          "seq_name": "RF00015_13",
+          "tok_pos": 10,
+          "nt_pos": 9,
+          "is_special": false,
+          "context": "CUUUGCG[C]AGUGGCA"
+        },
+        {
+          "rank": 8,
+          "activation": 103.16462707519531,
+          "rfam_id": "RF00015",
+          "seq_name": "RF00015_21",
+          "tok_pos": 10,
+          "nt_pos": 9,
+          "is_special": false,
+          "context": "CUUUGCG[C]AGUGGCA"
+        }
+      ],
+      "families_sample": [
+        "RF00001",
+        "RF00003",
+        "RF00004",
+        "RF00005",
+        "RF00006",
+        "RF00007",
+        "RF00009",
+        "RF00012"
+      ]
+    },
+    {
+      "rank": 2,
+      "feature_idx": 718,
+      "max_activation": 108.2889175415039,
+      "n_active_tokens": 105586,
+      "n_families": 219,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 108.2889175415039,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_02",
+          "tok_pos": 7,
+          "nt_pos": 6,
+          "is_special": false,
+          "context": " AAGCCA[U]GAUGAGG"
+        },
+        {
+          "rank": 2,
+          "activation": 105.9989242553711,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_03",
+          "tok_pos": 7,
+          "nt_pos": 6,
+          "is_special": false,
+          "context": " AAGCCA[U]GAUGAGG"
+        },
+        {
+          "rank": 3,
+          "activation": 105.94013977050781,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_22",
+          "tok_pos": 7,
+          "nt_pos": 6,
+          "is_special": false,
+          "context": " AAGCCA[U]GAUGAGG"
+        },
+        {
+          "rank": 4,
+          "activation": 105.33721923828125,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_11",
+          "tok_pos": 64,
+          "nt_pos": 63,
+          "is_special": false,
+          "context": "GAAGCUU[U]CACCACU"
+        },
+        {
+          "rank": 5,
+          "activation": 104.74335479736328,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_09",
+          "tok_pos": 7,
+          "nt_pos": 6,
+          "is_special": false,
+          "context": " AAGCCA[U]GAUGAGG"
+        },
+        {
+          "rank": 6,
+          "activation": 104.16045379638672,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_13",
+          "tok_pos": 10,
+          "nt_pos": 9,
+          "is_special": false,
+          "context": "GCCAUGA[U]GAAGGCA"
+        },
+        {
+          "rank": 7,
+          "activation": 103.91685485839844,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_20",
+          "tok_pos": 7,
+          "nt_pos": 6,
+          "is_special": false,
+          "context": " AAGCCA[U]GAUGAGG"
+        },
+        {
+          "rank": 8,
+          "activation": 103.7832260131836,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_07",
+          "tok_pos": 7,
+          "nt_pos": 6,
+          "is_special": false,
+          "context": " AAGCCA[U]GAUGAGG"
+        }
+      ],
+      "families_sample": [
+        "RF00001",
+        "RF00003",
+        "RF00004",
+        "RF00005",
+        "RF00006",
+        "RF00007",
+        "RF00010",
+        "RF00012"
+      ]
+    },
+    {
+      "rank": 3,
+      "feature_idx": 926,
+      "max_activation": 106.30980682373047,
+      "n_active_tokens": 25371,
+      "n_families": 104,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 106.30980682373047,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_09",
+          "tok_pos": 7,
+          "nt_pos": 6,
+          "is_special": false,
+          "context": " AAGCCA[U]GAUGAGG"
+        },
+        {
+          "rank": 2,
+          "activation": 101.8048324584961,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_12",
+          "tok_pos": 7,
+          "nt_pos": 6,
+          "is_special": false,
+          "context": " AGGCCA[U]GGUGGGG"
+        },
+        {
+          "rank": 3,
+          "activation": 100.53541564941406,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_20",
+          "tok_pos": 7,
+          "nt_pos": 6,
+          "is_special": false,
+          "context": " AAGCCA[U]GAUGAGG"
+        },
+        {
+          "rank": 4,
+          "activation": 100.23784637451172,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_16",
+          "tok_pos": 33,
+          "nt_pos": 32,
+          "is_special": false,
+          "context": "CCCACGU[U]GUGGCCG"
+        },
+        {
+          "rank": 5,
+          "activation": 99.87672424316406,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_23",
+          "tok_pos": 7,
+          "nt_pos": 6,
+          "is_special": false,
+          "context": " AAUCCG[U]GAUGUGG"
+        },
+        {
+          "rank": 6,
+          "activation": 96.75050354003906,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_24",
+          "tok_pos": 7,
+          "nt_pos": 6,
+          "is_special": false,
+          "context": " AAGCCA[U]GAUGAGG"
+        },
+        {
+          "rank": 7,
+          "activation": 96.27713775634766,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_22",
+          "tok_pos": 7,
+          "nt_pos": 6,
+          "is_special": false,
+          "context": " AAGCCA[U]GAUGAGG"
+        },
+        {
+          "rank": 8,
+          "activation": 96.21348571777344,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_07",
+          "tok_pos": 7,
+          "nt_pos": 6,
+          "is_special": false,
+          "context": " AAGCCA[U]GAUGAGG"
+        }
+      ],
+      "families_sample": [
+        "RF00001",
+        "RF00002",
+        "RF00003",
+        "RF00004",
+        "RF00005",
+        "RF00006",
+        "RF00007",
+        "RF00012"
+      ]
+    },
+    {
+      "rank": 4,
+      "feature_idx": 4070,
+      "max_activation": 104.1754150390625,
+      "n_active_tokens": 271603,
+      "n_families": 337,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 104.1754150390625,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_03",
+          "tok_pos": 41,
+          "nt_pos": 40,
+          "is_special": false,
+          "context": "UUAAAAC[A]CUCUCAU"
+        },
+        {
+          "rank": 2,
+          "activation": 97.93765258789062,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_16",
+          "tok_pos": 37,
+          "nt_pos": 36,
+          "is_special": false,
+          "context": "CGUUGUG[G]CCGUGGU"
+        },
+        {
+          "rank": 3,
+          "activation": 97.894775390625,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_12",
+          "tok_pos": 41,
+          "nt_pos": 40,
+          "is_special": false,
+          "context": "UUGAAAC[G]CUCCCAC"
+        },
+        {
+          "rank": 4,
+          "activation": 97.72734832763672,
+          "rfam_id": "RF00007",
+          "seq_name": "RF00007_09",
+          "tok_pos": 3,
+          "nt_pos": 2,
+          "is_special": false,
+          "context": "     AU[G]CCUUAAA"
+        },
+        {
+          "rank": 5,
+          "activation": 95.86756134033203,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_12",
+          "tok_pos": 61,
+          "nt_pos": 60,
+          "is_special": false,
+          "context": "AUAGAGA[G]AUUCCCC"
+        },
+        {
+          "rank": 6,
+          "activation": 95.50245666503906,
+          "rfam_id": "RF00007",
+          "seq_name": "RF00007_24",
+          "tok_pos": 3,
+          "nt_pos": 2,
+          "is_special": false,
+          "context": "     AU[G]CCUUAAA"
+        },
+        {
+          "rank": 7,
+          "activation": 95.48646545410156,
+          "rfam_id": "RF00007",
+          "seq_name": "RF00007_23",
+          "tok_pos": 3,
+          "nt_pos": 2,
+          "is_special": false,
+          "context": "     AU[G]CCUUAAA"
+        },
+        {
+          "rank": 8,
+          "activation": 95.4781265258789,
+          "rfam_id": "RF00007",
+          "seq_name": "RF00007_02",
+          "tok_pos": 3,
+          "nt_pos": 2,
+          "is_special": false,
+          "context": "     AU[G]CCUUAAA"
+        }
+      ],
+      "families_sample": [
+        "RF00001",
+        "RF00003",
+        "RF00004",
+        "RF00005",
+        "RF00006",
+        "RF00007",
+        "RF00009",
+        "RF00010"
+      ]
+    },
+    {
+      "rank": 5,
+      "feature_idx": 1146,
+      "max_activation": 96.60723876953125,
+      "n_active_tokens": 242535,
+      "n_families": 286,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 96.60723876953125,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_02",
+          "tok_pos": 13,
+          "nt_pos": 12,
+          "is_special": false,
+          "context": "UAUAGCC[A]AGCGGUA"
+        },
+        {
+          "rank": 2,
+          "activation": 92.08928680419922,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_24",
+          "tok_pos": 29,
+          "nt_pos": 28,
+          "is_special": false,
+          "context": "GUUGUAU[A]ACCCUUA"
+        },
+        {
+          "rank": 3,
+          "activation": 90.68099212646484,
+          "rfam_id": "RF00003",
+          "seq_name": "RF00003_01",
+          "tok_pos": 7,
+          "nt_pos": 6,
+          "is_special": false,
+          "context": " AUACUU[A]CCUGGAC"
+        },
+        {
+          "rank": 4,
+          "activation": 89.3843994140625,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_09",
+          "tok_pos": 47,
+          "nt_pos": 46,
+          "is_special": false,
+          "context": "CGCUCCC[A]UGCUUCA"
+        },
+        {
+          "rank": 5,
+          "activation": 87.48509979248047,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_18",
+          "tok_pos": 47,
+          "nt_pos": 46,
+          "is_special": false,
+          "context": "CGCUCCC[A]UGCUUCA"
+        },
+        {
+          "rank": 6,
+          "activation": 87.29131317138672,
+          "rfam_id": "RF01787",
+          "seq_name": "RF01787_00",
+          "tok_pos": 9,
+          "nt_pos": 8,
+          "is_special": false,
+          "context": "GCCCAGC[A]ACUCCUA"
+        },
+        {
+          "rank": 7,
+          "activation": 87.17106628417969,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_03",
+          "tok_pos": 17,
+          "nt_pos": 16,
+          "is_special": false,
+          "context": "UGAGGGC[A]UUGGUUG"
+        },
+        {
+          "rank": 8,
+          "activation": 86.59687805175781,
+          "rfam_id": "RF00100",
+          "seq_name": "RF00100_13",
+          "tok_pos": 8,
+          "nt_pos": 7,
+          "is_special": false,
+          "context": "GGAUGUG[A]GGGCGAU"
+        }
+      ],
+      "families_sample": [
+        "RF00001",
+        "RF00003",
+        "RF00004",
+        "RF00005",
+        "RF00006",
+        "RF00007",
+        "RF00009",
+        "RF00010"
+      ]
+    },
+    {
+      "rank": 6,
+      "feature_idx": 3407,
+      "max_activation": 93.4506607055664,
+      "n_active_tokens": 30626,
+      "n_families": 77,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 93.4506607055664,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_16",
+          "tok_pos": 24,
+          "nt_pos": 23,
+          "is_special": false,
+          "context": "GGUUAGG[A]CCCCACG"
+        },
+        {
+          "rank": 2,
+          "activation": 93.37227630615234,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_12",
+          "tok_pos": 25,
+          "nt_pos": 24,
+          "is_special": false,
+          "context": "AAGUCUA[A]GCAUUUC"
+        },
+        {
+          "rank": 3,
+          "activation": 92.35167694091797,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_02",
+          "tok_pos": 13,
+          "nt_pos": 12,
+          "is_special": false,
+          "context": "UAUAGCC[A]AGCGGUA"
+        },
+        {
+          "rank": 4,
+          "activation": 91.3624496459961,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_14",
+          "tok_pos": 25,
+          "nt_pos": 24,
+          "is_special": false,
+          "context": "GUUUAGG[A]CAUCUCU"
+        },
+        {
+          "rank": 5,
+          "activation": 90.87108612060547,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_09",
+          "tok_pos": 47,
+          "nt_pos": 46,
+          "is_special": false,
+          "context": "CGCUCCC[A]UGCUUCA"
+        },
+        {
+          "rank": 6,
+          "activation": 88.16911315917969,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_01",
+          "tok_pos": 37,
+          "nt_pos": 36,
+          "is_special": false,
+          "context": "GACUGUU[A]AUCCGUA"
+        },
+        {
+          "rank": 7,
+          "activation": 87.06378173828125,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_12",
+          "tok_pos": 91,
+          "nt_pos": 90,
+          "is_special": false,
+          "context": "ACGUGUG[A]UUUGGUC"
+        },
+        {
+          "rank": 8,
+          "activation": 86.96192169189453,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_01",
+          "tok_pos": 24,
+          "nt_pos": 23,
+          "is_special": false,
+          "context": "CGGUAGA[A]CGGCGGA"
+        }
+      ],
+      "families_sample": [
+        "RF00001",
+        "RF00003",
+        "RF00004",
+        "RF00005",
+        "RF00006",
+        "RF00007",
+        "RF00012",
+        "RF00015"
+      ]
+    },
+    {
+      "rank": 7,
+      "feature_idx": 2455,
+      "max_activation": 92.59660339355469,
+      "n_active_tokens": 48998,
+      "n_families": 17,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 92.59660339355469,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_16",
+          "tok_pos": 33,
+          "nt_pos": 32,
+          "is_special": false,
+          "context": "CCCACGU[U]GUGGCCG"
+        },
+        {
+          "rank": 2,
+          "activation": 85.81089782714844,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_01",
+          "tok_pos": 35,
+          "nt_pos": 34,
+          "is_special": false,
+          "context": "CGGACUG[U]UAAUCCG"
+        },
+        {
+          "rank": 3,
+          "activation": 85.42886352539062,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_16",
+          "tok_pos": 32,
+          "nt_pos": 31,
+          "is_special": false,
+          "context": "CCCCACG[U]UGUGGCC"
+        },
+        {
+          "rank": 4,
+          "activation": 84.83023071289062,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_16",
+          "tok_pos": 35,
+          "nt_pos": 34,
+          "is_special": false,
+          "context": "CACGUUG[U]GGCCGUG"
+        },
+        {
+          "rank": 5,
+          "activation": 84.32923126220703,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_02",
+          "tok_pos": 34,
+          "nt_pos": 33,
+          "is_special": false,
+          "context": "CGGACUU[U]GACUCCG"
+        },
+        {
+          "rank": 6,
+          "activation": 81.77596282958984,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_16",
+          "tok_pos": 13,
+          "nt_pos": 12,
+          "is_special": false,
+          "context": "GAUCGUC[U]AGUGGUU"
+        },
+        {
+          "rank": 7,
+          "activation": 80.95460510253906,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_01",
+          "tok_pos": 39,
+          "nt_pos": 38,
+          "is_special": false,
+          "context": "CUGUUAA[U]CCGUAUG"
+        },
+        {
+          "rank": 8,
+          "activation": 80.24500274658203,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_01",
+          "tok_pos": 55,
+          "nt_pos": 54,
+          "is_special": false,
+          "context": "CACUGGU[U]CGAGUCC"
+        }
+      ],
+      "families_sample": [
+        "RF00001",
+        "RF00003",
+        "RF00004",
+        "RF00005",
+        "RF00012",
+        "RF00015",
+        "RF00017",
+        "RF00019"
+      ]
+    },
+    {
+      "rank": 8,
+      "feature_idx": 3515,
+      "max_activation": 83.4106674194336,
+      "n_active_tokens": 533860,
+      "n_families": 67,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 83.4106674194336,
+          "rfam_id": "RF01296",
+          "seq_name": "RF01296_05",
+          "tok_pos": 289,
+          "nt_pos": 288,
+          "is_special": false,
+          "context": "UGUGUGU[G]UGUGUGU"
+        },
+        {
+          "rank": 2,
+          "activation": 83.22101593017578,
+          "rfam_id": "RF01296",
+          "seq_name": "RF01296_05",
+          "tok_pos": 291,
+          "nt_pos": 290,
+          "is_special": false,
+          "context": "UGUGUGU[G]UGUGUGU"
+        },
+        {
+          "rank": 3,
+          "activation": 82.62527465820312,
+          "rfam_id": "RF01296",
+          "seq_name": "RF01296_05",
+          "tok_pos": 285,
+          "nt_pos": 284,
+          "is_special": false,
+          "context": "UGUGUGU[G]UGUGUGU"
+        },
+        {
+          "rank": 4,
+          "activation": 81.763427734375,
+          "rfam_id": "RF01296",
+          "seq_name": "RF01296_05",
+          "tok_pos": 293,
+          "nt_pos": 292,
+          "is_special": false,
+          "context": "UGUGUGU[G]UGUGUGU"
+        },
+        {
+          "rank": 5,
+          "activation": 81.51714324951172,
+          "rfam_id": "RF01296",
+          "seq_name": "RF01296_05",
+          "tok_pos": 287,
+          "nt_pos": 286,
+          "is_special": false,
+          "context": "UGUGUGU[G]UGUGUGU"
+        },
+        {
+          "rank": 6,
+          "activation": 80.82759094238281,
+          "rfam_id": "RF01296",
+          "seq_name": "RF01296_05",
+          "tok_pos": 283,
+          "nt_pos": 282,
+          "is_special": false,
+          "context": "UGUGUGU[G]UGUGUGU"
+        },
+        {
+          "rank": 7,
+          "activation": 79.70806884765625,
+          "rfam_id": "RF04217",
+          "seq_name": "RF04217_07",
+          "tok_pos": 17,
+          "nt_pos": 16,
+          "is_special": false,
+          "context": "UGUGUGC[A]UGUAUGC"
+        },
+        {
+          "rank": 8,
+          "activation": 78.957275390625,
+          "rfam_id": "RF01296",
+          "seq_name": "RF01296_05",
+          "tok_pos": 281,
+          "nt_pos": 280,
+          "is_special": false,
+          "context": "UGUGUGU[G]UGUGUGU"
+        }
+      ],
+      "families_sample": [
+        "RF00028",
+        "RF00045",
+        "RF00075",
+        "RF00124",
+        "RF00209",
+        "RF00230",
+        "RF00245",
+        "RF00252"
+      ]
+    },
+    {
+      "rank": 9,
+      "feature_idx": 1212,
+      "max_activation": 77.03478240966797,
+      "n_active_tokens": 174463,
+      "n_families": 14,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 77.03478240966797,
+          "rfam_id": "RF00409",
+          "seq_name": "RF00409_14",
+          "tok_pos": 11,
+          "nt_pos": 10,
+          "is_special": false,
+          "context": "CUCCCAG[G]AUCGCGU"
+        },
+        {
+          "rank": 2,
+          "activation": 75.82889556884766,
+          "rfam_id": "RF00409",
+          "seq_name": "RF00409_15",
+          "tok_pos": 11,
+          "nt_pos": 10,
+          "is_special": false,
+          "context": "CUCCCAG[G]AUCGCGU"
+        },
+        {
+          "rank": 3,
+          "activation": 75.32672119140625,
+          "rfam_id": "RF00409",
+          "seq_name": "RF00409_23",
+          "tok_pos": 11,
+          "nt_pos": 10,
+          "is_special": false,
+          "context": "CUCCCAG[G]AUCGCGU"
+        },
+        {
+          "rank": 4,
+          "activation": 74.72161865234375,
+          "rfam_id": "RF00409",
+          "seq_name": "RF00409_16",
+          "tok_pos": 11,
+          "nt_pos": 10,
+          "is_special": false,
+          "context": "CUCCCAG[G]AUCGCAU"
+        },
+        {
+          "rank": 5,
+          "activation": 74.19380187988281,
+          "rfam_id": "RF00409",
+          "seq_name": "RF00409_01",
+          "tok_pos": 11,
+          "nt_pos": 10,
+          "is_special": false,
+          "context": "CUCCUGG[G]AUCGCGU"
+        },
+        {
+          "rank": 6,
+          "activation": 72.66618347167969,
+          "rfam_id": "RF00409",
+          "seq_name": "RF00409_11",
+          "tok_pos": 11,
+          "nt_pos": 10,
+          "is_special": false,
+          "context": "CUCUUGG[G]AUCGCGU"
+        },
+        {
+          "rank": 7,
+          "activation": 72.55221557617188,
+          "rfam_id": "RF00409",
+          "seq_name": "RF00409_19",
+          "tok_pos": 11,
+          "nt_pos": 10,
+          "is_special": false,
+          "context": "CUCCUGG[G]AUCGCGU"
+        },
+        {
+          "rank": 8,
+          "activation": 72.46260070800781,
+          "rfam_id": "RF00409",
+          "seq_name": "RF00409_20",
+          "tok_pos": 11,
+          "nt_pos": 10,
+          "is_special": false,
+          "context": "CUCCCAG[G]AUCGCAU"
+        }
+      ],
+      "families_sample": [
+        "RF00003",
+        "RF00004",
+        "RF00005",
+        "RF00015",
+        "RF00019",
+        "RF00020",
+        "RF00162",
+        "RF00409"
+      ]
+    },
+    {
+      "rank": 10,
+      "feature_idx": 3180,
+      "max_activation": 76.44762420654297,
+      "n_active_tokens": 987165,
+      "n_families": 63,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 76.44762420654297,
+          "rfam_id": "RF00045",
+          "seq_name": "RF00045_02",
+          "tok_pos": 60,
+          "nt_pos": 59,
+          "is_special": false,
+          "context": "GUGUGUG[U]GUGUGUG"
+        },
+        {
+          "rank": 2,
+          "activation": 76.0215072631836,
+          "rfam_id": "RF00045",
+          "seq_name": "RF00045_02",
+          "tok_pos": 66,
+          "nt_pos": 65,
+          "is_special": false,
+          "context": "GUGUGUG[U]GUGUGUG"
+        },
+        {
+          "rank": 3,
+          "activation": 75.93435668945312,
+          "rfam_id": "RF00045",
+          "seq_name": "RF00045_02",
+          "tok_pos": 70,
+          "nt_pos": 69,
+          "is_special": false,
+          "context": "GUGUGUG[U]GUGUGUG"
+        },
+        {
+          "rank": 4,
+          "activation": 75.7188949584961,
+          "rfam_id": "RF00045",
+          "seq_name": "RF00045_02",
+          "tok_pos": 68,
+          "nt_pos": 67,
+          "is_special": false,
+          "context": "GUGUGUG[U]GUGUGUG"
+        },
+        {
+          "rank": 5,
+          "activation": 75.52958679199219,
+          "rfam_id": "RF00045",
+          "seq_name": "RF00045_02",
+          "tok_pos": 72,
+          "nt_pos": 71,
+          "is_special": false,
+          "context": "GUGUGUG[U]GUGUGUG"
+        },
+        {
+          "rank": 6,
+          "activation": 75.18962860107422,
+          "rfam_id": "RF00045",
+          "seq_name": "RF00045_02",
+          "tok_pos": 64,
+          "nt_pos": 63,
+          "is_special": false,
+          "context": "GUGUGUG[U]GUGUGUG"
+        },
+        {
+          "rank": 7,
+          "activation": 74.99830627441406,
+          "rfam_id": "RF00045",
+          "seq_name": "RF00045_02",
+          "tok_pos": 62,
+          "nt_pos": 61,
+          "is_special": false,
+          "context": "GUGUGUG[U]GUGUGUG"
+        },
+        {
+          "rank": 8,
+          "activation": 74.78031158447266,
+          "rfam_id": "RF00045",
+          "seq_name": "RF00045_02",
+          "tok_pos": 58,
+          "nt_pos": 57,
+          "is_special": false,
+          "context": "GUGUGUG[U]GUGUGUG"
+        }
+      ],
+      "families_sample": [
+        "RF00022",
+        "RF00024",
+        "RF00030",
+        "RF00045",
+        "RF00224",
+        "RF00231",
+        "RF00261",
+        "RF00478"
+      ]
+    },
+    {
+      "rank": 11,
+      "feature_idx": 2312,
+      "max_activation": 75.0834732055664,
+      "n_active_tokens": 3554828,
+      "n_families": 3979,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 75.0834732055664,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_21",
+          "tok_pos": 59,
+          "nt_pos": 58,
+          "is_special": false,
+          "context": "GGGUUCG[A]AUCCCUC"
+        },
+        {
+          "rank": 2,
+          "activation": 74.63102722167969,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_06",
+          "tok_pos": 59,
+          "nt_pos": 58,
+          "is_special": false,
+          "context": "AGGUUCG[A]UCCCUAC"
+        },
+        {
+          "rank": 3,
+          "activation": 73.91149139404297,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_09",
+          "tok_pos": 61,
+          "nt_pos": 60,
+          "is_special": false,
+          "context": "GGGUUCG[A]AUCCCGG"
+        },
+        {
+          "rank": 4,
+          "activation": 72.82212829589844,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_13",
+          "tok_pos": 48,
+          "nt_pos": 47,
+          "is_special": false,
+          "context": "GCUCUCA[U]GCUUCAC"
+        },
+        {
+          "rank": 5,
+          "activation": 72.7130126953125,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_16",
+          "tok_pos": 57,
+          "nt_pos": 56,
+          "is_special": false,
+          "context": "AGGUUCG[A]AUCCUGG"
+        },
+        {
+          "rank": 6,
+          "activation": 71.81990051269531,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_23",
+          "tok_pos": 58,
+          "nt_pos": 57,
+          "is_special": false,
+          "context": "AAGUUCG[A]UUCUUAG"
+        },
+        {
+          "rank": 7,
+          "activation": 71.44493103027344,
+          "rfam_id": "RF01684",
+          "seq_name": "RF01684_24",
+          "tok_pos": 43,
+          "nt_pos": 42,
+          "is_special": false,
+          "context": "GGGUUCG[A]AUCCCUG"
+        },
+        {
+          "rank": 8,
+          "activation": 71.30734252929688,
+          "rfam_id": "RF00001",
+          "seq_name": "RF00001_11",
+          "tok_pos": 87,
+          "nt_pos": 86,
+          "is_special": false,
+          "context": "UGGCUUA[A]GCCCUGG"
+        }
+      ],
+      "families_sample": [
+        "RF00001",
+        "RF00002",
+        "RF00003",
+        "RF00004",
+        "RF00005",
+        "RF00006",
+        "RF00007",
+        "RF00008"
+      ]
+    },
+    {
+      "rank": 12,
+      "feature_idx": 3597,
+      "max_activation": 74.32391357421875,
+      "n_active_tokens": 592031,
+      "n_families": 568,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 74.32391357421875,
+          "rfam_id": "RF00506",
+          "seq_name": "RF00506_01",
+          "tok_pos": 115,
+          "nt_pos": 114,
+          "is_special": false,
+          "context": "GCUUUUU[U]UU     "
+        },
+        {
+          "rank": 2,
+          "activation": 73.98015594482422,
+          "rfam_id": "RF00506",
+          "seq_name": "RF00506_16",
+          "tok_pos": 111,
+          "nt_pos": 110,
+          "is_special": false,
+          "context": "GCUUUUU[U]UUU    "
+        },
+        {
+          "rank": 3,
+          "activation": 73.54766845703125,
+          "rfam_id": "RF00506",
+          "seq_name": "RF00506_23",
+          "tok_pos": 113,
+          "nt_pos": 112,
+          "is_special": false,
+          "context": "GCUUUUU[U]UUU    "
+        },
+        {
+          "rank": 4,
+          "activation": 73.1484603881836,
+          "rfam_id": "RF00506",
+          "seq_name": "RF00506_04",
+          "tok_pos": 117,
+          "nt_pos": 116,
+          "is_special": false,
+          "context": "GCUUUUU[U]UU     "
+        },
+        {
+          "rank": 5,
+          "activation": 73.13467407226562,
+          "rfam_id": "RF00506",
+          "seq_name": "RF00506_20",
+          "tok_pos": 117,
+          "nt_pos": 116,
+          "is_special": false,
+          "context": "CUUUUUU[U]UU     "
+        },
+        {
+          "rank": 6,
+          "activation": 72.67245483398438,
+          "rfam_id": "RF00506",
+          "seq_name": "RF00506_16",
+          "tok_pos": 112,
+          "nt_pos": 111,
+          "is_special": false,
+          "context": "CUUUUUU[U]UU     "
+        },
+        {
+          "rank": 7,
+          "activation": 71.94683074951172,
+          "rfam_id": "RF00506",
+          "seq_name": "RF00506_20",
+          "tok_pos": 116,
+          "nt_pos": 115,
+          "is_special": false,
+          "context": "GCUUUUU[U]UUU    "
+        },
+        {
+          "rank": 8,
+          "activation": 71.2859878540039,
+          "rfam_id": "RF00512",
+          "seq_name": "RF00512_02",
+          "tok_pos": 146,
+          "nt_pos": 145,
+          "is_special": false,
+          "context": "GGGUUUU[U]UU     "
+        }
+      ],
+      "families_sample": [
+        "RF00006",
+        "RF00009",
+        "RF00011",
+        "RF00014",
+        "RF00017",
+        "RF00018",
+        "RF00019",
+        "RF00020"
+      ]
+    },
+    {
+      "rank": 13,
+      "feature_idx": 3582,
+      "max_activation": 73.98713684082031,
+      "n_active_tokens": 3554828,
+      "n_families": 3979,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 73.98713684082031,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_20",
+          "tok_pos": 81,
+          "nt_pos": 80,
+          "is_special": false,
+          "context": "UCUGUGU[A]AAACCAG"
+        },
+        {
+          "rank": 2,
+          "activation": 72.96990203857422,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_09",
+          "tok_pos": 33,
+          "nt_pos": 32,
+          "is_special": false,
+          "context": "UGUAACC[U]UUGAAAC"
+        },
+        {
+          "rank": 3,
+          "activation": 72.71124267578125,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_24",
+          "tok_pos": 81,
+          "nt_pos": 80,
+          "is_special": false,
+          "context": "UCUGUAA[A]AAGCCAG"
+        },
+        {
+          "rank": 4,
+          "activation": 72.13304138183594,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_22",
+          "tok_pos": 11,
+          "nt_pos": 10,
+          "is_special": false,
+          "context": "CCAUGAU[G]AGGGCAU"
+        },
+        {
+          "rank": 5,
+          "activation": 72.06975555419922,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_13",
+          "tok_pos": 81,
+          "nt_pos": 80,
+          "is_special": false,
+          "context": "UCUAUGA[A]AAGCCAG"
+        },
+        {
+          "rank": 6,
+          "activation": 71.89879608154297,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_12",
+          "tok_pos": 41,
+          "nt_pos": 40,
+          "is_special": false,
+          "context": "UUGAAAC[G]CUCCCAC"
+        },
+        {
+          "rank": 7,
+          "activation": 71.86185455322266,
+          "rfam_id": "RF01787",
+          "seq_name": "RF01787_00",
+          "tok_pos": 2,
+          "nt_pos": 1,
+          "is_special": false,
+          "context": "      U[G]CCCAGCA"
+        },
+        {
+          "rank": 8,
+          "activation": 71.70162200927734,
+          "rfam_id": "RF00097",
+          "seq_name": "RF00097_24",
+          "tok_pos": 49,
+          "nt_pos": 48,
+          "is_special": false,
+          "context": "CUCCCAU[U]CUUCACA"
+        }
+      ],
+      "families_sample": [
+        "RF00001",
+        "RF00002",
+        "RF00003",
+        "RF00004",
+        "RF00005",
+        "RF00006",
+        "RF00007",
+        "RF00008"
+      ]
+    },
+    {
+      "rank": 14,
+      "feature_idx": 3962,
+      "max_activation": 73.31243896484375,
+      "n_active_tokens": 54091,
+      "n_families": 4,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 73.31243896484375,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_20",
+          "tok_pos": 14,
+          "nt_pos": 13,
+          "is_special": false,
+          "context": "CGAACCC[A]GCCACAA"
+        },
+        {
+          "rank": 2,
+          "activation": 72.80979919433594,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_13",
+          "tok_pos": 14,
+          "nt_pos": 13,
+          "is_special": false,
+          "context": "CGAGCCC[A]GCCACAG"
+        },
+        {
+          "rank": 3,
+          "activation": 72.74515533447266,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_03",
+          "tok_pos": 9,
+          "nt_pos": 8,
+          "is_special": false,
+          "context": "UUCACCG[A]GCCGAGC"
+        },
+        {
+          "rank": 4,
+          "activation": 72.18075561523438,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_04",
+          "tok_pos": 14,
+          "nt_pos": 13,
+          "is_special": false,
+          "context": "CGACCCC[A]GCCACAG"
+        },
+        {
+          "rank": 5,
+          "activation": 72.16431427001953,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_16",
+          "tok_pos": 14,
+          "nt_pos": 13,
+          "is_special": false,
+          "context": "CGAGCCG[A]GCAGCAG"
+        },
+        {
+          "rank": 6,
+          "activation": 71.97993469238281,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_09",
+          "tok_pos": 14,
+          "nt_pos": 13,
+          "is_special": false,
+          "context": "CGACCCC[A]GCCACAA"
+        },
+        {
+          "rank": 7,
+          "activation": 71.8917465209961,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_09",
+          "tok_pos": 9,
+          "nt_pos": 8,
+          "is_special": false,
+          "context": "UUCACCG[A]CCCCAGC"
+        },
+        {
+          "rank": 8,
+          "activation": 71.66893005371094,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_03",
+          "tok_pos": 14,
+          "nt_pos": 13,
+          "is_special": false,
+          "context": "CGAGCCG[A]GCCACAG"
+        }
+      ],
+      "families_sample": [
+        "RF01066",
+        "RF01668",
+        "RF01782",
+        "RF02228"
+      ]
+    },
+    {
+      "rank": 15,
+      "feature_idx": 1357,
+      "max_activation": 72.30778503417969,
+      "n_active_tokens": 52002,
+      "n_families": 1,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 72.30778503417969,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_17",
+          "tok_pos": 74,
+          "nt_pos": 73,
+          "is_special": false,
+          "context": "CUGCGCC[U]C      "
+        },
+        {
+          "rank": 2,
+          "activation": 72.17163848876953,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_14",
+          "tok_pos": 74,
+          "nt_pos": 73,
+          "is_special": false,
+          "context": "CUGCGCC[U]C      "
+        },
+        {
+          "rank": 3,
+          "activation": 71.06119537353516,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_13",
+          "tok_pos": 74,
+          "nt_pos": 73,
+          "is_special": false,
+          "context": "CUGUGCC[U]C      "
+        },
+        {
+          "rank": 4,
+          "activation": 69.42444610595703,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_21",
+          "tok_pos": 74,
+          "nt_pos": 73,
+          "is_special": false,
+          "context": "CUGCGCC[U]C      "
+        },
+        {
+          "rank": 5,
+          "activation": 69.35397338867188,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_09",
+          "tok_pos": 74,
+          "nt_pos": 73,
+          "is_special": false,
+          "context": "CUGCGCC[U]C      "
+        },
+        {
+          "rank": 6,
+          "activation": 69.03666687011719,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_16",
+          "tok_pos": 74,
+          "nt_pos": 73,
+          "is_special": false,
+          "context": "CUGCGCC[U]C      "
+        },
+        {
+          "rank": 7,
+          "activation": 68.80458068847656,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_19",
+          "tok_pos": 74,
+          "nt_pos": 73,
+          "is_special": false,
+          "context": "CUGUGCC[U]C      "
+        },
+        {
+          "rank": 8,
+          "activation": 68.7098159790039,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_20",
+          "tok_pos": 74,
+          "nt_pos": 73,
+          "is_special": false,
+          "context": "CUGCGCC[U]C      "
+        }
+      ],
+      "families_sample": [
+        "RF01782"
+      ]
+    },
+    {
+      "rank": 16,
+      "feature_idx": 3596,
+      "max_activation": 72.19636535644531,
+      "n_active_tokens": 83783,
+      "n_families": 4,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 72.19636535644531,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_03",
+          "tok_pos": 62,
+          "nt_pos": 61,
+          "is_special": false,
+          "context": "GGCCAGC[A]GCGCGUG"
+        },
+        {
+          "rank": 2,
+          "activation": 70.77824401855469,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_16",
+          "tok_pos": 62,
+          "nt_pos": 61,
+          "is_special": false,
+          "context": "GGCCAGC[A]GCGCCUG"
+        },
+        {
+          "rank": 3,
+          "activation": 70.13753509521484,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_19",
+          "tok_pos": 59,
+          "nt_pos": 58,
+          "is_special": false,
+          "context": "GGUGGCG[A]GGAGGGC"
+        },
+        {
+          "rank": 4,
+          "activation": 70.051025390625,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_14",
+          "tok_pos": 62,
+          "nt_pos": 61,
+          "is_special": false,
+          "context": "GGCCAGC[A]GCGCCUG"
+        },
+        {
+          "rank": 5,
+          "activation": 69.31666564941406,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_17",
+          "tok_pos": 62,
+          "nt_pos": 61,
+          "is_special": false,
+          "context": "GGCGAGC[A]GCGCCUG"
+        },
+        {
+          "rank": 6,
+          "activation": 69.15269470214844,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_02",
+          "tok_pos": 9,
+          "nt_pos": 8,
+          "is_special": false,
+          "context": "UUCACCG[A]GCCCAGC"
+        },
+        {
+          "rank": 7,
+          "activation": 68.6259536743164,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_17",
+          "tok_pos": 50,
+          "nt_pos": 49,
+          "is_special": false,
+          "context": "CUGACCG[U]AGGUGGC"
+        },
+        {
+          "rank": 8,
+          "activation": 68.12071228027344,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_16",
+          "tok_pos": 50,
+          "nt_pos": 49,
+          "is_special": false,
+          "context": "CUGGCCG[U]ACGCGGC"
+        }
+      ],
+      "families_sample": [
+        "RF01066",
+        "RF01668",
+        "RF01782",
+        "RF02228"
+      ]
+    },
+    {
+      "rank": 17,
+      "feature_idx": 2414,
+      "max_activation": 71.31851196289062,
+      "n_active_tokens": 1600556,
+      "n_families": 265,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 71.31851196289062,
+          "rfam_id": "RF04217",
+          "seq_name": "RF04217_07",
+          "tok_pos": 32,
+          "nt_pos": 31,
+          "is_special": false,
+          "context": "AUGCAUG[C]AUGUAUG"
+        },
+        {
+          "rank": 2,
+          "activation": 68.69937133789062,
+          "rfam_id": "RF04217",
+          "seq_name": "RF04217_07",
+          "tok_pos": 24,
+          "nt_pos": 23,
+          "is_special": false,
+          "context": "AUGUAUG[C]AUGCAUG"
+        },
+        {
+          "rank": 3,
+          "activation": 67.49290466308594,
+          "rfam_id": "RF04217",
+          "seq_name": "RF04217_07",
+          "tok_pos": 12,
+          "nt_pos": 11,
+          "is_special": false,
+          "context": "AUGUAUG[U]GUGCAUG"
+        },
+        {
+          "rank": 4,
+          "activation": 67.08392333984375,
+          "rfam_id": "RF04217",
+          "seq_name": "RF04217_07",
+          "tok_pos": 22,
+          "nt_pos": 21,
+          "is_special": false,
+          "context": "GCAUGUA[U]GCAUGCA"
+        },
+        {
+          "rank": 5,
+          "activation": 66.9715805053711,
+          "rfam_id": "RF04217",
+          "seq_name": "RF04217_07",
+          "tok_pos": 20,
+          "nt_pos": 19,
+          "is_special": false,
+          "context": "GUGCAUG[U]AUGCAUG"
+        },
+        {
+          "rank": 6,
+          "activation": 66.63034057617188,
+          "rfam_id": "RF04217",
+          "seq_name": "RF04217_07",
+          "tok_pos": 30,
+          "nt_pos": 29,
+          "is_special": false,
+          "context": "GCAUGCA[U]GCAUGUA"
+        },
+        {
+          "rank": 7,
+          "activation": 66.3343505859375,
+          "rfam_id": "RF04217",
+          "seq_name": "RF04217_07",
+          "tok_pos": 26,
+          "nt_pos": 25,
+          "is_special": false,
+          "context": "GUAUGCA[U]GCAUGCA"
+        },
+        {
+          "rank": 8,
+          "activation": 66.17354583740234,
+          "rfam_id": "RF04217",
+          "seq_name": "RF04217_07",
+          "tok_pos": 18,
+          "nt_pos": 17,
+          "is_special": false,
+          "context": "GUGUGCA[U]GUAUGCA"
+        }
+      ],
+      "families_sample": [
+        "RF00027",
+        "RF00028",
+        "RF00030",
+        "RF00045",
+        "RF00075",
+        "RF00100",
+        "RF00103",
+        "RF00117"
+      ]
+    },
+    {
+      "rank": 18,
+      "feature_idx": 1642,
+      "max_activation": 70.37799835205078,
+      "n_active_tokens": 229638,
+      "n_families": 76,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 70.37799835205078,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_03",
+          "tok_pos": 39,
+          "nt_pos": 38,
+          "is_special": false,
+          "context": "UCAAAGC[U]CUAAGAA"
+        },
+        {
+          "rank": 2,
+          "activation": 70.1517333984375,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_24",
+          "tok_pos": 37,
+          "nt_pos": 36,
+          "is_special": false,
+          "context": "UAAGCUC[U]AAAAAUA"
+        },
+        {
+          "rank": 3,
+          "activation": 67.61265563964844,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_24",
+          "tok_pos": 35,
+          "nt_pos": 34,
+          "is_special": false,
+          "context": "UUUAAGC[U]CUAAAAA"
+        },
+        {
+          "rank": 4,
+          "activation": 64.41262817382812,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_10",
+          "tok_pos": 61,
+          "nt_pos": 60,
+          "is_special": false,
+          "context": "UCGAUUC[U]CGCUAUC"
+        },
+        {
+          "rank": 5,
+          "activation": 64.23910522460938,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_02",
+          "tok_pos": 6,
+          "nt_pos": 5,
+          "is_special": false,
+          "context": "  UGGGC[U]AUAGCCA"
+        },
+        {
+          "rank": 6,
+          "activation": 63.05918884277344,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_07",
+          "tok_pos": 36,
+          "nt_pos": 35,
+          "is_special": false,
+          "context": "UUUUCAA[U]GCAUAAA"
+        },
+        {
+          "rank": 7,
+          "activation": 62.58229064941406,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_00",
+          "tok_pos": 25,
+          "nt_pos": 24,
+          "is_special": false,
+          "context": "CAAGUAC[U]GGUCUCU"
+        },
+        {
+          "rank": 8,
+          "activation": 62.401424407958984,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_03",
+          "tok_pos": 21,
+          "nt_pos": 20,
+          "is_special": false,
+          "context": "AUACUAG[U]CCGCGAG"
+        }
+      ],
+      "families_sample": [
+        "RF00001",
+        "RF00003",
+        "RF00005",
+        "RF00010",
+        "RF00013",
+        "RF00015",
+        "RF00029",
+        "RF00097"
+      ]
+    },
+    {
+      "rank": 19,
+      "feature_idx": 2693,
+      "max_activation": 69.73899841308594,
+      "n_active_tokens": 24254,
+      "n_families": 61,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 69.73899841308594,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_16",
+          "tok_pos": 40,
+          "nt_pos": 39,
+          "is_special": false,
+          "context": "UGUGGCC[G]UGGUAAC"
+        },
+        {
+          "rank": 2,
+          "activation": 69.31717681884766,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_16",
+          "tok_pos": 10,
+          "nt_pos": 9,
+          "is_special": false,
+          "context": "CGUGAUC[G]UCUAGUG"
+        },
+        {
+          "rank": 3,
+          "activation": 67.30945587158203,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_02",
+          "tok_pos": 10,
+          "nt_pos": 9,
+          "is_special": false,
+          "context": "GGCUAUA[G]CCAAGCG"
+        },
+        {
+          "rank": 4,
+          "activation": 66.41019439697266,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_01",
+          "tok_pos": 46,
+          "nt_pos": 45,
+          "is_special": false,
+          "context": "UCCGUAU[G]UCACUGG"
+        },
+        {
+          "rank": 5,
+          "activation": 65.87081146240234,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_02",
+          "tok_pos": 35,
+          "nt_pos": 34,
+          "is_special": false,
+          "context": "GGACUUU[G]ACUCCGU"
+        },
+        {
+          "rank": 6,
+          "activation": 65.32298278808594,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_14",
+          "tok_pos": 15,
+          "nt_pos": 14,
+          "is_special": false,
+          "context": "UCGUCUA[G]UGGUUUA"
+        },
+        {
+          "rank": 7,
+          "activation": 65.06706237792969,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_02",
+          "tok_pos": 22,
+          "nt_pos": 21,
+          "is_special": false,
+          "context": "GCGGUAA[G]GCAACGG"
+        },
+        {
+          "rank": 8,
+          "activation": 64.67184448242188,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_01",
+          "tok_pos": 22,
+          "nt_pos": 21,
+          "is_special": false,
+          "context": "GUCGGUA[G]AACGGCG"
+        }
+      ],
+      "families_sample": [
+        "RF00001",
+        "RF00003",
+        "RF00004",
+        "RF00005",
+        "RF00006",
+        "RF00007",
+        "RF00012",
+        "RF00013"
+      ]
+    },
+    {
+      "rank": 20,
+      "feature_idx": 3215,
+      "max_activation": 69.18059539794922,
+      "n_active_tokens": 566789,
+      "n_families": 2,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 69.18059539794922,
+          "rfam_id": "RF00001",
+          "seq_name": "RF00001_15",
+          "tok_pos": 53,
+          "nt_pos": 52,
+          "is_special": false,
+          "context": "CCGGAAG[C]UAAGCCU"
+        },
+        {
+          "rank": 2,
+          "activation": 69.02725219726562,
+          "rfam_id": "RF00001",
+          "seq_name": "RF00001_10",
+          "tok_pos": 53,
+          "nt_pos": 52,
+          "is_special": false,
+          "context": "CCGGAAG[C]UAAGCCU"
+        },
+        {
+          "rank": 3,
+          "activation": 68.35511016845703,
+          "rfam_id": "RF00001",
+          "seq_name": "RF00001_23",
+          "tok_pos": 53,
+          "nt_pos": 52,
+          "is_special": false,
+          "context": "CCGGAAG[C]UAAGCAC"
+        },
+        {
+          "rank": 4,
+          "activation": 67.64741516113281,
+          "rfam_id": "RF00001",
+          "seq_name": "RF00001_00",
+          "tok_pos": 53,
+          "nt_pos": 52,
+          "is_special": false,
+          "context": "CCGGUAG[C]UAAGNCC"
+        },
+        {
+          "rank": 5,
+          "activation": 66.00353240966797,
+          "rfam_id": "RF00001",
+          "seq_name": "RF00001_24",
+          "tok_pos": 53,
+          "nt_pos": 52,
+          "is_special": false,
+          "context": "CCGGAAG[C]UAAGCCU"
+        },
+        {
+          "rank": 6,
+          "activation": 56.87685012817383,
+          "rfam_id": "RF00001",
+          "seq_name": "RF00001_05",
+          "tok_pos": 53,
+          "nt_pos": 52,
+          "is_special": false,
+          "context": "ACGGAAG[U]UAAGCUU"
+        },
+        {
+          "rank": 7,
+          "activation": 48.99774932861328,
+          "rfam_id": "RF00001",
+          "seq_name": "RF00001_11",
+          "tok_pos": 53,
+          "nt_pos": 52,
+          "is_special": false,
+          "context": "UCGGCCG[U]UAAACUC"
+        },
+        {
+          "rank": 8,
+          "activation": 46.24166488647461,
+          "rfam_id": "RF00001",
+          "seq_name": "RF00001_06",
+          "tok_pos": 52,
+          "nt_pos": 51,
+          "is_special": false,
+          "context": "ACGGAAG[U]UAAGCUU"
+        }
+      ],
+      "families_sample": [
+        "RF00001",
+        "RF01852"
+      ]
+    },
+    {
+      "rank": 21,
+      "feature_idx": 2752,
+      "max_activation": 69.1560287475586,
+      "n_active_tokens": 546636,
+      "n_families": 61,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 69.1560287475586,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_04",
+          "tok_pos": 6,
+          "nt_pos": 5,
+          "is_special": false,
+          "context": "  GGGUU[A]GUAGUUU"
+        },
+        {
+          "rank": 2,
+          "activation": 67.81016540527344,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_04",
+          "tok_pos": 41,
+          "nt_pos": 40,
+          "is_special": false,
+          "context": "GUCAAGG[A]AGUUUAU"
+        },
+        {
+          "rank": 3,
+          "activation": 65.20401763916016,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_03",
+          "tok_pos": 12,
+          "nt_pos": 11,
+          "is_special": false,
+          "context": "GUUUAGG[A]UAUACUA"
+        },
+        {
+          "rank": 4,
+          "activation": 64.69904327392578,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_18",
+          "tok_pos": 63,
+          "nt_pos": 62,
+          "is_special": false,
+          "context": "AAAUCUG[A]UUAGAUU"
+        },
+        {
+          "rank": 5,
+          "activation": 64.26295471191406,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_05",
+          "tok_pos": 24,
+          "nt_pos": 23,
+          "is_special": false,
+          "context": "CGGUAGC[A]CACAGGU"
+        },
+        {
+          "rank": 6,
+          "activation": 62.52216720581055,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_07",
+          "tok_pos": 12,
+          "nt_pos": 11,
+          "is_special": false,
+          "context": "AUAUAGU[A]UAUUUAA"
+        },
+        {
+          "rank": 7,
+          "activation": 62.45287322998047,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_20",
+          "tok_pos": 7,
+          "nt_pos": 6,
+          "is_special": false,
+          "context": " GCCCAG[A]UGGCGGA"
+        },
+        {
+          "rank": 8,
+          "activation": 60.287445068359375,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_06",
+          "tok_pos": 6,
+          "nt_pos": 5,
+          "is_special": false,
+          "context": "  GCUCG[A]UUAGCUC"
+        }
+      ],
+      "families_sample": [
+        "RF00001",
+        "RF00003",
+        "RF00005",
+        "RF00006",
+        "RF00013",
+        "RF00029",
+        "RF00057",
+        "RF00070"
+      ]
+    },
+    {
+      "rank": 22,
+      "feature_idx": 978,
+      "max_activation": 68.44126892089844,
+      "n_active_tokens": 145736,
+      "n_families": 7,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 68.44126892089844,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_21",
+          "tok_pos": 75,
+          "nt_pos": 74,
+          "is_special": false,
+          "context": "UGCGCCU[C]       "
+        },
+        {
+          "rank": 2,
+          "activation": 67.62334442138672,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_09",
+          "tok_pos": 75,
+          "nt_pos": 74,
+          "is_special": false,
+          "context": "UGCGCCU[C]       "
+        },
+        {
+          "rank": 3,
+          "activation": 67.554443359375,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_15",
+          "tok_pos": 75,
+          "nt_pos": 74,
+          "is_special": false,
+          "context": "UGCGCCU[C]       "
+        },
+        {
+          "rank": 4,
+          "activation": 67.42750549316406,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_20",
+          "tok_pos": 75,
+          "nt_pos": 74,
+          "is_special": false,
+          "context": "UGCGCCU[C]       "
+        },
+        {
+          "rank": 5,
+          "activation": 67.1960220336914,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_09",
+          "tok_pos": 72,
+          "nt_pos": 71,
+          "is_special": false,
+          "context": "GCCUGCG[C]CUC    "
+        },
+        {
+          "rank": 6,
+          "activation": 66.95021057128906,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_05",
+          "tok_pos": 75,
+          "nt_pos": 74,
+          "is_special": false,
+          "context": "UGGGCUU[C]       "
+        },
+        {
+          "rank": 7,
+          "activation": 66.07759094238281,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_01",
+          "tok_pos": 75,
+          "nt_pos": 74,
+          "is_special": false,
+          "context": "UGCGCCU[C]       "
+        },
+        {
+          "rank": 8,
+          "activation": 65.6092529296875,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_17",
+          "tok_pos": 75,
+          "nt_pos": 74,
+          "is_special": false,
+          "context": "UGCGCCU[C]       "
+        }
+      ],
+      "families_sample": [
+        "RF01059",
+        "RF01066",
+        "RF01668",
+        "RF01781",
+        "RF01782",
+        "RF02228",
+        "RF04217"
+      ]
+    },
+    {
+      "rank": 23,
+      "feature_idx": 3944,
+      "max_activation": 67.70753479003906,
+      "n_active_tokens": 84721,
+      "n_families": 3,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 67.70753479003906,
+          "rfam_id": "RF00015",
+          "seq_name": "RF00015_22",
+          "tok_pos": 32,
+          "nt_pos": 31,
+          "is_special": false,
+          "context": "AGCCAAU[G]AGGUUUA"
+        },
+        {
+          "rank": 2,
+          "activation": 67.35014343261719,
+          "rfam_id": "RF00015",
+          "seq_name": "RF00015_09",
+          "tok_pos": 14,
+          "nt_pos": 13,
+          "is_special": false,
+          "context": "GCGCAGU[G]GCAGUAU"
+        },
+        {
+          "rank": 3,
+          "activation": 67.05307006835938,
+          "rfam_id": "RF00015",
+          "seq_name": "RF00015_22",
+          "tok_pos": 14,
+          "nt_pos": 13,
+          "is_special": false,
+          "context": "GCGCAGA[G]GCAGUAU"
+        },
+        {
+          "rank": 4,
+          "activation": 66.51532745361328,
+          "rfam_id": "RF00015",
+          "seq_name": "RF00015_00",
+          "tok_pos": 14,
+          "nt_pos": 13,
+          "is_special": false,
+          "context": "GCGCAGU[G]GCAGUAU"
+        },
+        {
+          "rank": 5,
+          "activation": 66.45513916015625,
+          "rfam_id": "RF00015",
+          "seq_name": "RF00015_21",
+          "tok_pos": 14,
+          "nt_pos": 13,
+          "is_special": false,
+          "context": "GCGCAGU[G]GCAGUAU"
+        },
+        {
+          "rank": 6,
+          "activation": 66.31082916259766,
+          "rfam_id": "RF00015",
+          "seq_name": "RF00015_13",
+          "tok_pos": 14,
+          "nt_pos": 13,
+          "is_special": false,
+          "context": "GCGCAGU[G]GCAGUAU"
+        },
+        {
+          "rank": 7,
+          "activation": 66.17957305908203,
+          "rfam_id": "RF00015",
+          "seq_name": "RF00015_24",
+          "tok_pos": 14,
+          "nt_pos": 13,
+          "is_special": false,
+          "context": "GCGCAGU[G]GCAGUAU"
+        },
+        {
+          "rank": 8,
+          "activation": 66.03404235839844,
+          "rfam_id": "RF00015",
+          "seq_name": "RF00015_15",
+          "tok_pos": 14,
+          "nt_pos": 13,
+          "is_special": false,
+          "context": "GCGCAGU[G]GCAGUAU"
+        }
+      ],
+      "families_sample": [
+        "RF00015",
+        "RF00408",
+        "RF00554"
+      ]
+    },
+    {
+      "rank": 24,
+      "feature_idx": 3984,
+      "max_activation": 67.42424011230469,
+      "n_active_tokens": 108755,
+      "n_families": 15,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 67.42424011230469,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_21",
+          "tok_pos": 2,
+          "nt_pos": 1,
+          "is_special": false,
+          "context": "      C[U]UCACCGA"
+        },
+        {
+          "rank": 2,
+          "activation": 66.91029357910156,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_09",
+          "tok_pos": 2,
+          "nt_pos": 1,
+          "is_special": false,
+          "context": "      C[U]UCACCGA"
+        },
+        {
+          "rank": 3,
+          "activation": 66.23823547363281,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_15",
+          "tok_pos": 2,
+          "nt_pos": 1,
+          "is_special": false,
+          "context": "      C[U]UCAACGA"
+        },
+        {
+          "rank": 4,
+          "activation": 66.03854370117188,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_02",
+          "tok_pos": 2,
+          "nt_pos": 1,
+          "is_special": false,
+          "context": "      C[U]UCACCGA"
+        },
+        {
+          "rank": 5,
+          "activation": 65.99591827392578,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_03",
+          "tok_pos": 2,
+          "nt_pos": 1,
+          "is_special": false,
+          "context": "      C[U]UCACCGA"
+        },
+        {
+          "rank": 6,
+          "activation": 65.81986236572266,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_20",
+          "tok_pos": 2,
+          "nt_pos": 1,
+          "is_special": false,
+          "context": "      C[U]UCAGCGA"
+        },
+        {
+          "rank": 7,
+          "activation": 65.52760314941406,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_01",
+          "tok_pos": 2,
+          "nt_pos": 1,
+          "is_special": false,
+          "context": "      C[U]UCAGGGA"
+        },
+        {
+          "rank": 8,
+          "activation": 65.44967651367188,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_05",
+          "tok_pos": 2,
+          "nt_pos": 1,
+          "is_special": false,
+          "context": "      C[U]UCACCGA"
+        }
+      ],
+      "families_sample": [
+        "RF00001",
+        "RF00005",
+        "RF00519",
+        "RF00630",
+        "RF00763",
+        "RF00946",
+        "RF01066",
+        "RF01668"
+      ]
+    },
+    {
+      "rank": 25,
+      "feature_idx": 3576,
+      "max_activation": 67.29086303710938,
+      "n_active_tokens": 42580,
+      "n_families": 5,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 67.29086303710938,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_02",
+          "tok_pos": 39,
+          "nt_pos": 38,
+          "is_special": false,
+          "context": "UCCGCCC[G]UUCCUGC"
+        },
+        {
+          "rank": 2,
+          "activation": 65.76864624023438,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_22",
+          "tok_pos": 39,
+          "nt_pos": 38,
+          "is_special": false,
+          "context": "UCGUCAC[G]UCCCUGG"
+        },
+        {
+          "rank": 3,
+          "activation": 64.54016876220703,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_01",
+          "tok_pos": 39,
+          "nt_pos": 38,
+          "is_special": false,
+          "context": "GCAUCCC[G]GUCCUGA"
+        },
+        {
+          "rank": 4,
+          "activation": 64.06092834472656,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_05",
+          "tok_pos": 39,
+          "nt_pos": 38,
+          "is_special": false,
+          "context": "CCGGAAC[G]CUCCUGG"
+        },
+        {
+          "rank": 5,
+          "activation": 63.937252044677734,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_24",
+          "tok_pos": 35,
+          "nt_pos": 34,
+          "is_special": false,
+          "context": "GUCCACC[G]GGCGGCC"
+        },
+        {
+          "rank": 6,
+          "activation": 63.86921691894531,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_07",
+          "tok_pos": 35,
+          "nt_pos": 34,
+          "is_special": false,
+          "context": "UUGGGCC[G]GACGGUC"
+        },
+        {
+          "rank": 7,
+          "activation": 63.67864227294922,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_09",
+          "tok_pos": 39,
+          "nt_pos": 38,
+          "is_special": false,
+          "context": "GGAUCAC[G]CCCCUGC"
+        },
+        {
+          "rank": 8,
+          "activation": 63.673988342285156,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_04",
+          "tok_pos": 35,
+          "nt_pos": 34,
+          "is_special": false,
+          "context": "GUCCGCG[G]GCCGGUC"
+        }
+      ],
+      "families_sample": [
+        "RF01066",
+        "RF01668",
+        "RF01782",
+        "RF02228",
+        "RF04281"
+      ]
+    },
+    {
+      "rank": 26,
+      "feature_idx": 3643,
+      "max_activation": 67.26133728027344,
+      "n_active_tokens": 3554812,
+      "n_families": 3979,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 67.26133728027344,
+          "rfam_id": "RF01210",
+          "seq_name": "RF01210_01",
+          "tok_pos": 27,
+          "nt_pos": 26,
+          "is_special": false,
+          "context": "GCAUGAU[G]AUUGGGU"
+        },
+        {
+          "rank": 2,
+          "activation": 66.97900390625,
+          "rfam_id": "RF01210",
+          "seq_name": "RF01210_14",
+          "tok_pos": 27,
+          "nt_pos": 26,
+          "is_special": false,
+          "context": "GCGUGAU[G]AUUGGGU"
+        },
+        {
+          "rank": 3,
+          "activation": 66.50965118408203,
+          "rfam_id": "RF01210",
+          "seq_name": "RF01210_12",
+          "tok_pos": 27,
+          "nt_pos": 26,
+          "is_special": false,
+          "context": "GCGUGAU[G]AUUGGGU"
+        },
+        {
+          "rank": 4,
+          "activation": 66.37274169921875,
+          "rfam_id": "RF01210",
+          "seq_name": "RF01210_12",
+          "tok_pos": 24,
+          "nt_pos": 23,
+          "is_special": false,
+          "context": "UAAGCGU[G]AUGAUUG"
+        },
+        {
+          "rank": 5,
+          "activation": 65.78269958496094,
+          "rfam_id": "RF01210",
+          "seq_name": "RF01210_14",
+          "tok_pos": 24,
+          "nt_pos": 23,
+          "is_special": false,
+          "context": "UAAGCGU[G]AUGAUUG"
+        },
+        {
+          "rank": 6,
+          "activation": 65.4451904296875,
+          "rfam_id": "RF01210",
+          "seq_name": "RF01210_02",
+          "tok_pos": 27,
+          "nt_pos": 26,
+          "is_special": false,
+          "context": "GCAUGAU[G]AUUGGGU"
+        },
+        {
+          "rank": 7,
+          "activation": 65.42919921875,
+          "rfam_id": "RF01210",
+          "seq_name": "RF01210_09",
+          "tok_pos": 27,
+          "nt_pos": 26,
+          "is_special": false,
+          "context": "GCGUGAU[G]AUUGGGU"
+        },
+        {
+          "rank": 8,
+          "activation": 64.98890686035156,
+          "rfam_id": "RF01210",
+          "seq_name": "RF01210_03",
+          "tok_pos": 27,
+          "nt_pos": 26,
+          "is_special": false,
+          "context": "GCAUGAU[G]AUUGGGU"
+        }
+      ],
+      "families_sample": [
+        "RF00001",
+        "RF00002",
+        "RF00003",
+        "RF00004",
+        "RF00005",
+        "RF00006",
+        "RF00007",
+        "RF00008"
+      ]
+    },
+    {
+      "rank": 27,
+      "feature_idx": 1739,
+      "max_activation": 67.10889434814453,
+      "n_active_tokens": 197967,
+      "n_families": 3,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 67.10889434814453,
+          "rfam_id": "RF00001",
+          "seq_name": "RF00001_24",
+          "tok_pos": 59,
+          "nt_pos": 58,
+          "is_special": false,
+          "context": "GCUAAGC[C]UGCCAGC"
+        },
+        {
+          "rank": 2,
+          "activation": 65.4630126953125,
+          "rfam_id": "RF00001",
+          "seq_name": "RF00001_15",
+          "tok_pos": 59,
+          "nt_pos": 58,
+          "is_special": false,
+          "context": "GCUAAGC[C]UCACAGC"
+        },
+        {
+          "rank": 3,
+          "activation": 65.34425354003906,
+          "rfam_id": "RF00001",
+          "seq_name": "RF00001_10",
+          "tok_pos": 59,
+          "nt_pos": 58,
+          "is_special": false,
+          "context": "GCUAAGC[C]UCUCAGC"
+        },
+        {
+          "rank": 4,
+          "activation": 62.55878448486328,
+          "rfam_id": "RF00001",
+          "seq_name": "RF00001_00",
+          "tok_pos": 59,
+          "nt_pos": 58,
+          "is_special": false,
+          "context": "GCUAAGN[C]CCACAGC"
+        },
+        {
+          "rank": 5,
+          "activation": 61.747474670410156,
+          "rfam_id": "RF00001",
+          "seq_name": "RF00001_23",
+          "tok_pos": 59,
+          "nt_pos": 58,
+          "is_special": false,
+          "context": "GCUAAGC[A]CUCCAGC"
+        },
+        {
+          "rank": 6,
+          "activation": 54.32538986206055,
+          "rfam_id": "RF00001",
+          "seq_name": "RF00001_05",
+          "tok_pos": 59,
+          "nt_pos": 58,
+          "is_special": false,
+          "context": "GUUAAGC[U]UCUCAGC"
+        },
+        {
+          "rank": 7,
+          "activation": 49.480594635009766,
+          "rfam_id": "RF00001",
+          "seq_name": "RF00001_23",
+          "tok_pos": 60,
+          "nt_pos": 59,
+          "is_special": false,
+          "context": "CUAAGCA[C]UCCAGCG"
+        },
+        {
+          "rank": 8,
+          "activation": 48.573909759521484,
+          "rfam_id": "RF00001",
+          "seq_name": "RF00001_11",
+          "tok_pos": 59,
+          "nt_pos": 58,
+          "is_special": false,
+          "context": "GUUAAAC[U]CUUCAGC"
+        }
+      ],
+      "families_sample": [
+        "RF00001",
+        "RF00634",
+        "RF01852"
+      ]
+    },
+    {
+      "rank": 28,
+      "feature_idx": 1736,
+      "max_activation": 66.81425476074219,
+      "n_active_tokens": 2602056,
+      "n_families": 3979,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 66.81425476074219,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_19",
+          "tok_pos": 26,
+          "nt_pos": 25,
+          "is_special": false,
+          "context": "GAGCGGC[U]GUCCGGC"
+        },
+        {
+          "rank": 2,
+          "activation": 66.56281280517578,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_11",
+          "tok_pos": 38,
+          "nt_pos": 37,
+          "is_special": false,
+          "context": "CCGGUCC[U]GGCCGUA"
+        },
+        {
+          "rank": 3,
+          "activation": 66.44253540039062,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_03",
+          "tok_pos": 41,
+          "nt_pos": 40,
+          "is_special": false,
+          "context": "GGGCCGG[U]CCCGCCC"
+        },
+        {
+          "rank": 4,
+          "activation": 65.3960189819336,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_14",
+          "tok_pos": 41,
+          "nt_pos": 40,
+          "is_special": false,
+          "context": "CGGCCGG[U]CCUGGCC"
+        },
+        {
+          "rank": 5,
+          "activation": 65.38162994384766,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_04",
+          "tok_pos": 41,
+          "nt_pos": 40,
+          "is_special": false,
+          "context": "GGGCCGG[U]CCUGCCC"
+        },
+        {
+          "rank": 6,
+          "activation": 64.95646667480469,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_22",
+          "tok_pos": 26,
+          "nt_pos": 25,
+          "is_special": false,
+          "context": "CACCGGG[U]CCUGUUC"
+        },
+        {
+          "rank": 7,
+          "activation": 64.68903350830078,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_17",
+          "tok_pos": 32,
+          "nt_pos": 31,
+          "is_special": false,
+          "context": "CUUGUCC[U]CGUCGCG"
+        },
+        {
+          "rank": 8,
+          "activation": 64.52147674560547,
+          "rfam_id": "RF01782",
+          "seq_name": "RF01782_16",
+          "tok_pos": 41,
+          "nt_pos": 40,
+          "is_special": false,
+          "context": "GUCGCGG[U]CCUGGCC"
+        }
+      ],
+      "families_sample": [
+        "RF00001",
+        "RF00002",
+        "RF00003",
+        "RF00004",
+        "RF00005",
+        "RF00006",
+        "RF00007",
+        "RF00008"
+      ]
+    },
+    {
+      "rank": 29,
+      "feature_idx": 1391,
+      "max_activation": 66.28064727783203,
+      "n_active_tokens": 218783,
+      "n_families": 6,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 66.28064727783203,
+          "rfam_id": "RF00100",
+          "seq_name": "RF00100_21",
+          "tok_pos": 7,
+          "nt_pos": 6,
+          "is_special": false,
+          "context": " GGAUGU[G]AGGGCGA"
+        },
+        {
+          "rank": 2,
+          "activation": 66.05267333984375,
+          "rfam_id": "RF00100",
+          "seq_name": "RF00100_09",
+          "tok_pos": 7,
+          "nt_pos": 6,
+          "is_special": false,
+          "context": " GGAUGU[G]AGGGCGA"
+        },
+        {
+          "rank": 3,
+          "activation": 66.02798461914062,
+          "rfam_id": "RF00100",
+          "seq_name": "RF00100_23",
+          "tok_pos": 7,
+          "nt_pos": 6,
+          "is_special": false,
+          "context": " GGAUGU[G]AGGGCGA"
+        },
+        {
+          "rank": 4,
+          "activation": 66.02539825439453,
+          "rfam_id": "RF00100",
+          "seq_name": "RF00100_19",
+          "tok_pos": 7,
+          "nt_pos": 6,
+          "is_special": false,
+          "context": " GGAUGU[G]AGGGCGA"
+        },
+        {
+          "rank": 5,
+          "activation": 65.94942474365234,
+          "rfam_id": "RF00100",
+          "seq_name": "RF00100_03",
+          "tok_pos": 7,
+          "nt_pos": 6,
+          "is_special": false,
+          "context": " GGAUGU[G]AGGGCGA"
+        },
+        {
+          "rank": 6,
+          "activation": 65.90913391113281,
+          "rfam_id": "RF00100",
+          "seq_name": "RF00100_01",
+          "tok_pos": 7,
+          "nt_pos": 6,
+          "is_special": false,
+          "context": " GGAUGU[G]AGGGCGA"
+        },
+        {
+          "rank": 7,
+          "activation": 65.51622009277344,
+          "rfam_id": "RF00100",
+          "seq_name": "RF00100_19",
+          "tok_pos": 9,
+          "nt_pos": 8,
+          "is_special": false,
+          "context": "GAUGUGA[G]GGCGAUC"
+        },
+        {
+          "rank": 8,
+          "activation": 65.50947570800781,
+          "rfam_id": "RF00100",
+          "seq_name": "RF00100_23",
+          "tok_pos": 9,
+          "nt_pos": 8,
+          "is_special": false,
+          "context": "GAUGUGA[G]GGCGAUC"
+        }
+      ],
+      "families_sample": [
+        "RF00100",
+        "RF00548",
+        "RF00638",
+        "RF01845",
+        "RF01851",
+        "RF02091"
+      ]
+    },
+    {
+      "rank": 30,
+      "feature_idx": 2670,
+      "max_activation": 65.75465393066406,
+      "n_active_tokens": 686321,
+      "n_families": 41,
+      "top_tokens": [
+        {
+          "rank": 1,
+          "activation": 65.75465393066406,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_05",
+          "tok_pos": 49,
+          "nt_pos": 48,
+          "is_special": false,
+          "context": "UUUAGUG[U]GGGUUCG"
+        },
+        {
+          "rank": 2,
+          "activation": 58.15690612792969,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_10",
+          "tok_pos": 49,
+          "nt_pos": 48,
+          "is_special": false,
+          "context": "UUGAAUG[C]GAGUUCG"
+        },
+        {
+          "rank": 3,
+          "activation": 47.82121658325195,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_22",
+          "tok_pos": 50,
+          "nt_pos": 49,
+          "is_special": false,
+          "context": "GUGGUCG[C]GGGUUCA"
+        },
+        {
+          "rank": 4,
+          "activation": 46.906455993652344,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_04",
+          "tok_pos": 50,
+          "nt_pos": 49,
+          "is_special": false,
+          "context": "GUUUAUG[C]CGGUUCA"
+        },
+        {
+          "rank": 5,
+          "activation": 45.24309539794922,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_09",
+          "tok_pos": 31,
+          "nt_pos": 30,
+          "is_special": false,
+          "context": "AGGGCGC[C]GGACUCA"
+        },
+        {
+          "rank": 6,
+          "activation": 43.59829330444336,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_02",
+          "tok_pos": 49,
+          "nt_pos": 48,
+          "is_special": false,
+          "context": "UCAUGCG[U]UGGUUCG"
+        },
+        {
+          "rank": 7,
+          "activation": 43.49641418457031,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_05",
+          "tok_pos": 62,
+          "nt_pos": 61,
+          "is_special": false,
+          "context": "CGAAUCC[U]GCUGCCC"
+        },
+        {
+          "rank": 8,
+          "activation": 42.881351470947266,
+          "rfam_id": "RF00005",
+          "seq_name": "RF00005_04",
+          "tok_pos": 51,
+          "nt_pos": 50,
+          "is_special": false,
+          "context": "UUUAUGC[C]GGUUCAA"
+        }
+      ],
+      "families_sample": [
+        "RF00001",
+        "RF00005",
+        "RF00006",
+        "RF00010",
+        "RF00013",
+        "RF00020",
+        "RF00023",
+        "RF00029"
+      ]
+    }
+  ]
+}

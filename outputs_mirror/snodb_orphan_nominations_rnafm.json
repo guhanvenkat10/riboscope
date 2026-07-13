@@ -1,0 +1,334 @@
+{
+  "model": "rnafm",
+  "n_train_noncanonical": 100,
+  "n_train_canonical": 258,
+  "n_orphans_scored": 708,
+  "top_nominations": [
+    {
+      "snodb_id": "snoDB0112",
+      "gene_name": "U8",
+      "family": "U8",
+      "p_noncanonical": 1.0,
+      "length": "133",
+      "conservation_phastcons": "0.05",
+      "host_gene": "",
+      "host_function": ""
+    },
+    {
+      "snodb_id": "snoDB0130",
+      "gene_name": "U3",
+      "family": "U3",
+      "p_noncanonical": 1.0,
+      "length": "228",
+      "conservation_phastcons": "0.01",
+      "host_gene": "",
+      "host_function": ""
+    },
+    {
+      "snodb_id": "snoDB0145",
+      "gene_name": "U3",
+      "family": "U3",
+      "p_noncanonical": 1.0,
+      "length": "212",
+      "conservation_phastcons": "0.01",
+      "host_gene": "",
+      "host_function": ""
+    },
+    {
+      "snodb_id": "snoDB0152",
+      "gene_name": "U3",
+      "family": "U3",
+      "p_noncanonical": 1.0,
+      "length": "213",
+      "conservation_phastcons": "0.09",
+      "host_gene": "",
+      "host_function": ""
+    },
+    {
+      "snodb_id": "snoDB0153",
+      "gene_name": "U3",
+      "family": "U3",
+      "p_noncanonical": 1.0,
+      "length": "217",
+      "conservation_phastcons": "0.01",
+      "host_gene": "protein_coding",
+      "host_function": "apoptosis regulator"
+    },
+    {
+      "snodb_id": "snoDB0155",
+      "gene_name": "U3",
+      "family": "U3",
+      "p_noncanonical": 1.0,
+      "length": "212",
+      "conservation_phastcons": "0.01",
+      "host_gene": "",
+      "host_function": ""
+    },
+    {
+      "snodb_id": "snoDB0157",
+      "gene_name": "U3",
+      "family": "U3",
+      "p_noncanonical": 1.0,
+      "length": "208",
+      "conservation_phastcons": "0.00",
+      "host_gene": "protein_coding",
+      "host_function": "transcription regulator"
+    },
+    {
+      "snodb_id": "snoDB0224",
+      "gene_name": "U3",
+      "family": "U3",
+      "p_noncanonical": 1.0,
+      "length": "219",
+      "conservation_phastcons": "0.04",
+      "host_gene": "protein_coding",
+      "host_function": "lipid metabolic process"
+    },
+    {
+      "snodb_id": "snoDB0227",
+      "gene_name": "U8",
+      "family": "U8",
+      "p_noncanonical": 1.0,
+      "length": "135",
+      "conservation_phastcons": "0.01",
+      "host_gene": "",
+      "host_function": ""
+    },
+    {
+      "snodb_id": "snoDB0232",
+      "gene_name": "U3",
+      "family": "U3",
+      "p_noncanonical": 1.0,
+      "length": "214",
+      "conservation_phastcons": "0.04",
+      "host_gene": "",
+      "host_function": ""
+    },
+    {
+      "snodb_id": "snoDB0249",
+      "gene_name": "U3",
+      "family": "U3",
+      "p_noncanonical": 1.0,
+      "length": "212",
+      "conservation_phastcons": "0.05",
+      "host_gene": "",
+      "host_function": ""
+    },
+    {
+      "snodb_id": "snoDB0271",
+      "gene_name": "U3",
+      "family": "U3",
+      "p_noncanonical": 1.0,
+      "length": "213",
+      "conservation_phastcons": "0.07",
+      "host_gene": "",
+      "host_function": ""
+    },
+    {
+      "snodb_id": "snoDB0276",
+      "gene_name": "U3",
+      "family": "U3",
+      "p_noncanonical": 1.0,
+      "length": "211",
+      "conservation_phastcons": "0.02",
+      "host_gene": "",
+      "host_function": ""
+    },
+    {
+      "snodb_id": "snoDB0306",
+      "gene_name": "U3",
+      "family": "U3",
+      "p_noncanonical": 1.0,
+      "length": "215",
+      "conservation_phastcons": "0.01",
+      "host_gene": "",
+      "host_function": ""
+    },
+    {
+      "snodb_id": "snoDB0311",
+      "gene_name": "U3",
+      "family": "U3",
+      "p_noncanonical": 1.0,
+      "length": "227",
+      "conservation_phastcons": "0.01",
+      "host_gene": "",
+      "host_function": ""
+    },
+    {
+      "snodb_id": "snoDB0339",
+      "gene_name": "U3",
+      "family": "U3",
+      "p_noncanonical": 1.0,
+      "length": "192",
+      "conservation_phastcons": "0.02",
+      "host_gene": "protein_coding",
+      "host_function": "cell migration"
+    },
+    {
+      "snodb_id": "snoDB0356",
+      "gene_name": "U3",
+      "family": "U3",
+      "p_noncanonical": 1.0,
+      "length": "200",
+      "conservation_phastcons": "0.21",
+      "host_gene": "protein_coding",
+      "host_function": "transcription regulator"
+    },
+    {
+      "snodb_id": "snoDB0402",
+      "gene_name": "SNORD3H",
+      "family": "SNORD3H",
+      "p_noncanonical": 1.0,
+      "length": "214",
+      "conservation_phastcons": "0.07",
+      "host_gene": "",
+      "host_function": ""
+    },
+    {
+      "snodb_id": "snoDB0406",
+      "gene_name": "U3",
+      "family": "U3",
+      "p_noncanonical": 1.0,
+      "length": "216",
+      "conservation_phastcons": "0.10",
+      "host_gene": "",
+      "host_function": ""
+    },
+    {
+      "snodb_id": "snoDB0455",
+      "gene_name": "U3",
+      "family": "U3",
+      "p_noncanonical": 1.0,
+      "length": "210",
+      "conservation_phastcons": "0.00",
+      "host_gene": "protein_coding",
+      "host_function": "poorly characterized"
+    },
+    {
+      "snodb_id": "snoDB0508",
+      "gene_name": "U3",
+      "family": "U3",
+      "p_noncanonical": 1.0,
+      "length": "217",
+      "conservation_phastcons": "0.11",
+      "host_gene": "protein_coding",
+      "host_function": "lipid metabolic process"
+    },
+    {
+      "snodb_id": "snoDB0530",
+      "gene_name": "U3",
+      "family": "U3",
+      "p_noncanonical": 1.0,
+      "length": "213",
+      "conservation_phastcons": "0.01",
+      "host_gene": "",
+      "host_function": ""
+    },
+    {
+      "snodb_id": "snoDB0606",
+      "gene_name": "U3",
+      "family": "U3",
+      "p_noncanonical": 1.0,
+      "length": "204",
+      "conservation_phastcons": "0.21",
+      "host_gene": "",
+      "host_function": ""
+    },
+    {
+      "snodb_id": "snoDB0653",
+      "gene_name": "U3",
+      "family": "U3",
+      "p_noncanonical": 1.0,
+      "length": "216",
+      "conservation_phastcons": "0.47",
+      "host_gene": "lncRNA",
+      "host_function": "poorly characterized"
+    },
+    {
+      "snodb_id": "snoDB0657",
+      "gene_name": "U3",
+      "family": "U3",
+      "p_noncanonical": 1.0,
+      "length": "216",
+      "conservation_phastcons": "0.28",
+      "host_gene": "protein_coding",
+      "host_function": "cell differentiation"
+    }
+  ],
+  "top_family_composition": [
+    [
+      "U3",
+      22
+    ],
+    [
+      "U8",
+      2
+    ],
+    [
+      "SNORD3H",
+      1
+    ]
+  ],
+  "driver_features": [
+    {
+      "feature_idx": 4274,
+      "weight": 0.10052611876272805,
+      "families": "?"
+    },
+    {
+      "feature_idx": 3418,
+      "weight": 0.07074533593654361,
+      "families": "?"
+    },
+    {
+      "feature_idx": 8031,
+      "weight": 0.06896644676672892,
+      "families": "?"
+    },
+    {
+      "feature_idx": 5358,
+      "weight": 0.06510593307431047,
+      "families": "?"
+    },
+    {
+      "feature_idx": 1127,
+      "weight": 0.06497307901279022,
+      "families": "?"
+    },
+    {
+      "feature_idx": 7655,
+      "weight": 0.06020071390966782,
+      "families": "?"
+    },
+    {
+      "feature_idx": 1284,
+      "weight": 0.060013003896975364,
+      "families": "?"
+    },
+    {
+      "feature_idx": 7621,
+      "weight": 0.05994006401760489,
+      "families": "?"
+    },
+    {
+      "feature_idx": 5810,
+      "weight": 0.059509281635809964,
+      "families": "?"
+    },
+    {
+      "feature_idx": 362,
+      "weight": 0.05945824142519199,
+      "families": "?"
+    },
+    {
+      "feature_idx": 7148,
+      "weight": 0.059146063642588224,
+      "families": "?"
+    },
+    {
+      "feature_idx": 2051,
+      "weight": 0.05853264515320195,
+      "families": "?"
+    }
+  ]
+}

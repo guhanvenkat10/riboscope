@@ -1,0 +1,2690 @@
+{
+  "models": {
+    "rnafm": {
+      "d_dict": 8192,
+      "label": "RNA-FM"
+    },
+    "erniarna": {
+      "d_dict": 8192,
+      "label": "ErnieRNA"
+    },
+    "rnamsm": {
+      "d_dict": 8192,
+      "label": "RNA-MSM"
+    }
+  },
+  "settings": {
+    "magnitude_threshold_frac": 0.25,
+    "jaccard_threshold": 0.5,
+    "min_families_per_feature": 2,
+    "skip_special_tokens": true
+  },
+  "pairs": [
+    {
+      "model_a": "rnafm",
+      "model_b": "erniarna",
+      "n_reciprocal_matches": 84,
+      "matches": [
+        {
+          "feat_a": 24,
+          "feat_b": 369,
+          "jaccard": 1.0,
+          "n_families_a": 3979,
+          "n_families_b": 3979,
+          "n_shared_families": 3979,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 395,
+          "feat_b": 4529,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 1497,
+          "feat_b": 73,
+          "jaccard": 1.0,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00010",
+            "RF00011",
+            "RF00373"
+          ]
+        },
+        {
+          "feat_a": 1809,
+          "feat_b": 1490,
+          "jaccard": 1.0,
+          "n_families_a": 4,
+          "n_families_b": 4,
+          "n_shared_families": 4,
+          "shared_families_sample": [
+            "RF00012",
+            "RF01846",
+            "RF01847",
+            "RF01848"
+          ]
+        },
+        {
+          "feat_a": 1852,
+          "feat_b": 4228,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 1859,
+          "feat_b": 7349,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 2050,
+          "feat_b": 3926,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 2233,
+          "feat_b": 3428,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 2241,
+          "feat_b": 3613,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 2446,
+          "feat_b": 7858,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 2504,
+          "feat_b": 3268,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 2584,
+          "feat_b": 8060,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 2723,
+          "feat_b": 3473,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 2752,
+          "feat_b": 4618,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 3228,
+          "feat_b": 5213,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 3316,
+          "feat_b": 2422,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 3592,
+          "feat_b": 3583,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 3704,
+          "feat_b": 3727,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 3839,
+          "feat_b": 3852,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 3944,
+          "feat_b": 3876,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 4009,
+          "feat_b": 3670,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 4126,
+          "feat_b": 7554,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 4264,
+          "feat_b": 7214,
+          "jaccard": 1.0,
+          "n_families_a": 3977,
+          "n_families_b": 3977,
+          "n_shared_families": 3977,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 4856,
+          "feat_b": 6356,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 5026,
+          "feat_b": 3131,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 5456,
+          "feat_b": 6163,
+          "jaccard": 1.0,
+          "n_families_a": 3977,
+          "n_families_b": 3977,
+          "n_shared_families": 3977,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 5569,
+          "feat_b": 3923,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 5876,
+          "feat_b": 4822,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 6106,
+          "feat_b": 5820,
+          "jaccard": 1.0,
+          "n_families_a": 3977,
+          "n_families_b": 3977,
+          "n_shared_families": 3977,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 6905,
+          "feat_b": 4031,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 7159,
+          "feat_b": 4171,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 7268,
+          "feat_b": 7553,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 7360,
+          "feat_b": 3400,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 7785,
+          "feat_b": 7535,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 7857,
+          "feat_b": 3462,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 6100,
+          "feat_b": 3724,
+          "jaccard": 0.9997485280036926,
+          "n_families_a": 3977,
+          "n_families_b": 3976,
+          "n_shared_families": 3976,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 5588,
+          "feat_b": 6194,
+          "jaccard": 0.97062748670578,
+          "n_families_a": 3667,
+          "n_families_b": 3713,
+          "n_shared_families": 3635,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 3691,
+          "feat_b": 3050,
+          "jaccard": 0.8302218914031982,
+          "n_families_a": 2791,
+          "n_families_b": 2405,
+          "n_shared_families": 2357,
+          "shared_families_sample": [
+            "RF00005",
+            "RF00006",
+            "RF00008",
+            "RF00014",
+            "RF00016",
+            "RF00019",
+            "RF00027",
+            "RF00029",
+            "RF00031",
+            "RF00039"
+          ]
+        },
+        {
+          "feat_a": 7402,
+          "feat_b": 1998,
+          "jaccard": 0.8134444952011108,
+          "n_families_a": 1886,
+          "n_families_b": 1594,
+          "n_shared_families": 1561,
+          "shared_families_sample": [
+            "RF00005",
+            "RF00008",
+            "RF00027",
+            "RF00029",
+            "RF00031",
+            "RF00039",
+            "RF00043",
+            "RF00047",
+            "RF00048",
+            "RF00049"
+          ]
+        },
+        {
+          "feat_a": 256,
+          "feat_b": 6500,
+          "jaccard": 0.7974644303321838,
+          "n_families_a": 2915,
+          "n_families_b": 2898,
+          "n_shared_families": 2579,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00005",
+            "RF00006",
+            "RF00013",
+            "RF00014",
+            "RF00015",
+            "RF00016",
+            "RF00019",
+            "RF00020",
+            "RF00021"
+          ]
+        },
+        {
+          "feat_a": 119,
+          "feat_b": 2726,
+          "jaccard": 0.7834525108337402,
+          "n_families_a": 923,
+          "n_families_b": 823,
+          "n_shared_families": 767,
+          "shared_families_sample": [
+            "RF00008",
+            "RF00031",
+            "RF00039",
+            "RF00047",
+            "RF00048",
+            "RF00051",
+            "RF00053",
+            "RF00057",
+            "RF00066",
+            "RF00070"
+          ]
+        },
+        {
+          "feat_a": 5126,
+          "feat_b": 7130,
+          "jaccard": 0.7800212502479553,
+          "n_families_a": 2542,
+          "n_families_b": 2483,
+          "n_shared_families": 2202,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00003",
+            "RF00004",
+            "RF00006",
+            "RF00015",
+            "RF00016",
+            "RF00019",
+            "RF00020",
+            "RF00021",
+            "RF00025"
+          ]
+        },
+        {
+          "feat_a": 4022,
+          "feat_b": 3200,
+          "jaccard": 0.7777777910232544,
+          "n_families_a": 8,
+          "n_families_b": 8,
+          "n_shared_families": 7,
+          "shared_families_sample": [
+            "RF00010",
+            "RF00011",
+            "RF00023",
+            "RF01849",
+            "RF01850",
+            "RF01851",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 130,
+          "feat_b": 22,
+          "jaccard": 0.75,
+          "n_families_a": 3,
+          "n_families_b": 4,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF00023",
+            "RF01854",
+            "RF01857"
+          ]
+        },
+        {
+          "feat_a": 902,
+          "feat_b": 3116,
+          "jaccard": 0.75,
+          "n_families_a": 4,
+          "n_families_b": 3,
+          "n_shared_families": 3,
+          "shared_families_sample": [
+            "RF01849",
+            "RF01850",
+            "RF04321"
+          ]
+        },
+        {
+          "feat_a": 575,
+          "feat_b": 3030,
+          "jaccard": 0.7461538314819336,
+          "n_families_a": 1692,
+          "n_families_b": 1486,
+          "n_shared_families": 1358,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00006",
+            "RF00007",
+            "RF00010",
+            "RF00012",
+            "RF00013",
+            "RF00015"
+          ]
+        },
+        {
+          "feat_a": 1106,
+          "feat_b": 7832,
+          "jaccard": 0.7430639266967773,
+          "n_families_a": 759,
+          "n_families_b": 686,
+          "n_shared_families": 616,
+          "shared_families_sample": [
+            "RF00009",
+            "RF00011",
+            "RF00012",
+            "RF00017",
+            "RF00018",
+            "RF00022",
+            "RF00023",
+            "RF00024",
+            "RF00025",
+            "RF00026"
+          ]
+        },
+        {
+          "feat_a": 5408,
+          "feat_b": 5354,
+          "jaccard": 0.7390939593315125,
+          "n_families_a": 978,
+          "n_families_b": 1095,
+          "n_shared_families": 881,
+          "shared_families_sample": [
+            "RF00005",
+            "RF00008",
+            "RF00031",
+            "RF00047",
+            "RF00048",
+            "RF00049",
+            "RF00051",
+            "RF00053",
+            "RF00054",
+            "RF00057"
+          ]
+        },
+        {
+          "feat_a": 8171,
+          "feat_b": 7423,
+          "jaccard": 0.730038046836853,
+          "n_families_a": 1279,
+          "n_families_b": 996,
+          "n_shared_families": 960,
+          "shared_families_sample": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00006",
+            "RF00007",
+            "RF00009",
+            "RF00010",
+            "RF00011",
+            "RF00012",
+            "RF00013"
+          ]
+        },
+        {
+          "feat_a": 3916,
+          "feat_b": 924,
+          "jaccard": 0.7142857313156128,
+          "n_families_a": 6,
+          "n_families_b": 6,
+          "n_shared_families": 5,
+          "shared_families_sample": [
+            "RF00017",
+            "RF01854",
+            "RF01855",
+            "RF01857",
+            "RF02514"
+          ]
+        },
+        {
+          "feat_a": 2792,
+          "feat_b": 6024,
+          "jaccard": 0.7075471878051758,
+          "n_families_a": 573,
+          "n_families_b": 513,
+          "n_shared_families": 450,
+          "shared_families_sample": [
+            "RF00016",
+            "RF00031",
+            "RF00046",
+            "RF00049",
+            "RF00054",
+            "RF00055",
+            "RF00067",
+            "RF00068",
+            "RF00069",
+            "RF00070"
+          ]
+        },
+        {
+          "feat_a": 244,
+          "feat_b": 2855,
+          "jaccard": 0.7064934968948364,
+          "n_families_a": 666,
+          "n_families_b": 648,
+          "n_shared_families": 544,
+          "shared_families_sample": [
+            "RF00009",
+            "RF00010",
+            "RF00011",
+            "RF00017",
+            "RF00018",
+            "RF00022",
+            "RF00023",
+            "RF00024",
+            "RF00025",
+            "RF00026"
+          ]
+        },
+        {
+          "feat_a": 2082,
+          "feat_b": 1272,
+          "jaccard": 0.6938110589981079,
+          "n_families_a": 1082,
+          "n_families_b": 998,
+          "n_shared_families": 852,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00003",
+            "RF00004",
+            "RF00006",
+            "RF00007",
+            "RF00012",
+            "RF00013",
+            "RF00015",
+            "RF00016",
+            "RF00020"
+          ]
+        },
+        {
+          "feat_a": 216,
+          "feat_b": 4786,
+          "jaccard": 0.6900891661643982,
+          "n_families_a": 1798,
+          "n_families_b": 1425,
+          "n_shared_families": 1316,
+          "shared_families_sample": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00007",
+            "RF00009",
+            "RF00011",
+            "RF00012",
+            "RF00013",
+            "RF00015",
+            "RF00016"
+          ]
+        },
+        {
+          "feat_a": 904,
+          "feat_b": 6681,
+          "jaccard": 0.6858638525009155,
+          "n_families_a": 463,
+          "n_families_b": 503,
+          "n_shared_families": 393,
+          "shared_families_sample": [
+            "RF00009",
+            "RF00010",
+            "RF00018",
+            "RF00023",
+            "RF00024",
+            "RF00025",
+            "RF00028",
+            "RF00030",
+            "RF00036",
+            "RF00040"
+          ]
+        },
+        {
+          "feat_a": 1215,
+          "feat_b": 2454,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00017",
+            "RF01855"
+          ]
+        },
+        {
+          "feat_a": 1348,
+          "feat_b": 2043,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 3,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00004",
+            "RF00020"
+          ]
+        },
+        {
+          "feat_a": 1466,
+          "feat_b": 3003,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 2,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF00015",
+            "RF00618"
+          ]
+        },
+        {
+          "feat_a": 5058,
+          "feat_b": 327,
+          "jaccard": 0.6666666865348816,
+          "n_families_a": 183,
+          "n_families_b": 177,
+          "n_shared_families": 144,
+          "shared_families_sample": [
+            "RF00016",
+            "RF00020",
+            "RF00031",
+            "RF00049",
+            "RF00054",
+            "RF00055",
+            "RF00067",
+            "RF00068",
+            "RF00069",
+            "RF00070"
+          ]
+        },
+        {
+          "feat_a": 5939,
+          "feat_b": 4097,
+          "jaccard": 0.6588380932807922,
+          "n_families_a": 696,
+          "n_families_b": 646,
+          "n_shared_families": 533,
+          "shared_families_sample": [
+            "RF00016",
+            "RF00031",
+            "RF00046",
+            "RF00049",
+            "RF00054",
+            "RF00055",
+            "RF00067",
+            "RF00068",
+            "RF00069",
+            "RF00070"
+          ]
+        },
+        {
+          "feat_a": 3707,
+          "feat_b": 2478,
+          "jaccard": 0.6560159921646118,
+          "n_families_a": 1715,
+          "n_families_b": 1602,
+          "n_shared_families": 1314,
+          "shared_families_sample": [
+            "RF00006",
+            "RF00016",
+            "RF00019",
+            "RF00027",
+            "RF00029",
+            "RF00033",
+            "RF00035",
+            "RF00042",
+            "RF00045",
+            "RF00046"
+          ]
+        },
+        {
+          "feat_a": 5916,
+          "feat_b": 881,
+          "jaccard": 0.6407448053359985,
+          "n_families_a": 790,
+          "n_families_b": 708,
+          "n_shared_families": 585,
+          "shared_families_sample": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00006",
+            "RF00007",
+            "RF00009",
+            "RF00015",
+            "RF00017",
+            "RF00020",
+            "RF00022"
+          ]
+        },
+        {
+          "feat_a": 7215,
+          "feat_b": 7696,
+          "jaccard": 0.6244477033615112,
+          "n_families_a": 1654,
+          "n_families_b": 1655,
+          "n_shared_families": 1272,
+          "shared_families_sample": [
+            "RF00006",
+            "RF00014",
+            "RF00019",
+            "RF00029",
+            "RF00031",
+            "RF00042",
+            "RF00043",
+            "RF00047",
+            "RF00049",
+            "RF00051"
+          ]
+        },
+        {
+          "feat_a": 8004,
+          "feat_b": 5042,
+          "jaccard": 0.6206896305084229,
+          "n_families_a": 22,
+          "n_families_b": 25,
+          "n_shared_families": 18,
+          "shared_families_sample": [
+            "RF00009",
+            "RF00017",
+            "RF00023",
+            "RF00100",
+            "RF00373",
+            "RF00478",
+            "RF00567",
+            "RF00629",
+            "RF00885",
+            "RF01846"
+          ]
+        },
+        {
+          "feat_a": 690,
+          "feat_b": 4902,
+          "jaccard": 0.604651153087616,
+          "n_families_a": 128,
+          "n_families_b": 148,
+          "n_shared_families": 104,
+          "shared_families_sample": [
+            "RF00056",
+            "RF00072",
+            "RF00092",
+            "RF00139",
+            "RF00155",
+            "RF00156",
+            "RF00190",
+            "RF00191",
+            "RF00263",
+            "RF00264"
+          ]
+        },
+        {
+          "feat_a": 87,
+          "feat_b": 2212,
+          "jaccard": 0.6020066738128662,
+          "n_families_a": 504,
+          "n_families_b": 454,
+          "n_shared_families": 360,
+          "shared_families_sample": [
+            "RF00004",
+            "RF00007",
+            "RF00009",
+            "RF00012",
+            "RF00013",
+            "RF00015",
+            "RF00020",
+            "RF00022",
+            "RF00025",
+            "RF00058"
+          ]
+        },
+        {
+          "feat_a": 6036,
+          "feat_b": 4442,
+          "jaccard": 0.5991649031639099,
+          "n_families_a": 407,
+          "n_families_b": 359,
+          "n_shared_families": 287,
+          "shared_families_sample": [
+            "RF00014",
+            "RF00018",
+            "RF00021",
+            "RF00022",
+            "RF00025",
+            "RF00026",
+            "RF00033",
+            "RF00034",
+            "RF00042",
+            "RF00057"
+          ]
+        },
+        {
+          "feat_a": 597,
+          "feat_b": 7782,
+          "jaccard": 0.5894736647605896,
+          "n_families_a": 207,
+          "n_families_b": 246,
+          "n_shared_families": 168,
+          "shared_families_sample": [
+            "RF00020",
+            "RF00072",
+            "RF00090",
+            "RF00091",
+            "RF00092",
+            "RF00096",
+            "RF00139",
+            "RF00155",
+            "RF00156",
+            "RF00190"
+          ]
+        },
+        {
+          "feat_a": 2581,
+          "feat_b": 2300,
+          "jaccard": 0.5833333134651184,
+          "n_families_a": 398,
+          "n_families_b": 324,
+          "n_shared_families": 266,
+          "shared_families_sample": [
+            "RF00031",
+            "RF00049",
+            "RF00054",
+            "RF00055",
+            "RF00068",
+            "RF00069",
+            "RF00070",
+            "RF00071",
+            "RF00085",
+            "RF00086"
+          ]
+        },
+        {
+          "feat_a": 7945,
+          "feat_b": 893,
+          "jaccard": 0.5793918967247009,
+          "n_families_a": 465,
+          "n_families_b": 470,
+          "n_shared_families": 343,
+          "shared_families_sample": [
+            "RF00005",
+            "RF00031",
+            "RF00046",
+            "RF00049",
+            "RF00054",
+            "RF00055",
+            "RF00068",
+            "RF00069",
+            "RF00070",
+            "RF00071"
+          ]
+        },
+        {
+          "feat_a": 370,
+          "feat_b": 221,
+          "jaccard": 0.5786163806915283,
+          "n_families_a": 227,
+          "n_families_b": 275,
+          "n_shared_families": 184,
+          "shared_families_sample": [
+            "RF00016",
+            "RF00031",
+            "RF00049",
+            "RF00054",
+            "RF00055",
+            "RF00067",
+            "RF00068",
+            "RF00069",
+            "RF00070",
+            "RF00071"
+          ]
+        },
+        {
+          "feat_a": 7406,
+          "feat_b": 4681,
+          "jaccard": 0.5555555820465088,
+          "n_families_a": 170,
+          "n_families_b": 194,
+          "n_shared_families": 130,
+          "shared_families_sample": [
+            "RF00008",
+            "RF00066",
+            "RF00095",
+            "RF00178",
+            "RF00184",
+            "RF00194",
+            "RF00454",
+            "RF00462",
+            "RF00480",
+            "RF00517"
+          ]
+        },
+        {
+          "feat_a": 810,
+          "feat_b": 548,
+          "jaccard": 0.546875,
+          "n_families_a": 87,
+          "n_families_b": 111,
+          "n_shared_families": 70,
+          "shared_families_sample": [
+            "RF00056",
+            "RF00072",
+            "RF00155",
+            "RF00156",
+            "RF00190",
+            "RF00191",
+            "RF00263",
+            "RF00264",
+            "RF00302",
+            "RF00392"
+          ]
+        },
+        {
+          "feat_a": 6092,
+          "feat_b": 4174,
+          "jaccard": 0.5442600250244141,
+          "n_families_a": 1090,
+          "n_families_b": 1143,
+          "n_shared_families": 787,
+          "shared_families_sample": [
+            "RF00006",
+            "RF00008",
+            "RF00012",
+            "RF00016",
+            "RF00019",
+            "RF00026",
+            "RF00027",
+            "RF00031",
+            "RF00033",
+            "RF00034"
+          ]
+        },
+        {
+          "feat_a": 962,
+          "feat_b": 2852,
+          "jaccard": 0.5415117740631104,
+          "n_families_a": 641,
+          "n_families_b": 603,
+          "n_shared_families": 437,
+          "shared_families_sample": [
+            "RF00005",
+            "RF00027",
+            "RF00029",
+            "RF00031",
+            "RF00048",
+            "RF00049",
+            "RF00054",
+            "RF00057",
+            "RF00066",
+            "RF00069"
+          ]
+        },
+        {
+          "feat_a": 1701,
+          "feat_b": 3032,
+          "jaccard": 0.5409836173057556,
+          "n_families_a": 86,
+          "n_families_b": 102,
+          "n_shared_families": 66,
+          "shared_families_sample": [
+            "RF00049",
+            "RF00054",
+            "RF00055",
+            "RF00070",
+            "RF00105",
+            "RF00108",
+            "RF00132",
+            "RF00133",
+            "RF00134",
+            "RF00149"
+          ]
+        },
+        {
+          "feat_a": 441,
+          "feat_b": 7209,
+          "jaccard": 0.5392354130744934,
+          "n_families_a": 1687,
+          "n_families_b": 1373,
+          "n_shared_families": 1072,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00008",
+            "RF00013",
+            "RF00020",
+            "RF00026",
+            "RF00027"
+          ]
+        },
+        {
+          "feat_a": 5253,
+          "feat_b": 2552,
+          "jaccard": 0.5331753492355347,
+          "n_families_a": 308,
+          "n_families_b": 339,
+          "n_shared_families": 225,
+          "shared_families_sample": [
+            "RF00016",
+            "RF00046",
+            "RF00049",
+            "RF00054",
+            "RF00055",
+            "RF00068",
+            "RF00069",
+            "RF00070",
+            "RF00071",
+            "RF00075"
+          ]
+        },
+        {
+          "feat_a": 497,
+          "feat_b": 4103,
+          "jaccard": 0.5279502868652344,
+          "n_families_a": 283,
+          "n_families_b": 209,
+          "n_shared_families": 170,
+          "shared_families_sample": [
+            "RF00006",
+            "RF00014",
+            "RF00019",
+            "RF00021",
+            "RF00033",
+            "RF00034",
+            "RF00042",
+            "RF00057",
+            "RF00078",
+            "RF00079"
+          ]
+        },
+        {
+          "feat_a": 180,
+          "feat_b": 7854,
+          "jaccard": 0.5267175436019897,
+          "n_families_a": 1505,
+          "n_families_b": 1495,
+          "n_shared_families": 1035,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00006",
+            "RF00007",
+            "RF00009",
+            "RF00010",
+            "RF00011",
+            "RF00012",
+            "RF00013"
+          ]
+        },
+        {
+          "feat_a": 835,
+          "feat_b": 670,
+          "jaccard": 0.522580623626709,
+          "n_families_a": 111,
+          "n_families_b": 125,
+          "n_shared_families": 81,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00050",
+            "RF00056",
+            "RF00072",
+            "RF00090",
+            "RF00091",
+            "RF00099",
+            "RF00139",
+            "RF00156",
+            "RF00190"
+          ]
+        },
+        {
+          "feat_a": 435,
+          "feat_b": 1438,
+          "jaccard": 0.5206185579299927,
+          "n_families_a": 122,
+          "n_families_b": 173,
+          "n_shared_families": 101,
+          "shared_families_sample": [
+            "RF00002",
+            "RF00012",
+            "RF00013",
+            "RF00017",
+            "RF00056",
+            "RF00065",
+            "RF00072",
+            "RF00090",
+            "RF00155",
+            "RF00156"
+          ]
+        },
+        {
+          "feat_a": 1010,
+          "feat_b": 2695,
+          "jaccard": 0.5,
+          "n_families_a": 4,
+          "n_families_b": 2,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF04097",
+            "RF04150"
+          ]
+        },
+        {
+          "feat_a": 1372,
+          "feat_b": 2237,
+          "jaccard": 0.5,
+          "n_families_a": 3,
+          "n_families_b": 3,
+          "n_shared_families": 2,
+          "shared_families_sample": [
+            "RF01794",
+            "RF04097"
+          ]
+        }
+      ]
+    },
+    {
+      "model_a": "rnafm",
+      "model_b": "rnamsm",
+      "n_reciprocal_matches": 26,
+      "matches": [
+        {
+          "feat_a": 24,
+          "feat_b": 0,
+          "jaccard": 1.0,
+          "n_families_a": 3979,
+          "n_families_b": 3979,
+          "n_shared_families": 3979,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 2241,
+          "feat_b": 5828,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 2375,
+          "feat_b": 6896,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 3704,
+          "feat_b": 4276,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 3717,
+          "feat_b": 1314,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 4126,
+          "feat_b": 3657,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 4358,
+          "feat_b": 5664,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 5876,
+          "feat_b": 4575,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 7684,
+          "feat_b": 2436,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 7785,
+          "feat_b": 4317,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 6134,
+          "feat_b": 555,
+          "jaccard": 0.9819108247756958,
+          "n_families_a": 3889,
+          "n_families_b": 3890,
+          "n_shared_families": 3854,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 5588,
+          "feat_b": 7619,
+          "jaccard": 0.9814016222953796,
+          "n_families_a": 3667,
+          "n_families_b": 3684,
+          "n_shared_families": 3641,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00012"
+          ]
+        },
+        {
+          "feat_a": 6558,
+          "feat_b": 3457,
+          "jaccard": 0.9810305237770081,
+          "n_families_a": 3859,
+          "n_families_b": 3869,
+          "n_shared_families": 3827,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00012"
+          ]
+        },
+        {
+          "feat_a": 3691,
+          "feat_b": 4787,
+          "jaccard": 0.8982638716697693,
+          "n_families_a": 2791,
+          "n_families_b": 2676,
+          "n_shared_families": 2587,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00005",
+            "RF00006",
+            "RF00008",
+            "RF00012",
+            "RF00014",
+            "RF00016",
+            "RF00019",
+            "RF00026",
+            "RF00027"
+          ]
+        },
+        {
+          "feat_a": 3125,
+          "feat_b": 1178,
+          "jaccard": 0.8575233221054077,
+          "n_families_a": 2063,
+          "n_families_b": 2122,
+          "n_shared_families": 1932,
+          "shared_families_sample": [
+            "RF00005",
+            "RF00008",
+            "RF00027",
+            "RF00029",
+            "RF00031",
+            "RF00039",
+            "RF00043",
+            "RF00047",
+            "RF00048",
+            "RF00049"
+          ]
+        },
+        {
+          "feat_a": 250,
+          "feat_b": 5871,
+          "jaccard": 0.7615725994110107,
+          "n_families_a": 2710,
+          "n_families_b": 2846,
+          "n_shared_families": 2402,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 904,
+          "feat_b": 1233,
+          "jaccard": 0.7441441416740417,
+          "n_families_a": 463,
+          "n_families_b": 505,
+          "n_shared_families": 413,
+          "shared_families_sample": [
+            "RF00009",
+            "RF00010",
+            "RF00011",
+            "RF00012",
+            "RF00018",
+            "RF00022",
+            "RF00023",
+            "RF00024",
+            "RF00025",
+            "RF00028"
+          ]
+        },
+        {
+          "feat_a": 216,
+          "feat_b": 2415,
+          "jaccard": 0.7425889372825623,
+          "n_families_a": 1798,
+          "n_families_b": 1729,
+          "n_shared_families": 1503,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00007",
+            "RF00009",
+            "RF00010",
+            "RF00011",
+            "RF00012",
+            "RF00013"
+          ]
+        },
+        {
+          "feat_a": 8171,
+          "feat_b": 5514,
+          "jaccard": 0.7361111044883728,
+          "n_families_a": 1279,
+          "n_families_b": 1346,
+          "n_shared_families": 1113,
+          "shared_families_sample": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00006",
+            "RF00007",
+            "RF00009",
+            "RF00010",
+            "RF00011",
+            "RF00012",
+            "RF00013"
+          ]
+        },
+        {
+          "feat_a": 1106,
+          "feat_b": 5808,
+          "jaccard": 0.7035068869590759,
+          "n_families_a": 759,
+          "n_families_b": 844,
+          "n_shared_families": 662,
+          "shared_families_sample": [
+            "RF00002",
+            "RF00004",
+            "RF00007",
+            "RF00009",
+            "RF00010",
+            "RF00011",
+            "RF00012",
+            "RF00015",
+            "RF00017",
+            "RF00018"
+          ]
+        },
+        {
+          "feat_a": 4327,
+          "feat_b": 1063,
+          "jaccard": 0.6710816621780396,
+          "n_families_a": 751,
+          "n_families_b": 763,
+          "n_shared_families": 608,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00029",
+            "RF00031",
+            "RF00043",
+            "RF00051",
+            "RF00052",
+            "RF00059",
+            "RF00073",
+            "RF00076",
+            "RF00094"
+          ]
+        },
+        {
+          "feat_a": 180,
+          "feat_b": 4064,
+          "jaccard": 0.6412729024887085,
+          "n_families_a": 1505,
+          "n_families_b": 1899,
+          "n_shared_families": 1330,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00009",
+            "RF00010",
+            "RF00011",
+            "RF00012"
+          ]
+        },
+        {
+          "feat_a": 7111,
+          "feat_b": 7667,
+          "jaccard": 0.6233421564102173,
+          "n_families_a": 1210,
+          "n_families_b": 1238,
+          "n_shared_families": 940,
+          "shared_families_sample": [
+            "RF00005",
+            "RF00008",
+            "RF00031",
+            "RF00039",
+            "RF00043",
+            "RF00047",
+            "RF00048",
+            "RF00049",
+            "RF00051",
+            "RF00053"
+          ]
+        },
+        {
+          "feat_a": 594,
+          "feat_b": 4747,
+          "jaccard": 0.5707656741142273,
+          "n_families_a": 325,
+          "n_families_b": 352,
+          "n_shared_families": 246,
+          "shared_families_sample": [
+            "RF00010",
+            "RF00018",
+            "RF00023",
+            "RF00024",
+            "RF00025",
+            "RF00028",
+            "RF00030",
+            "RF00040",
+            "RF00082",
+            "RF00100"
+          ]
+        },
+        {
+          "feat_a": 36,
+          "feat_b": 8186,
+          "jaccard": 0.5520673990249634,
+          "n_families_a": 1101,
+          "n_families_b": 926,
+          "n_shared_families": 721,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00006",
+            "RF00007",
+            "RF00009",
+            "RF00010",
+            "RF00011",
+            "RF00012"
+          ]
+        },
+        {
+          "feat_a": 1361,
+          "feat_b": 7792,
+          "jaccard": 0.5180723071098328,
+          "n_families_a": 178,
+          "n_families_b": 200,
+          "n_shared_families": 129,
+          "shared_families_sample": [
+            "RF00009",
+            "RF00022",
+            "RF00025",
+            "RF00028",
+            "RF00030",
+            "RF00125",
+            "RF00210",
+            "RF00230",
+            "RF00234",
+            "RF00503"
+          ]
+        }
+      ]
+    },
+    {
+      "model_a": "erniarna",
+      "model_b": "rnamsm",
+      "n_reciprocal_matches": 26,
+      "matches": [
+        {
+          "feat_a": 369,
+          "feat_b": 0,
+          "jaccard": 1.0,
+          "n_families_a": 3979,
+          "n_families_b": 3979,
+          "n_shared_families": 3979,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 1934,
+          "feat_b": 1246,
+          "jaccard": 1.0,
+          "n_families_a": 79,
+          "n_families_b": 79,
+          "n_shared_families": 79,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00009",
+            "RF00023",
+            "RF00061",
+            "RF00079",
+            "RF00091",
+            "RF00094",
+            "RF00161",
+            "RF00194",
+            "RF00240"
+          ]
+        },
+        {
+          "feat_a": 3454,
+          "feat_b": 3971,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 3613,
+          "feat_b": 5828,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 3678,
+          "feat_b": 922,
+          "jaccard": 1.0,
+          "n_families_a": 3977,
+          "n_families_b": 3977,
+          "n_shared_families": 3977,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 3695,
+          "feat_b": 2628,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 3727,
+          "feat_b": 4276,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 4822,
+          "feat_b": 4575,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 6774,
+          "feat_b": 5752,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 7041,
+          "feat_b": 7390,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 7336,
+          "feat_b": 5142,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 7535,
+          "feat_b": 4317,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 7554,
+          "feat_b": 3657,
+          "jaccard": 1.0,
+          "n_families_a": 3978,
+          "n_families_b": 3978,
+          "n_shared_families": 3978,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00010"
+          ]
+        },
+        {
+          "feat_a": 6194,
+          "feat_b": 2712,
+          "jaccard": 0.972707986831665,
+          "n_families_a": 3713,
+          "n_families_b": 3732,
+          "n_shared_families": 3671,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00009",
+            "RF00012"
+          ]
+        },
+        {
+          "feat_a": 3050,
+          "feat_b": 4787,
+          "jaccard": 0.883945107460022,
+          "n_families_a": 2405,
+          "n_families_b": 2676,
+          "n_shared_families": 2384,
+          "shared_families_sample": [
+            "RF00005",
+            "RF00006",
+            "RF00008",
+            "RF00014",
+            "RF00016",
+            "RF00019",
+            "RF00027",
+            "RF00029",
+            "RF00031",
+            "RF00039"
+          ]
+        },
+        {
+          "feat_a": 7832,
+          "feat_b": 4570,
+          "jaccard": 0.795945942401886,
+          "n_families_a": 686,
+          "n_families_b": 643,
+          "n_shared_families": 589,
+          "shared_families_sample": [
+            "RF00009",
+            "RF00011",
+            "RF00012",
+            "RF00017",
+            "RF00018",
+            "RF00022",
+            "RF00023",
+            "RF00024",
+            "RF00025",
+            "RF00028"
+          ]
+        },
+        {
+          "feat_a": 4786,
+          "feat_b": 7844,
+          "jaccard": 0.7368097901344299,
+          "n_families_a": 1425,
+          "n_families_b": 1406,
+          "n_shared_families": 1201,
+          "shared_families_sample": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00006",
+            "RF00007",
+            "RF00009",
+            "RF00011",
+            "RF00012",
+            "RF00013",
+            "RF00015"
+          ]
+        },
+        {
+          "feat_a": 7331,
+          "feat_b": 4993,
+          "jaccard": 0.7349476218223572,
+          "n_families_a": 1298,
+          "n_families_b": 1353,
+          "n_shared_families": 1123,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00006",
+            "RF00007",
+            "RF00009",
+            "RF00010",
+            "RF00011",
+            "RF00012"
+          ]
+        },
+        {
+          "feat_a": 1998,
+          "feat_b": 1788,
+          "jaccard": 0.7294058799743652,
+          "n_families_a": 1594,
+          "n_families_b": 1870,
+          "n_shared_families": 1461,
+          "shared_families_sample": [
+            "RF00005",
+            "RF00008",
+            "RF00027",
+            "RF00029",
+            "RF00031",
+            "RF00039",
+            "RF00047",
+            "RF00048",
+            "RF00049",
+            "RF00051"
+          ]
+        },
+        {
+          "feat_a": 7423,
+          "feat_b": 5343,
+          "jaccard": 0.7226277589797974,
+          "n_families_a": 996,
+          "n_families_b": 1128,
+          "n_shared_families": 891,
+          "shared_families_sample": [
+            "RF00002",
+            "RF00003",
+            "RF00004",
+            "RF00006",
+            "RF00007",
+            "RF00009",
+            "RF00010",
+            "RF00011",
+            "RF00012",
+            "RF00013"
+          ]
+        },
+        {
+          "feat_a": 89,
+          "feat_b": 6845,
+          "jaccard": 0.7101694941520691,
+          "n_families_a": 1852,
+          "n_families_b": 2184,
+          "n_shared_families": 1676,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00013",
+            "RF00015",
+            "RF00019",
+            "RF00020"
+          ]
+        },
+        {
+          "feat_a": 7275,
+          "feat_b": 7667,
+          "jaccard": 0.6966215968132019,
+          "n_families_a": 1273,
+          "n_families_b": 1238,
+          "n_shared_families": 1031,
+          "shared_families_sample": [
+            "RF00005",
+            "RF00008",
+            "RF00027",
+            "RF00029",
+            "RF00031",
+            "RF00039",
+            "RF00043",
+            "RF00047",
+            "RF00048",
+            "RF00049"
+          ]
+        },
+        {
+          "feat_a": 6681,
+          "feat_b": 1233,
+          "jaccard": 0.6856187582015991,
+          "n_families_a": 503,
+          "n_families_b": 505,
+          "n_shared_families": 410,
+          "shared_families_sample": [
+            "RF00009",
+            "RF00010",
+            "RF00017",
+            "RF00018",
+            "RF00023",
+            "RF00024",
+            "RF00025",
+            "RF00028",
+            "RF00030",
+            "RF00036"
+          ]
+        },
+        {
+          "feat_a": 1919,
+          "feat_b": 6821,
+          "jaccard": 0.6098290681838989,
+          "n_families_a": 1774,
+          "n_families_b": 1993,
+          "n_shared_families": 1427,
+          "shared_families_sample": [
+            "RF00001",
+            "RF00002",
+            "RF00003",
+            "RF00005",
+            "RF00006",
+            "RF00007",
+            "RF00008",
+            "RF00012",
+            "RF00013",
+            "RF00014"
+          ]
+        },
+        {
+          "feat_a": 2714,
+          "feat_b": 1123,
+          "jaccard": 0.5690789222717285,
+          "n_families_a": 1146,
+          "n_families_b": 1239,
+          "n_shared_families": 865,
+          "shared_families_sample": [
+            "RF00005",
+            "RF00008",
+            "RF00014",
+            "RF00027",
+            "RF00031",
+            "RF00046",
+            "RF00047",
+            "RF00048",
+            "RF00049",
+            "RF00051"
+          ]
+        },
+        {
+          "feat_a": 6445,
+          "feat_b": 1294,
+          "jaccard": 0.5384615659713745,
+          "n_families_a": 188,
+          "n_families_b": 192,
+          "n_shared_families": 133,
+          "shared_families_sample": [
+            "RF00008",
+            "RF00031",
+            "RF00039",
+            "RF00066",
+            "RF00095",
+            "RF00192",
+            "RF00194",
+            "RF00454",
+            "RF00480",
+            "RF00517"
+          ]
+        }
+      ]
+    }
+  ]
+}

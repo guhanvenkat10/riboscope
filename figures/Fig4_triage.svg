@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 462" font-family="Helvetica Neue, Arial, sans-serif">
+  <rect x="0" y="0" width="540" height="462" fill="#ffffff"/>
+
+  <!-- y-axis -->
+  <line x1="95" y1="50" x2="95" y2="350" stroke="#9aa3ab" stroke-width="0.9"/>
+  <g font-size="12.5" fill="#6b757e">
+    <line x1="90" y1="350" x2="95" y2="350" stroke="#9aa3ab" stroke-width="0.9"/>
+    <text x="84" y="354" text-anchor="end">0</text>
+    <line x1="90" y1="200" x2="95" y2="200" stroke="#9aa3ab" stroke-width="0.9"/>
+    <text x="84" y="204" text-anchor="end">0.5</text>
+    <line x1="90" y1="50" x2="95" y2="50" stroke="#9aa3ab" stroke-width="0.9"/>
+    <text x="84" y="54" text-anchor="end">1.0</text>
+  </g>
+  <line x1="95" y1="350" x2="475" y2="350" stroke="#9aa3ab" stroke-width="0.9"/>
+  <text x="32" y="200" font-size="13.5" fill="#1a1a1a" text-anchor="middle" transform="rotate(-90 32 200)">AUC, pathogenic vs population-benign</text>
+
+  <!-- chance line -->
+  <line x1="95" y1="200" x2="475" y2="200" stroke="#9aa3ab" stroke-width="0.9" stroke-dasharray="4 3" opacity="0.7"/>
+  <text x="478" y="204" font-size="12" fill="#9aa3ab" text-anchor="start">chance</text>
+
+  <!-- bars: centers 142.5 / 237.5 / 332.5 / 427.5, width 56, baseline 350 -->
+  <rect x="114.5" y="75.8" width="56" height="274.2" fill="#dbe2e6" stroke="#9aa3ab" stroke-width="0.9"/>
+  <text x="142.5" y="68" font-size="16" font-weight="700" fill="#1a1a1a" text-anchor="middle">0.91</text>
+
+  <rect x="209.5" y="133.7" width="56" height="216.3" fill="#0d7d7d"/>
+  <text x="237.5" y="126" font-size="16" font-weight="700" fill="#0d7d7d" text-anchor="middle">0.72</text>
+
+  <rect x="304.5" y="169.4" width="56" height="180.6" fill="#5b6b7a"/>
+  <text x="332.5" y="161.6" font-size="16" font-weight="700" fill="#5b6b7a" text-anchor="middle">0.60</text>
+
+  <rect x="399.5" y="185.6" width="56" height="164.4" fill="#9aa3ab"/>
+  <text x="427.5" y="177.8" font-size="16" font-weight="700" fill="#9aa3ab" text-anchor="middle">0.55</text>
+
+  <!-- category labels -->
+  <g text-anchor="middle">
+    <text x="142.5" y="372" font-size="14.5" fill="#1a1a1a">SGE</text>
+    <text x="142.5" y="389" font-size="12" fill="#9aa3ab">wet-lab ceiling</text>
+
+    <text x="237.5" y="372" font-size="14.5" font-weight="700" fill="#0d7d7d">ERNIE-RNA</text>
+    <text x="237.5" y="389" font-size="12" fill="#9aa3ab">structure-aware</text>
+
+    <text x="332.5" y="372" font-size="14.5" fill="#1a1a1a">CADD</text>
+    <text x="332.5" y="389" font-size="12" fill="#9aa3ab">clinical baseline</text>
+
+    <text x="427.5" y="372" font-size="14.5" fill="#1a1a1a">RNA-FM</text>
+    <text x="427.5" y="389" font-size="12" fill="#9aa3ab">structure-naive</text>
+  </g>
+
+  <text x="95" y="430" font-size="12" fill="#6b757e">n = 42 pathogenic vs 296 population-benign · RNU4-2</text>
+</svg>

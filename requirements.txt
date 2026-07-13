@@ -1,0 +1,30 @@
+# RIBOSCOPE dependencies.
+# Recommended: `uv venv && uv pip install -r requirements.txt`
+#
+# ⚠ PIN multimolecule. Version 0.0.9 is known-good. Upgrading to 0.2.0 renames
+#   ErnieRNA's `pairwise_bias_proj` weights and silently randomises its structure
+#   attention. The disease scripts (23/46/47/53/54/55) include a remap that repairs
+#   this, but pinning avoids the issue entirely.
+multimolecule==0.0.9
+
+# Core ML / tensor stack. Pin to your working versions — capture them with
+#   `uv pip freeze > requirements-lock.txt`  (commit that lock file for exact repro).
+torch
+transformers
+safetensors
+huggingface_hub
+numpy
+
+# Data / IO
+pandas
+openpyxl            # reading the SGE supplementary .xlsx (script 53/54/56)
+tqdm
+
+# Structure (mechanism analysis, script 57)
+ViennaRNA
+
+# External tools (not pip): MAFFT — for the RNA-MSM MSA construction (33/50).
+#   install via: conda install -c bioconda mafft   (or apt install mafft)
+#
+# No statistical packages required — AUC / Mann-Whitney / Spearman are implemented
+# in-repo (rankdata + closed-form) to keep the dependency surface small.

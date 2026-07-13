@@ -1,0 +1,14 @@
+{
+  "term": "\"Plasmodium falciparum\"[Organism] AND (biomol_snorna[prop] OR biomol_snrna[prop] OR biomol_trna[prop] OR biomol_rrna[prop] OR biomol_ncrna[prop] OR snoRNA[Title] OR \"small nucleolar RNA\"[Title] OR \"spliceosomal RNA\"[Title] OR \"transfer RNA\"[Title])",
+  "n_esearch": 182,
+  "n_fetched": 182,
+  "n_kept": 141,
+  "by_type": {
+    "snoRNA": 85,
+    "ncRNA": 28,
+    "snRNA": 10,
+    "SRP_RNA": 1,
+    "rRNA": 16,
+    "tRNA": 1
+  }
+}

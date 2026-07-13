@@ -1,0 +1,44 @@
+{
+  "n_canonical": 258,
+  "n_noncanonical": 100,
+  "biology": {
+    "length": {
+      "canonical_mean": 81.51550387596899,
+      "noncanonical_mean": 101.71,
+      "mannwhitney_p": 2.229605439268495e-06
+    },
+    "gc": {
+      "canonical_mean": 0.4332540892537801,
+      "noncanonical_mean": 0.44888866670853267,
+      "mannwhitney_p": 0.023117949285499602
+    },
+    "c_box": {
+      "canonical_mean": 0.9241417497231451,
+      "noncanonical_mean": 0.92,
+      "mannwhitney_p": 0.4259548663238867
+    },
+    "d_box": {
+      "canonical_mean": 0.9622093023255814,
+      "noncanonical_mean": 0.9825,
+      "mannwhitney_p": 0.09091291469068596
+    }
+  },
+  "model_correlation": {
+    "length": {
+      "spearman_rho": 0.2874858965626662,
+      "p": 3.062907724858159e-08
+    },
+    "gc": {
+      "spearman_rho": 0.17173263792454968,
+      "p": 0.0011053600207014196
+    },
+    "c_box": {
+      "spearman_rho": 0.11336229645294076,
+      "p": 0.032006387458988546
+    },
+    "d_box": {
+      "spearman_rho": 0.12030832222564326,
+      "p": 0.02280686687108836
+    }
+  }
+}

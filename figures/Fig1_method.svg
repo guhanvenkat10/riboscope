@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 700" font-family="Helvetica Neue, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L6,3 L0,6 z" fill="#5b6b7a"/>
+    </marker>
+    <pattern id="hatch" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="#c3cad1"/>
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#9aa3ab" stroke-width="2"/>
+    </pattern>
+  </defs>
+
+  <rect x="0" y="0" width="1140" height="700" fill="#ffffff"/>
+
+  <!-- panel labels -->
+  <text x="20" y="30" font-size="20" font-weight="700" fill="#1a1a1a">a</text>
+  <text x="20" y="392" font-size="20" font-weight="700" fill="#1a1a1a">b</text>
+
+  <!-- ============ PANEL A: method schematic ============ -->
+  <!-- three models -->
+  <rect x="42" y="64" width="212" height="210" rx="8" fill="#f6f8f9" stroke="#d0d5da"/>
+  <text x="148" y="86" font-size="13" font-weight="700" text-anchor="middle" fill="#1a1a1a">Three RNA foundation models</text>
+
+  <rect x="58" y="100" width="180" height="46" rx="6" fill="#ffffff" stroke="#9aa3ab"/>
+  <text x="68" y="120" font-size="12.5" font-weight="700" fill="#6b757e">RNA-FM</text>
+  <text x="68" y="136" font-size="11" fill="#6b757e">single sequence</text>
+
+  <rect x="58" y="152" width="180" height="46" rx="6" fill="#ffffff" stroke="#0d7d7d" stroke-width="2"/>
+  <text x="68" y="172" font-size="12.5" font-weight="700" fill="#0d7d7d">ERNIE-RNA</text>
+  <text x="68" y="188" font-size="11" fill="#0d7d7d">+ secondary structure</text>
+
+  <rect x="58" y="204" width="180" height="46" rx="6" fill="#ffffff" stroke="#d98a3d"/>
+  <text x="68" y="224" font-size="12.5" font-weight="700" fill="#b9712b">RNA-MSM</text>
+  <text x="68" y="240" font-size="11" fill="#b9712b">+ alignment</text>
+
+  <!-- arrow -->
+  <line x1="258" y1="169" x2="298" y2="169" stroke="#5b6b7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <!-- activations -->
+  <rect x="302" y="120" width="150" height="98" rx="8" fill="#f6f8f9" stroke="#d0d5da"/>
+  <text x="377" y="150" font-size="12.5" font-weight="700" text-anchor="middle" fill="#1a1a1a">Residual-stream</text>
+  <text x="377" y="167" font-size="12.5" font-weight="700" text-anchor="middle" fill="#1a1a1a">activations</text>
+  <text x="377" y="190" font-size="11" text-anchor="middle" fill="#6b757e">one vector per</text>
+  <text x="377" y="204" font-size="11" text-anchor="middle" fill="#6b757e">nucleotide</text>
+
+  <line x1="456" y1="169" x2="496" y2="169" stroke="#5b6b7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <!-- SAE -->
+  <rect x="500" y="120" width="158" height="98" rx="8" fill="#eef5f5" stroke="#0d7d7d"/>
+  <text x="579" y="150" font-size="12.5" font-weight="700" text-anchor="middle" fill="#0d7d7d">BatchTopK sparse</text>
+  <text x="579" y="167" font-size="12.5" font-weight="700" text-anchor="middle" fill="#0d7d7d">autoencoder</text>
+  <text x="579" y="190" font-size="11" text-anchor="middle" fill="#6b757e">k = 32; dictionary</text>
+  <text x="579" y="204" font-size="11" text-anchor="middle" fill="#6b757e">of 4,096–8,192</text>
+
+  <line x1="662" y1="169" x2="702" y2="169" stroke="#5b6b7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <!-- feature dictionary -->
+  <rect x="706" y="120" width="180" height="98" rx="8" fill="#f6f8f9" stroke="#d0d5da"/>
+  <text x="796" y="146" font-size="12.5" font-weight="700" text-anchor="middle" fill="#1a1a1a">Feature dictionary</text>
+  <text x="796" y="162" font-size="11" text-anchor="middle" fill="#6b757e">family specialists</text>
+  <!-- mini motif glyph -->
+  <g font-family="monospace" font-size="12">
+    <text x="724" y="196" fill="#9aa3ab">C G</text>
+    <rect x="758" y="184" width="13" height="16" fill="#0d7d7d" opacity="0.85"/>
+    <text x="760" y="196" fill="#ffffff">U</text>
+    <text x="775" y="196" fill="#9aa3ab">G C C</text>
+  </g>
+
+  <!-- down arrow to ISM -->
+  <line x1="796" y1="220" x2="796" y2="262" stroke="#5b6b7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <!-- ISM -->
+  <rect x="500" y="266" width="386" height="92" rx="8" fill="#f6f8f9" stroke="#d0d5da"/>
+  <text x="693" y="292" font-size="12.5" font-weight="700" text-anchor="middle" fill="#1a1a1a">In-silico mutagenesis</text>
+  <text x="693" y="309" font-size="11" text-anchor="middle" fill="#6b757e">mutate every nucleotide to its 3 alternatives;</text>
+  <text x="693" y="323" font-size="11" text-anchor="middle" fill="#6b757e">measure the shift in the representation</text>
+  <g font-family="monospace" font-size="12.5">
+    <text x="560" y="346" fill="#6b757e">G A C</text>
+    <rect x="596" y="334" width="13" height="16" fill="none" stroke="#c0392b" stroke-width="1.6"/>
+    <text x="598" y="346" fill="#c0392b" font-weight="700">U</text>
+    <text x="612" y="346" fill="#6b757e">G C A &#8594; A / C / G</text>
+  </g>
+
+  <line x1="498" y1="312" x2="466" y2="312" stroke="#5b6b7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <!-- criticality output -->
+  <rect x="300" y="266" width="166" height="92" rx="8" fill="#eef5f5" stroke="#0d7d7d"/>
+  <text x="383" y="289" font-size="12.5" font-weight="700" text-anchor="middle" fill="#0d7d7d">Per-nucleotide</text>
+  <text x="383" y="305" font-size="12.5" font-weight="700" text-anchor="middle" fill="#0d7d7d">criticality</text>
+  <!-- mini track -->
+  <polyline points="314,348 326,344 338,346 350,332 362,338 374,326 386,343 398,330 410,346 422,340 434,348 446,344"
+            fill="none" stroke="#0d7d7d" stroke-width="1.6"/>
+
+  <!-- right caption for panel a -->
+  <text x="912" y="150" font-size="11.5" fill="#1a1a1a" font-weight="700">Unsupervised.</text>
+  <text x="912" y="168" font-size="11" fill="#6b757e">No disease labels enter</text>
+  <text x="912" y="182" font-size="11" fill="#6b757e">at any stage; the score is</text>
+  <text x="912" y="196" font-size="11" fill="#6b757e">read out by perturbing a</text>
+  <text x="912" y="210" font-size="11" fill="#6b757e">frozen, pretrained model.</text>
+
+  <!-- divider -->
+  <line x1="20" y1="372" x2="1120" y2="372" stroke="#e6eaed" stroke-width="1"/>
+
+  <!-- ============ PANEL B: input-conditional control ============ -->
+  <text x="42" y="396" font-size="13.5" font-weight="700" fill="#1a1a1a">Interpretability is conditional on in-distribution input</text>
+  <text x="42" y="414" font-size="11.5" fill="#6b757e">RNA-MSM, identical 2,327-sequence / 99-family / layer-8 subset; only the model input differs</text>
+
+  <!-- legend -->
+  <rect x="831" y="392" width="13" height="13" fill="url(#hatch)"/>
+  <text x="850" y="403" font-size="11.5" fill="#1a1a1a">single sequence (out of distribution)</text>
+  <rect x="831" y="412" width="13" height="13" fill="#d98a3d"/>
+  <text x="850" y="423" font-size="11.5" fill="#1a1a1a">native alignment (in distribution)</text>
+
+  <!-- subpanel 1: specialist count -->
+  <g>
+    <text x="150" y="446" font-size="12" font-weight="700" text-anchor="middle" fill="#1a1a1a">Family specialists</text>
+    <!-- axis -->
+    <line x1="78" y1="640" x2="232" y2="640" stroke="#9aa3ab" stroke-width="1"/>
+    <line x1="78" y1="460" x2="78" y2="640" stroke="#9aa3ab" stroke-width="1"/>
+    <!-- gridline 400 -->
+    <text x="70" y="464" font-size="10" text-anchor="end" fill="#9aa3ab">400</text>
+    <text x="70" y="644" font-size="10" text-anchor="end" fill="#9aa3ab">0</text>
+    <!-- single 197 -> h=197*0.45=88.65 -->
+    <rect x="104" y="551.4" width="46" height="88.6" fill="url(#hatch)"/>
+    <text x="127" y="545" font-size="11.5" font-weight="700" text-anchor="middle" fill="#6b757e">197</text>
+    <text x="127" y="657" font-size="10.5" text-anchor="middle" fill="#6b757e">single</text>
+    <!-- MSA 376 -> h=169.2 -->
+    <rect x="162" y="470.8" width="46" height="169.2" fill="#d98a3d"/>
+    <text x="185" y="464" font-size="11.5" font-weight="700" text-anchor="middle" fill="#b9712b">376</text>
+    <text x="185" y="657" font-size="10.5" text-anchor="middle" fill="#b9712b">alignment</text>
+  </g>
+
+  <!-- subpanel 2: top specialist activation (the 'usable' metric) -->
+  <g>
+    <text x="360" y="446" font-size="12" font-weight="700" text-anchor="middle" fill="#1a1a1a">Top specialist activation</text>
+    <line x1="288" y1="640" x2="442" y2="640" stroke="#9aa3ab" stroke-width="1"/>
+    <line x1="288" y1="460" x2="288" y2="640" stroke="#9aa3ab" stroke-width="1"/>
+    <text x="280" y="464" font-size="10" text-anchor="end" fill="#9aa3ab">10</text>
+    <text x="280" y="644" font-size="10" text-anchor="end" fill="#9aa3ab">0</text>
+    <!-- single 1.08 -> h=1.08*18=19.4 -->
+    <rect x="314" y="620.6" width="46" height="19.4" fill="url(#hatch)"/>
+    <text x="337" y="614" font-size="11.5" font-weight="700" text-anchor="middle" fill="#6b757e">1.08</text>
+    <text x="337" y="657" font-size="10.5" text-anchor="middle" fill="#6b757e">single</text>
+    <!-- MSA 9.1 -> h=163.8 -->
+    <rect x="372" y="476.2" width="46" height="163.8" fill="#d98a3d"/>
+    <text x="395" y="470" font-size="11.5" font-weight="700" text-anchor="middle" fill="#b9712b">9.1</text>
+    <text x="395" y="657" font-size="10.5" text-anchor="middle" fill="#b9712b">alignment</text>
+  </g>
+
+  <!-- subpanel 3: units alive -->
+  <g>
+    <text x="570" y="446" font-size="12" font-weight="700" text-anchor="middle" fill="#1a1a1a">Units alive</text>
+    <line x1="498" y1="640" x2="652" y2="640" stroke="#9aa3ab" stroke-width="1"/>
+    <line x1="498" y1="460" x2="498" y2="640" stroke="#9aa3ab" stroke-width="1"/>
+    <text x="490" y="464" font-size="10" text-anchor="end" fill="#9aa3ab">100%</text>
+    <text x="490" y="644" font-size="10" text-anchor="end" fill="#9aa3ab">0</text>
+    <!-- single 78.5% -> h=141.3 -->
+    <rect x="524" y="498.7" width="46" height="141.3" fill="url(#hatch)"/>
+    <text x="547" y="492" font-size="11.5" font-weight="700" text-anchor="middle" fill="#6b757e">78.5%</text>
+    <text x="547" y="657" font-size="10.5" text-anchor="middle" fill="#6b757e">single</text>
+    <!-- MSA 100% -> h=180 -->
+    <rect x="582" y="460" width="46" height="180" fill="#d98a3d"/>
+    <text x="605" y="454" font-size="11.5" font-weight="700" text-anchor="middle" fill="#b9712b">100%</text>
+    <text x="605" y="657" font-size="10.5" text-anchor="middle" fill="#b9712b">alignment</text>
+  </g>
+
+  <!-- right-side interpretation -->
+  <line x1="690" y1="452" x2="690" y2="650" stroke="#e6eaed" stroke-width="1"/>
+  <text x="712" y="470" font-size="11.5" fill="#1a1a1a">Counts barely differ (197 vs 376), yet the</text>
+  <text x="712" y="486" font-size="11.5" fill="#1a1a1a">strongest single-sequence "specialist" reaches</text>
+  <text x="712" y="502" font-size="11.5" fill="#1a1a1a">only 1.08 and its top units are a length</text>
+  <text x="712" y="518" font-size="11.5" fill="#1a1a1a">artifact: no <tspan font-style="italic">usable</tspan> specialists. The alignment</text>
+  <text x="712" y="534" font-size="11.5" fill="#1a1a1a">recovers 376 at biological magnitude.</text>
+  <text x="712" y="562" font-size="11.5" fill="#6b757e">The single-sequence models RNA-FM and</text>
+  <text x="712" y="578" font-size="11.5" fill="#6b757e">ERNIE-RNA are in-distribution as-is and yield</text>
+  <text x="712" y="594" font-size="11.5" fill="#6b757e">61 and 66 specialists over the full database.</text>
+  <text x="712" y="622" font-size="11" fill="#9aa3ab" font-style="italic">Reconstruction runs opposite to biology:</text>
+  <text x="712" y="637" font-size="11" fill="#9aa3ab" font-style="italic">explained variance 97.8% (single) vs 84.1% (alignment).</text>
+</svg>

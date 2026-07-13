@@ -1,0 +1,105 @@
+# =====================================================================
+# RIBOSCOPE .gitignore
+#
+# What this does: tells git "ignore these files when tracking changes."
+# This keeps the repo small and prevents you from accidentally
+# committing huge model weights, secret API keys, or build clutter.
+# =====================================================================
+
+# --- Python virtual environment ---
+# `uv venv` creates this folder. It's huge (PyTorch alone is ~2GB).
+# Each developer recreates it locally with `uv pip install`.
+.venv/
+venv/
+env/
+
+# --- Python build/cache files ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.python-version-disabled
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- uv lockfile cache (the lockfile itself we DO commit) ---
+.uv/
+
+# --- Hugging Face cache (huge model downloads) ---
+# By default HF caches models to ~/.cache/huggingface — outside the repo.
+# But if a script accidentally caches inside the project, ignore it.
+.cache/
+hf_cache/
+huggingface_cache/
+
+# --- Trained models / checkpoints (large binary files) ---
+# Use Git LFS or external storage for these instead.
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+checkpoints/
+models/
+weights/
+
+# --- Datasets (large files) ---
+data/raw/
+data/interim/
+*.h5
+*.hdf5
+*.parquet
+*.npz
+*.npy
+
+# --- Notebook checkpoints ---
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# --- Experiment tracking ---
+wandb/
+mlruns/
+lightning_logs/
+tb_logs/
+runs/
+
+# --- Logs ---
+*.log
+logs/
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# --- Secrets — NEVER commit these ---
+.env
+.env.local
+*.key
+*.pem
+secrets/
+credentials.json
+hf_token.txt
+
+# --- OS / system ---
+Thumbs.db
+desktop.ini
+
+# --- Project-specific ---
+# Fresh pipeline runs write here (large activations, weights). Git-ignored.
+# Curated reference results ship in outputs_mirror/ (JSONs only; *.safetensors
+# and *.log above keep the weights/logs out of it).
+outputs/
+results/
+
+# NOTE: figures/ IS tracked — the 5 manuscript SVGs (regenerable via 58/59) ship
+# with the repo so the paper figures are viewable without a full re-run.
+
+# Local config overrides (commit base configs, ignore personal tweaks)
+configs/local_*.yaml
